@@ -1,4 +1,4 @@
-# @NFTYFinance/nft-lists
+# @nftylabs/nft-lists
 
 This package includes a JSON schema for NFT lists, and TypeScript utilities for working with NFT lists.
 
@@ -27,7 +27,7 @@ for ease of use.
 
 ```typescript
 
-import { schema } from '@nftyfinance/nft-lists'
+import { schema } from '@nftylabs/nft-lists'
 import Ajv from 'ajv'
 import addFormats from 'ajv-formats'
 import fetch from 'node-fetch'
@@ -81,7 +81,7 @@ npm package to take advantage of the JSON schema for validation and the TypeScri
 Otherwise, you are simply working with JSON. All the usual tools apply, e.g.:
 
 ```typescript
-import { NFTList, schema } from '@nftyfinance/nft-lists'
+import { NFTList, schema } from '@nftylabs/nft-lists'
 
 // generate your nft list however you like.
 const myList: NFTList = generateMyNFTList();
