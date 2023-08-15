@@ -17,7 +17,7 @@ NFT list JSON must validate against the [JSON schema](https://json-schema.org/) 
 
 ## JSON Schema $id
 
-The JSON schema ID is TODO
+The JSON schema ID is [http://nftylabs.io/tokenlist.schema.json](http://nftylabs.io/tokenlist.schema.json)
 
 ## Validating NFT lists
 
