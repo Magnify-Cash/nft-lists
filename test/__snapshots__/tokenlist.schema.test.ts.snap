@@ -490,15 +490,6 @@ Array [
     },
     "schemaPath": "#/required",
   },
-  Object {
-    "instancePath": "/nfts/0/name",
-    "keyword": "maxLength",
-    "message": "must NOT have more than 40 characters",
-    "params": Object {
-      "limit": 40,
-    },
-    "schemaPath": "#/properties/name/maxLength",
-  },
 ]
 `;
 

@@ -65,7 +65,7 @@
       "type": "string",
       "description": "The name of an NFT extension property",
       "minLength": 1,
-      "maxLength": 40,
+      "maxLength": 120,
       "pattern": "^[\\w]+$",
       "examples": [
         "color",
@@ -173,7 +173,7 @@
           "description": "The name of the NFT tag",
           "pattern": "^[ \\w]+$",
           "minLength": 1,
-          "maxLength": 20
+          "maxLength": 80
         },
         "description": {
           "type": "string",
@@ -220,7 +220,7 @@
           "type": "string",
           "description": "The type of NFT (e.g., 'ERC721' or 'ERC1155')",
           "minLength": 1,
-          "maxLength": 20,
+          "maxLength": 80,
           "examples": [
             "ERC721",
             "ERC1155"
@@ -230,13 +230,13 @@
           "type": "string",
           "description": "The name of the NFT",
           "minLength": 0,
-          "maxLength": 40,
+          "maxLength": 120,
           "anyOf": [
             {
               "const": ""
             },
             {
-              "pattern": "^[ \\S+]+$"
+              "pattern": "^[\\s\\S]*\\S[\\s\\S]*$"
             }
           ],
           "examples": [
@@ -247,13 +247,13 @@
           "type": "string",
           "description": "The symbol for the NFT",
           "minLength": 0,
-          "maxLength": 20,
+          "maxLength": 80,
           "anyOf": [
             {
               "const": ""
             },
             {
-              "pattern": "^\\S+$"
+             "pattern": "^[\\s\\S]*\\S[\\s\\S]*$"
             }
           ],
           "examples": [
@@ -360,7 +360,7 @@
         "type": "string",
         "description": "A keyword to describe the contents of the NFT list",
         "minLength": 1,
-        "maxLength": 20,
+        "maxLength": 80,
         "pattern": "^[\\w ]+$",
         "examples": [
           "rare",
@@ -368,7 +368,7 @@
           "fantasy"
         ]
       },
-      "maxItems": 20,
+      "maxItems": 80,
       "uniqueItems": true
     },
     "tags": {
@@ -380,7 +380,7 @@
       "additionalProperties": {
         "$ref": "#/definitions/TagDefinition"
       },
-      "maxProperties": 20,
+      "maxProperties": 80,
       "examples": [
         {
           "rare": {
