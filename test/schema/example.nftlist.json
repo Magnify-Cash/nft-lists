@@ -9,61 +9,33 @@
   "nfts": [
     {
       "chainId": 1,
-      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-      "nftType": "ERC20",
-      "symbol": "USDC",
-      "name": "USD Coin",
-      "decimals": 6,
+      "address": "0xBd3531dA5CF5857e7CfAA92426877b022e612cf8",
+      "nftType": "ERC721",
+      "symbol": "PPG",
+      "name": "Pudgy Penguins",
       "logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM",
-      "tags": ["stablecoin"],
+      "tags": ["collectible"],
       "extensions": {}
     },
-    {
-      "chainId": 1,
-      "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
-      "nftType": "ERC20",
-      "symbol": "cUSDC",
-      "name": "Compound USD Coin",
-      "decimals": 8,
-      "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
-      "tags": ["compound"],
-      "extensions": {}
-    }
   ],
   "nftMap": {
-    "1_0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+    "1_0xBd3531dA5CF5857e7CfAA92426877b022e612cf8": {
       "chainId": 1,
-      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-      "nftType": "ERC20",
-      "symbol": "USDC",
-      "name": "USD Coin",
-      "decimals": 6,
+      "address": "0xBd3531dA5CF5857e7CfAA92426877b022e612cf8",
+      "nftType": "ERC721",
+      "symbol": "PPG",
+      "name": "Pudgy Penguins",
       "logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM",
-      "tags": ["stablecoin"],
+      "tags": ["collectible"],
       "extensions": {}
     },
-    "1_0x39AA39c021dfbaE8faC545936693aC917d5E7563": {
-      "chainId": 1,
-      "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
-      "nftType": "ERC20",
-      "symbol": "cUSDC",
-      "name": "Compound USD Coin",
-      "decimals": 8,
-      "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
-      "tags": ["compound"],
-      "extensions": {}
-    }
   },
-  "keywords": ["audited", "verified", "special NFTs"],
+  "keywords": ["special NFTs"],
   "tags": {
-    "stablecoin": {
-      "name": "Stablecoin",
-      "description": "NFTs that are fixed to an external asset, e.g. the US dollar"
+    "collectible": {
+      "name": "Collectible",
+      "description": "NFTs that are collectible"
     },
-    "compound": {
-      "name": "Compound Finance",
-      "description": "NFTs that earn interest on compound.finance"
-    }
   },
   "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr"
 }

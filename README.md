@@ -123,4 +123,6 @@ An ENS name can be assigned to an IPFS hash via the [contenthash](https://eips.e
 This is the preferred way of referencing your list.
 
 ## Examples
-TODO
+You can find a simple example of a nft list in test/schema/example.nftlist.json.
+
+A snapshot of the NFTYLabs default list encoded as a nft list is found in test/schema/bigexample.nftlist.json.
