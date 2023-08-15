@@ -1,992 +1,6155 @@
 {
   "name": "Example List",
-  "timestamp": "2020-06-15T12:00:00+00:00",
+  "timestamp": "2023-08-15T12:34:56Z",
   "version": {
     "major": 1,
     "minor": 0,
     "patch": 0
   },
   "keywords": [
-    "uniswap",
+    "nftylabs",
     "default",
     "list"
   ],
   "nfts": [
     {
-      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18
+      "address": "0x8821bee2ba0df28761afff119d66390d594cd280",
+      "nftType": "ERC721",
+      "name": "DeGods",
+      "symbol": "DEGODS"
     },
     {
-      "address": "0xB6eD7644C69416d67B522e20bC294A9a9B405B31",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "0xBitcoin Token",
-      "symbol": "0xBTC",
-      "decimals": 8
+      "address": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+      "nftType": "ERC721",
+      "name": "Bored Ape Yacht Club",
+      "symbol": "BAYC"
     },
     {
-      "address": "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Aave Interest bearing DAI",
-      "symbol": "aDAI",
-      "decimals": 18
+      "address": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+      "nftType": "ERC721",
+      "name": "Mutant Ape Yacht Club",
+      "symbol": "MAYC"
     },
     {
-      "address": "0x737F98AC8cA59f2C68aD658E3C3d8C8963E40a4c",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Amon",
-      "symbol": "AMN",
-      "decimals": 18
+      "address": "0x306b1ea3ecdf94ab739f1910bbda052ed4a9f949",
+      "nftType": "ERC721",
+      "name": "BEANZ Official",
+      "symbol": "SMTH"
     },
     {
-      "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Ampleforth",
-      "symbol": "AMPL",
-      "decimals": 9
+      "address": "0xBd3531dA5CF5857e7CfAA92426877b022e612cf8",
+      "nftType": "ERC721",
+      "name": "Pudgy Penguins",
+      "symbol": "PPG"
     },
     {
-      "address": "0xcD62b1C403fa761BAadFC74C525ce2B51780b184",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Aragon Network Juror",
-      "symbol": "ANJ",
-      "decimals": 18
+      "address": "0x5af0d9827e0c53e4799bb226655a1de152a425a5",
+      "nftType": "ERC721",
+      "name": "Milady Maker",
+      "symbol": "MIL"
     },
     {
-      "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Aragon Network Token",
-      "symbol": "ANT",
-      "decimals": 18
+      "address": "0xed5af388653567af2f388e6224dc7c4b3241c544",
+      "nftType": "ERC721",
+      "name": "Azuki",
+      "symbol": "AZUKI"
     },
     {
-      "address": "0x27054b13b1B798B345b591a4d22e6562d47eA75a",
+      "chainId": 137,
+      "address": "0x670fd103b1a08628e9557cD66B87DeD841115190",
+      "nftType": "ERC721",
+      "name": "y00ts",
+      "symbol": "y00t"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6339e5e072086621540d0362c4e3cea0d643e114",
+      "nftType": "ERC721",
+      "name": "Opepen Edition",
+      "symbol": "OPEPEN"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd3d9ddd0cf0a5f0bfb8f7fceae075df687eaebab",
+      "nftType": "ERC721",
+      "name": "Redacted Remilio Babies",
+      "symbol": "TEST"
+    },
+    {
+      "chainId": 1,
+      "address": "0x394e3d3044fc89fcdd966d3cb35ac0b32b0cda91",
+      "nftType": "ERC721",
+      "name": "RENGA",
+      "symbol": "RENGA"
+    },
+    {
+      "chainId": 1,
+      "address": "0xeeca64ea9fcf99a22806cd99b3d29cf6e8d54925",
+      "nftType": "ERC721",
+      "name": "Sproto Gremlins",
+      "symbol": "SPROTO"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4b15a9c28034dc83db40cd810001427d3bd7163d",
+      "nftType": "ERC721",
+      "name": "HV-MTL",
+      "symbol": "HV-MTL"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e",
+      "nftType": "ERC721",
+      "name": "Azuki Elementals",
+      "symbol": "ELEM"
+    },
+    {
+      "chainId": 1,
+      "address": "0x059edd72cd353df5106d2b9cc5ab83a52287ac3a",
+      "nftType": "ERC721",
+      "name": "Chromie Squiggle by Snowfro",
+      "symbol": "BLOCKS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x985721572aa5df666e2b0fc7cbb056a56cb41963",
+      "nftType": "ERC721",
+      "name": "Sproto Pepes",
+      "symbol": "SP"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcb8399d84e17fd5b4e955c716647c7bb2c35ab63",
+      "nftType": "ERC721",
+      "name": "Bitch Better Have My Money",
+      "symbol": "DROP5"
+    },
+    {
+      "chainId": 1,
+      "address": "0x10f1d490b98b65cf5ad8babab840a979a49c9b84",
+      "nftType": "ERC721",
+      "name": "Grails III Mint Pass",
+      "symbol": "G3PASS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x769272677fab02575e84945f03eca517acc544cc",
+      "nftType": "ERC721",
+      "name": "Captainz",
+      "symbol": "Captainz"
+    },
+    {
+      "chainId": 1,
+      "address": "0x524cab2ec69124574082676e6f654a18df49a048",
+      "nftType": "ERC721",
+      "name": "Lil Pudgys",
+      "symbol": "LilPudgys"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03",
+      "nftType": "ERC721",
+      "name": "Nouns",
+      "symbol": "NOUN"
+    },
+    {
+      "chainId": 1,
+      "address": "0x06f29e6f3f937280e6278864c83072e49deb6ca7",
+      "nftType": "ERC721",
+      "name": "WHAT THE FFFF",
+      "symbol": "WTFFFF"
+    },
+    {
+      "chainId": 1,
+      "address": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+      "nftType": "ERC721",
+      "name": "Clone X",
+      "symbol": "CloneX"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
+      "nftType": "ERC721",
+      "name": "CryptoPunks",
+      "symbol": "PUNK"
+    },
+    {
+      "chainId": 1,
+      "address": "0x010a6ac6778d8ab597521d1f96f1b5c5fb27d160",
+      "nftType": "ERC721",
+      "name": "Bloxies",
+      "symbol": "BXS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xba30e5f9bb24caa003e9f2f0497ad287fdf95623",
+      "nftType": "ERC721",
+      "name": "Bored Ape Kennel Club",
+      "symbol": "bakc"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3bf2922f4520a8ba0c2efc3d2a1539678dad5e9d",
+      "nftType": "ERC721",
+      "name": "0N1 Force",
+      "symbol": "0N1"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd774557b647330c91bf44cfeab205095f7e6c367",
+      "nftType": "ERC721",
+      "name": "Nakamigos",
+      "symbol": "NKMGS"
+    },
+    {
+      "chainId": 43314,
+      "address": "0x4245a1bd84eb5f3ebc115c2edf57e50667f98b0b",
+      "nftType": "ERC721",
+      "name": "Hoppers Game",
+      "symbol": "HOP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x790b2cf29ed4f310bf7641f013c65d4560d28371",
+      "nftType": "ERC721",
+      "name": "Otherdeed Expanded",
+      "symbol": "EXP"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaCF63E56fd08970b43401492a02F6F38B6635C91",
+      "nftType": "ERC721",
+      "name": "Kanpai Pandas",
+      "symbol": "YKPS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+      "nftType": "ERC721",
+      "name": "Ringers by Dmitri Cherniak",
+      "symbol": "BLOCKS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8a90cab2b38dba80c64b7734e58ee1db38b8992e",
+      "nftType": "ERC721",
+      "name": "Doodles",
+      "symbol": "DOODLE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x33fd426905f149f8376e227d0c9d3340aad17af1",
+      "nftType": "ERC721",
+      "name": "The Memes by 6529",
+      "symbol": "thememes6529"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1dc454ee1fd63f3d792aeee9d331c05d9c62b20a",
+      "nftType": "ERC721",
+      "name": "OnChain Buccaneers V2",
+      "symbol": "OCBV2"
+    },
+    {
+      "chainId": 1,
+      "address": "0x39ee2c7b3cb80254225884ca001f57118c8f21b6",
+      "nftType": "ERC721",
+      "name": "The Potatoz",
+      "symbol": "Potatoz"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf07468ead8cf26c752c676e43c814fee9c8cf402",
+      "nftType": "ERC721",
+      "name": "CryptoPhunks",
+      "symbol": "PHUNK"
+    },
+    {
+      "chainId": 1,
+      "address": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+      "nftType": "ERC721",
+      "name": "Otherdeed for Otherside",
+      "symbol": "OTHR"
+    },
+    {
+      "chainId": 43314,
+      "address": "0x3025c5c2aa6eb7364555aac0074292195701bbd6",
+      "nftType": "ERC721",
+      "name": "MadSkullz",
+      "symbol": "MADSKULLZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0935033cd28eEd06B7a26B4C5C746950912fA816",
+      "nftType": "ERC721",
+      "name": "Mint Pass Velum | Harvey Rayner | MPVL",
+      "symbol": "MPVL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x79fcdef22feed20eddacbb2587640e45491b757f",
+      "nftType": "ERC721",
+      "name": "mfers",
+      "symbol": "MFER"
+    },
+    {
+      "chainId": 1,
+      "address": "0x282bdd42f4eb70e7a9d9f40c8fea0825b7f68c5d",
+      "nftType": "ERC721",
+      "name": "CryptoPunks V1 (wrapped)",
+      "symbol": "WPV1"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdfb29501b42f63a947ddc5249f185d6bcbe6986f",
+      "nftType": "ERC721",
+      "name": "Rise of the Apes",
+      "symbol": "ROTA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7Bd29408f11D2bFC23c34f18275bBf23bB716Bc7",
+      "nftType": "ERC721",
+      "name": "Meebits",
+      "symbol": "\u2687"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0fc3dd8c37880a297166bed57759974a157f0e74",
+      "nftType": "ERC721",
+      "name": "Parallel Avatars",
+      "symbol": "LLPPL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6a4732395e70634dc1a5d4e5620340c311f08c01",
+      "nftType": "ERC721",
+      "name": "Metal Tools Access Pass",
+      "symbol": "MTOOLS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb6cac678cefd488b3d02ca69c40dbafb48e593b0",
+      "nftType": "ERC721",
+      "name": "Grails IV: Mint Pass",
+      "symbol": "G4PASS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313",
+      "nftType": "ERC721",
+      "name": "My Curio Cards",
+      "symbol": "MY-CURIO-CARDS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe012baf811cf9c05c408e879c399960d1f305903",
+      "nftType": "ERC721",
+      "name": "Otherside Koda",
+      "symbol": "KODA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5b1085136a811e55b2bb2ca1ea456ba82126a376",
+      "nftType": "ERC721",
+      "name": "Otherside Vessel",
+      "symbol": "VSL"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x990eB28e378659b93A29D46fF41F08DC6316DD98",
+      "nftType": "ERC721",
+      "name": "The Beacon V2",
+      "symbol": "the-beacon-v2"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf729f878f95548bc7f14b127c96089cf121505f8",
+      "nftType": "ERC721",
+      "name": "The Anata NFT",
+      "symbol": "ANATA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x85d0a718621906ffd85f88701283230cef22894e",
+      "nftType": "ERC721",
+      "name": "Mocaverse",
+      "symbol": "MOCA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7cb90567a118cd9f6ca326067a0813b289bdcb54",
+      "nftType": "ERC721",
+      "name": "Apes Together Strong",
+      "symbol": "ATSNFT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x960b7a6bcd451c9968473f7bbfd9be826efd549a",
+      "nftType": "ERC721",
+      "name": "OnChainMonkey",
+      "symbol": "ocmonk"
+    },
+    {
+      "chainId": 1,
+      "address": "0x02e9b2389156ee8ed963b1341a69d5f54ada4d82",
+      "nftType": "ERC721",
+      "name": "frENS",
+      "symbol": "FRNS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x59468516a8259058bad1ca5f8f4bff190d30e066",
+      "nftType": "ERC721",
+      "name": "Invisible Friends",
+      "symbol": "INVSBLE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7ff5601b0a434b52345c57a01a28d63f3e892ac0",
+      "nftType": "ERC721",
+      "name": "Oh Ottie!",
+      "symbol": "Ottie"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc4973de5ee925b8219f1e74559fb217a8e355ecf",
+      "nftType": "ERC721",
+      "name": "Azra Games - The Hopeful",
+      "symbol": "HOPE"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa3aee8bce55beea1951ef834b99f3ac60d1abeeb",
+      "nftType": "ERC721",
+      "name": "VeeFriends",
+      "symbol": "VFT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x76BE3b62873462d2142405439777e971754E8E77",
+      "nftType": "ERC721",
+      "name": "Parallel",
+      "symbol": "LL"
+    },
+    {
+      "chainId": 1,
+      "address": "0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d",
+      "nftType": "ERC721",
+      "name": "FLUF World",
+      "symbol": "FLUF"
+    },
+    {
+      "chainId": 1,
+      "address": "0x66c09149c3e4197d5ae379c4139b4acdf574a85b",
+      "nftType": "ERC721",
+      "name": "BatDadMigo",
+      "symbol": "BDM"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3903d4ffaaa700b62578a66e7a67ba4cb67787f9",
+      "nftType": "ERC721",
+      "name": "Quirkies Originals",
+      "symbol": "QRKS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x11450058d796b02eb53e65374be59cff65d3fe7f",
+      "nftType": "ERC721",
+      "name": "THE SHIBOSHIS",
+      "symbol": "SBSH"
+    },
+    {
+      "chainId": 1,
+      "address": "0xccc1825cf04cae4d497b202d1434ec0f79ee535f",
+      "nftType": "ERC721",
+      "name": "Kagami",
+      "symbol": "KAGAMI"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8d9710f0e193d3f95c0723eaaf1a81030dc9116d",
+      "nftType": "ERC721",
+      "name": "TOPIA Worlds",
+      "symbol": "TOPIA Worlds"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3af2a97414d1101e2107a70e7f33955da1346305",
+      "nftType": "ERC721",
+      "name": "Azuki Elemental Beans",
+      "symbol": "MBEAN"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1a92f7381b9f03921564a437210bb9396471050c",
+      "nftType": "ERC721",
+      "name": "Cool Cats",
+      "symbol": "COOL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+      "nftType": "ERC721",
+      "name": "Moonbirds",
+      "symbol": "MOONBIRD"
+    },
+    {
+      "chainId": 43314,
+      "address": "0x00f5D01D86008D14d04E29EFe88DffC75a9cAc47",
+      "nftType": "ERC721",
+      "name": "Farmland",
+      "symbol": "FarmLand"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbee7cb80dfd21a9eaae714208f361601f68eb746",
+      "nftType": "ERC721",
+      "name": "Women Unite - 10k Assemble",
+      "symbol": "WU10K"
+    },
+    {
+      "chainId": 1,
+      "address": "0x082dcab372505ae56eafde58204ba5b12ff3f3f5",
+      "nftType": "ERC721",
+      "name": "Light Years",
+      "symbol": "LIGHTYEARS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x77372a4cc66063575b05b44481f059be356964a4",
+      "nftType": "ERC721",
+      "name": "a KID called BEAST",
+      "symbol": "AKCB"
+    },
+    {
+      "chainId": 1,
+      "address": "0x354634c4621cdfb7a25e6486cca1e019777d841b",
+      "nftType": "ERC721",
+      "name": "Mutant Hounds",
+      "symbol": "MH"
+    },
+    {
+      "chainId": 43314,
+      "address": "0x3a5999d08682c2e18dcb63edcb3fcd7b749fd79f",
+      "nftType": "ERC721",
+      "name": "Thirst Trap Waifus",
+      "symbol": "Waifus"
+    },
+    {
+      "chainId": 1,
+      "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      "nftType": "ERC721",
+      "name": "ENS: Ethereum Name Service",
+      "symbol": "ENS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6864cc3b8cfdcfa8cfb22e9fe732cc6feff4e740",
+      "nftType": "ERC721",
+      "name": "Velocity Series: Velocity Pass",
+      "symbol": "VLCT"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcb45dce241a6f6f1e874e9925bea5840f3fd7d3a",
+      "nftType": "ERC721",
+      "name": "LoudPunx",
+      "symbol": "LOUD"
+    },
+    {
+      "chainId": 1,
+      "address": "0x09f66a094a0070ebddefa192a33fa5d75b59d46b",
+      "nftType": "ERC721",
+      "name": "YAYO NFT",
+      "symbol": "YAYO"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe1dc516b1486aba548eecd2947a11273518434a4",
+      "nftType": "ERC721",
+      "name": "The Grapes",
+      "symbol": "GRAPES"
+    },
+    {
+      "chainId": 1,
+      "address": "0x789e35a999c443fe6089544056f728239b8ffee7",
+      "nftType": "ERC721",
+      "name": "Punks2023",
+      "symbol": "PUNK2023"
+    },
+    {
+      "chainId": 1,
+      "address": "0x86c10d10eca1fca9daf87a279abccabe0063f247",
+      "nftType": "ERC721",
+      "name": "Cool Pets",
+      "symbol": "PETS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+      "nftType": "ERC721",
+      "name": "My Pet Hooligan",
+      "symbol": "MPH"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf9e39ce3463b8def5748ff9b8f7825af8f1b1617",
+      "nftType": "ERC721",
+      "name": "Yue Minjun - Kingdom of the Laughing Man: Boundless",
+      "symbol": "Yue Minjun - Kingdom of the Laughing Man: Boundless"
+    },
+    {
+      "chainId": 1,
+      "address": "0xEb2dFC54EbaFcA8F50eFcc1e21A9D100b5AEb349",
+      "nftType": "ERC721",
+      "name": "Kubz",
+      "symbol": "Kubz"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe1b81cd6a494cbca06a8e2055a62c2cf0fa5a8ac",
+      "nftType": "ERC721",
+      "name": "Kubz Relic",
+      "symbol": "Kubz Relic"
+    },
+    {
+      "chainId": 1,
+      "address": "0x34eEBEE6942d8Def3c125458D1a86e0A897fd6f9",
+      "nftType": "ERC721",
+      "name": "Checks - VV Edition",
+      "symbol": "CHECKS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x364C828eE171616a39897688A831c2499aD972ec",
+      "nftType": "ERC721",
+      "name": "Sappy Seals",
+      "symbol": "SAPS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x08ba8cbbefa64aaf9df25e57fe3f15ecc277af74",
+      "nftType": "ERC721",
+      "name": "LaserCat NFT",
+      "symbol": "Cat"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+      "nftType": "ERC721",
+      "name": "Meridian by Matt DesLauriers",
+      "symbol": "BLOCKS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5CC5B05a8A13E3fBDB0BB9FcCd98D38e50F90c38",
+      "nftType": "ERC721",
+      "name": "LAND",
+      "symbol": "Sandbox's LANDs"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4e1f41613c9084fdb9e34e11fae9412427480e56",
+      "nftType": "ERC721",
+      "name": "Terraforms by Mathcastles",
+      "symbol": "TERRAFORMS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x231d3559aa848Bf10366fB9868590F01d34bF240",
+      "nftType": "ERC721",
+      "name": "Valhalla",
+      "symbol": "val"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0e42ffbac75bcc30cd0015f8aaa608539ba35fbb",
+      "nftType": "ERC721",
+      "name": "Mind the Gap by MountVitruvius",
+      "symbol": "MTG"
+    },
+    {
+      "chainId": 1,
+      "address": "0x32973908faee0bf825a343000fe412ebe56f802a",
+      "nftType": "ERC721",
+      "name": "Pixelmon",
+      "symbol": "pxlmn"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9378368ba6b85c1fba5b131b530f5f5bedf21a18",
+      "nftType": "ERC721",
+      "name": "VeeFriends Series 2",
+      "symbol": "VF2"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc3f733ca98e0dad0386979eb96fb1722a1a05e69",
+      "nftType": "ERC721",
+      "name": "MoonCats - Acclimated",
+      "symbol": "\ud83d\ude3a"
+    },
+    {
+      "chainId": 1,
+      "address": "0xffc6dbff68a8e92a7984e474f7b7a9856945e0fb",
+      "nftType": "ERC721",
+      "name": "Cool Cats Fractures",
+      "symbol": "CCFrac"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6be69b2a9b153737887cfcdca7781ed1511c7e36",
+      "nftType": "ERC721",
+      "name": "Killer GF",
+      "symbol": "KGF"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc73b17179bf0c59cd5860bb25247d1d1092c1088",
+      "nftType": "ERC721",
+      "name": "QQL Mint Pass",
+      "symbol": "QQL-MP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x17dcc7dc5321d3312306c34efba992dda391055c",
+      "nftType": "ERC721",
+      "name": "Mint Pass Sunset From The Bluffs | Nat Sarkissian | MPSS",
+      "symbol": "MPSS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x167f895e93dc34dc977725b735260a0f32e5df01",
+      "nftType": "ERC721",
+      "name": "Mint Pass Tokyo AI Collection | Bright Moments | MPAI",
+      "symbol": "MPAI"
+    },
+    {
+      "chainId": 43314,
+      "address": "0xa09477b44cff7b525436364a0da4e870bc9e052c",
+      "nftType": "ERC721",
+      "name": "Ripperz",
+      "symbol": "RIPPERZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0x08d7c0242953446436f34b4c78fe9da38c73668d",
+      "nftType": "ERC721",
+      "name": "PROOF Collective",
+      "symbol": "PROOF"
+    },
+    {
+      "chainId": 1,
+      "address": "0x209e639a0EC166Ac7a1A4bA41968fa967dB30221",
+      "nftType": "ERC721",
+      "name": "Genuine Undead",
+      "symbol": "gu"
+    },
+    {
+      "chainId": 43314,
+      "address": "0xa7abc3736bc5a4d3d4730eac5a1e487e56c86789",
+      "nftType": "ERC721",
+      "name": "Firat",
+      "symbol": "FIRAT_NFT"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd0318da435dbce0b347cc6faa330b5a9889e3585",
+      "nftType": "ERC721",
+      "name": "ASM Brains",
+      "symbol": "ASMBrain"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7daec605e9e2a1717326eedfd660601e2753a057",
+      "nftType": "ERC721",
+      "name": "10KTF Stockroom",
+      "symbol": "10KTF-STOCKROOM"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbce3781ae7ca1a5e050bd9c4c77369867ebc307e",
+      "nftType": "ERC721",
+      "name": "goblintown.wtf",
+      "symbol": "GOBLIN"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbdde08bd57e5c9fd563ee7ac61618cb2ecdc0ce0",
+      "nftType": "ERC721",
+      "name": "Crypto Citizens",
+      "symbol": "CITIZEN"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7deb7bce4d360ebe68278dee6054b882aa62d19c",
+      "nftType": "ERC721",
+      "name": "Inhabitants: United Planets",
+      "symbol": "PLANET"
+    },
+    {
+      "chainId": 1,
+      "address": "0x42069abfe407c60cf4ae4112bedead391dba1cdb",
+      "nftType": "ERC721",
+      "name": "CryptoDickbutts",
+      "symbol": "CDB"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd70f41dd5875eee7fa9dd8048567bc932124a8d2",
+      "nftType": "ERC721",
+      "name": "DeepBlack",
+      "symbol": "DEEPBLACK"
+    },
+    {
+      "chainId": 1,
+      "address": "0x80336ad7a747236ef41f47ed2c7641828a480baa",
+      "nftType": "ERC721",
+      "name": "Chimpers",
+      "symbol": "CHIMP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x12787526c03d626aac88e6edc4d0fb930d86c631",
+      "nftType": "ERC721",
+      "name": "Supreme Kong",
+      "symbol": "SPK"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0c2e57efddba8c768147d1fdf9176a0a6ebd5d83",
+      "nftType": "ERC721",
+      "name": "Kaiju Kingz",
+      "symbol": "KAIJU"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcbEb9B45Ba9fbfbbcCC289eE48DAdd6FB65aE2a7",
+      "nftType": "ERC721",
+      "name": "Alpha Prestige - Fusionist",
+      "symbol": "AP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x81d6a3c844a9fb452ed069e9fc16cf37f137a58e",
+      "nftType": "ERC721",
+      "name": "Ether",
+      "symbol": "ETHR"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8a1bbef259b00ced668a8c69e50d92619c672176",
+      "nftType": "ERC721",
+      "name": "Habbo Avatars",
+      "symbol": "HABBO"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3b8420eb6ef77bc25025b32d8205cde2683f979e",
+      "nftType": "ERC721",
+      "name": "Moonbears",
+      "symbol": "MB"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8ff1523091c9517bc328223d50b52ef450200339",
+      "nftType": "ERC721",
+      "name": "Rug Radio - Genesis NFT",
+      "symbol": "\u273aRUGNFT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x06916ab845aff097ae42d4411bc2dc787e860765",
+      "nftType": "ERC721",
+      "name": "Kanpai Panda Final Chain Whitelist Pass",
+      "symbol": "KANPAI-FPASS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd1258DB6Ac08eB0e625B75b371C023dA478E94A9",
+      "nftType": "ERC721",
+      "name": "DigiDaigaku",
+      "symbol": "dida"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xfe8c1ac365ba6780aec5a985d989b327c27670a1",
+      "nftType": "ERC721",
+      "name": "Bridgeworld Legions",
+      "symbol": "LGN"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd2fdfb3aae284f9f7308c596aa2eb6dc8af599ee",
+      "nftType": "ERC721",
+      "name": "UndeadsZombies",
+      "symbol": "UDZT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6c410cF0B8c113Dc6A7641b431390B11d5515082",
+      "nftType": "ERC721",
+      "name": "RTFKT Animus Egg \ud83e\udd5a",
+      "symbol": "egg"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xf3d00a2559d84de7ac093443bcaada5f4ee4165c",
+      "nftType": "ERC721",
+      "name": "Bridgeworld Consumables",
+      "symbol": "bridgeworld-consumables"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc99c679c50033bbc5321eb88752e89a93e9e83c5",
+      "nftType": "ERC721",
+      "name": "KILLABEARS",
+      "symbol": "KILLABEARS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xeaa4c58427c184413b04db47889b28b5c98ebb7b",
+      "nftType": "ERC721",
+      "name": "NFTrees",
+      "symbol": "TREE"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfE8C6d19365453D26af321D0e8c910428c23873F",
+      "nftType": "ERC721",
+      "name": "Creepz Genesis",
+      "symbol": "CBC"
+    },
+    {
+      "chainId": 1,
+      "address": "0xea14fb44f85650d06d505966b1d02ca1f599b823",
+      "nftType": "ERC721",
+      "name": "Steady Stack Legends",
+      "symbol": "SSL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2c88aa0956bc9813505d73575f653f69ada60923",
+      "nftType": "ERC721",
+      "name": "Land",
+      "symbol": "LAND"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2C88aA0956bC9813505d73575f653F69ADa60923",
+      "nftType": "ERC721",
+      "name": "Wolf Game - Genesis Land",
+      "symbol": "LAND"
+    },
+    {
+      "chainId": 137,
+      "address": "0x098e1bc661398ed6858626ba5750e56ce03f9072",
+      "nftType": "ERC721",
+      "name": "cryptokhat",
+      "symbol": "ck"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd2a077ec359d94e0a0b7e84435eacb40a67a817c",
+      "nftType": "ERC721",
+      "name": "Admit One",
+      "symbol": "ADMIT"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb9951b43802dcf3ef5b14567cb17adf367ed1c0f",
+      "nftType": "ERC721",
+      "name": "Neo Tokyo Citizen V2",
+      "symbol": "NTCTZN"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb668beb1fa440f6cf2da0399f8c28cab993bdd65",
+      "nftType": "ERC721",
+      "name": "NeoTokyo Citizens",
+      "symbol": "NTCTZN"
+    },
+    {
+      "chainId": 1,
+      "address": "0x062e691c2054de82f28008a8ccc6d7a1c8ce060d",
+      "nftType": "ERC721",
+      "name": "Pudgy Rods",
+      "symbol": "PP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1b829b926a14634d36625e60165c0770c09d02b2",
+      "nftType": "ERC721",
+      "name": "Treeverse Plots",
+      "symbol": "TREEVERSE-PLOTS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbce6d2aa86934af4317ab8615f89e3f9430914cb",
+      "nftType": "ERC721",
+      "name": "VaynerSports Pass VSP",
+      "symbol": "VSP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3fD36d72f05fb1AF76EE7Ce9257ca850fAbA91ed",
+      "nftType": "ERC721",
+      "name": "Ultiverse - Electric Sheep",
+      "symbol": "ES"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8c3FB10693B228E8b976FF33cE88f97Ce2EA9563",
+      "nftType": "ERC721",
+      "name": "The Plague NFT",
+      "symbol": "FROG"
+    },
+    {
+      "chainId": 1,
+      "address": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+      "nftType": "ERC721",
+      "name": "DEGEN TOONZ COLLECTION",
+      "symbol": "TOONZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0x64ad353bc90a04361c4810ae7b3701f3beb48d7e",
+      "nftType": "ERC721",
+      "name": "RENGA Black Box",
+      "symbol": "BOX"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+      "nftType": "ERC721",
+      "name": "Fragments of an Infinite Field by Monica Rizzolli",
+      "symbol": "BLOCKS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1f7c16fce4fc894143afb5545bf04f676bf7dcf3",
+      "nftType": "ERC721",
+      "name": "CyberKongz Genkai (Ethereum)",
+      "symbol": "GENKAI"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf661d58cfe893993b11d53d11148c4650590c692",
+      "nftType": "ERC721",
+      "name": "RTFKT x Nike Dunk Genesis CRYPTOKICKS",
+      "symbol": "MNLTHRVLD"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc92ceddfb8dd984a89fb494c376f9a48b999aafc",
+      "nftType": "ERC721",
+      "name": "Creature World",
+      "symbol": "CREATURE"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbfe47d6d4090940d1c7a0066b63d23875e3e2ac5",
+      "nftType": "ERC721",
+      "name": "SchizoPosters",
+      "symbol": "SCHIZO"
+    },
+    {
+      "chainId": 1,
+      "address": "0x892848074ddea461a15f337250da3ce55580ca85",
+      "nftType": "ERC721",
+      "name": "CyberBrokers",
+      "symbol": "CYBERBROKERS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xedb61f74b0d09b2558f1eeb79b247c1f363ae452",
+      "nftType": "ERC721",
+      "name": "Gutter Cat Gang",
+      "symbol": "GUTTER-CAT-GANG"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0fcbd68251819928c8f6d182fc04be733fa94170",
+      "nftType": "ERC721",
+      "name": "LO-FI PEPE",
+      "symbol": "LOFI"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1AFEF6b252cc35Ec061eFe6a9676C90915a73F18",
+      "nftType": "ERC721",
+      "name": "FLUF World: Thingies",
+      "symbol": "THINGIES"
+    },
+    {
+      "chainId": 1,
+      "address": "0x86cc280d0bac0bd4ea38ba7d31e895aa20cceb4b",
+      "nftType": "ERC721",
+      "name": "Karma Monkey",
+      "symbol": "KARMA"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbc75da5ad73edf07b1dd38c4b158f45318f30339",
+      "nftType": "ERC721",
+      "name": "UndeadsMysteryBox",
+      "symbol": "UNMB"
+    },
+    {
+      "chainId": 1,
+      "address": "0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
+      "nftType": "ERC721",
+      "name": "Loot",
+      "symbol": "LOOT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x68bd8b7c45633de6d7afd0b1f7b86b37b8a3c02a",
+      "nftType": "ERC721",
+      "name": "BeanBagFrens",
+      "symbol": "BBFRENS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0cfb5d82be2b949e8fa73a656df91821e2ad99fd",
+      "nftType": "ERC721",
+      "name": "10KTF",
+      "symbol": "10KTF"
+    },
+    {
+      "chainId": 1,
+      "address": "0x160c404b2b49cbc3240055ceaee026df1e8497a0",
+      "nftType": "ERC721",
+      "name": "PXN: Ghost Divison",
+      "symbol": "GHOST"
+    },
+    {
+      "chainId": 1,
+      "address": "0x764aeebcf425d56800ef2c84f2578689415a2daa",
+      "nftType": "ERC721",
+      "name": "Sewer Pass",
+      "symbol": "SEWER"
+    },
+    {
+      "chainId": 1,
+      "address": "0x138a5c693279b6cd82f48d4bef563251bc15adce",
+      "nftType": "ERC721",
+      "name": "CryptoNinjaPartners",
+      "symbol": "CNP"
+    },
+    {
+      "chainId": 1,
+      "address": "0xefed2a58cc6a5b81f9158b231847f005cf086c01",
+      "nftType": "ERC721",
+      "name": "Hedz by Matt Furie",
+      "symbol": "HEDZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaadc2d4261199ce24a4b0a57370c4fcf43bb60aa",
+      "nftType": "ERC721",
+      "name": "The Currency",
+      "symbol": "TENDER"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7B70695E761EB828aBEd8c4d506f9af3a76eF4b5",
+      "nftType": "ERC721",
+      "name": "ZenChests",
+      "symbol": "zenchest"
+    },
+    {
+      "chainId": 1,
+      "address": "0x75e95ba5997eb235f40ecf8347cdb11f18ff640b",
+      "nftType": "ERC721",
+      "name": "Psychedelics Anonymous Genesis",
+      "symbol": "PA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x61E3D1C26802DF805e9Fc22Dc26342e29eCFe860",
+      "nftType": "ERC721",
+      "name": "Savage Nation",
+      "symbol": "Savage Nation"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6c952af158ec8d0fd94908e389c084394d9aebbb",
+      "nftType": "ERC721",
+      "name": "Ether Capsule",
+      "symbol": "ECAP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x36f20faf3785d226bf5478f9b271a7077859b5a9",
+      "nftType": "ERC721",
+      "name": "SdNft",
+      "symbol": "SQUIGGLEDAO"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe21ebcd28d37a67757b9bc7b290f4c4928a430b1",
+      "nftType": "ERC721",
+      "name": "The Saudis",
+      "symbol": "THE-SAUDIS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaaf03a65cbd8f01b512cd8d530a675b3963de255",
+      "nftType": "ERC721",
+      "name": "The Seekers",
+      "symbol": "SEEKERS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf7c6b726ed9d9c2b29c9623ba880385df1de39b7",
+      "nftType": "ERC721",
+      "name": "Himalaya",
+      "symbol": "HIMA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7AFe30cB3E53dba6801aa0EA647A0EcEA7cBe18d",
+      "nftType": "ERC721",
+      "name": "Realms (for Adventurers)",
+      "symbol": "LootRealm"
+    },
+    {
+      "chainId": 1,
+      "address": "0xF87E31492Faf9A91B02Ee0dEAAd50d51d56D5d4d",
+      "nftType": "ERC721",
+      "name": "Decentraland",
+      "symbol": "LAND"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc36cf0cfcb5d905b8b513860db0cfe63f6cf9f5c",
+      "nftType": "ERC721",
+      "name": "Town Star",
+      "symbol": "TOWN-STAR"
+    },
+    {
+      "chainId": 1,
+      "address": "0x64a1C0937728d8d2fA8Cd81Ef61a9c860B7362Db",
+      "nftType": "ERC721",
+      "name": "KILLABITS",
+      "symbol": "KILLABITS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x32bb5a147b5371fd901aa4a72b7f82c58a87e36d",
+      "nftType": "ERC721",
+      "name": "Bit Bears by Berachain",
+      "symbol": "BITB"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe51aac67b09eaed6d3d43e794d6bae679cbe09d8",
+      "nftType": "ERC721",
+      "name": "FLUF World: Burrows",
+      "symbol": "BURROWS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc0ffee8ff7e5497c2d6f7684859709225fcc5be8",
+      "nftType": "ERC721",
+      "name": "Moonbirds: Mythics",
+      "symbol": "MYTHICS"
+    },
+    {
+      "chainId": 43314,
+      "address": "0x2ee475a5cdc31c040ba1af3b0c4d66ca5c31c49a",
+      "nftType": "ERC721",
+      "name": "Mambonauts",
+      "symbol": "MAMBO"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa74ae2c6fca0cedbaef30a8ceef834b247186bcf",
+      "nftType": "ERC721",
+      "name": "Gh0stly Gh0sts",
+      "symbol": "gg"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7F36182DeE28c45dE6072a34D29855BaE76DBe2f",
+      "nftType": "ERC721",
+      "name": "Wolf Game",
+      "symbol": "WGAME"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbe9371326f91345777b04394448c23e2bfeaa826",
+      "nftType": "ERC721",
+      "name": "Gemesis",
+      "symbol": "OSP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1522c79d2044bbc06f4368c07b88a32e9cd64bd1",
+      "nftType": "ERC721",
+      "name": "Dawn of Insrt",
+      "symbol": "INSRT"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb228d7b6e099618ca71bd5522b3a8c3788a8f172",
+      "nftType": "ERC721",
+      "name": "Poolsuite - Executive Member",
+      "symbol": "POOLEXEC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1d20a51f088492a0f1c57f047a9e30c9ab5c07ea",
+      "nftType": "ERC721",
+      "name": "Wassies by Wassies",
+      "symbol": "LL"
+    },
+    {
+      "chainId": 137,
+      "address": "0x22d5f9b75c524fec1d6619787e582644cd4d7422",
+      "nftType": "ERC721",
+      "name": "Sunflower Land Collectibles",
+      "symbol": "sli"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7d8820fa92eb1584636f4f5b8515b5476b75171a",
+      "nftType": "ERC721",
+      "name": "Murakami.Flowers Official",
+      "symbol": "M.F"
+    },
+    {
+      "chainId": 1,
+      "address": "0x76236b6f13f687d0bbedbbce0e30e9f07d071c1c",
+      "nftType": "ERC721",
+      "name": "Real Vision Pro Crypto Genesis Collection",
+      "symbol": "RVPCG"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0616a2ef54bad0b37dce41c8d8e35cce17a926f3",
+      "nftType": "ERC721",
+      "name": "BYO Land",
+      "symbol": "BYOLAND"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb4e570232d3e55d2ee850047639dc74da83c7067",
+      "nftType": "ERC721",
+      "name": "Band Bears",
+      "symbol": "BANDB"
+    },
+    {
+      "chainId": 1,
+      "address": "0x916c6af08bf922eaf80c05975886c0a421c78a35",
+      "nftType": "ERC721",
+      "name": "Steady Stack Titans",
+      "symbol": "SSTITN"
+    },
+    {
+      "chainId": 1,
+      "address": "0x670d4dd2e6badfbbd372d0d37e06cd2852754a04",
+      "nftType": "ERC721",
+      "name": "Nina's Super Cool World",
+      "symbol": "COOL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x96be46c50e882dbd373081d08e0cde2b055adf6c",
+      "nftType": "ERC721",
+      "name": "ASM AIFA All-Stars",
+      "symbol": "AIFACharacter"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4a537f61ef574153664c0dbc8c8f4b900cacbe5d",
+      "nftType": "ERC721",
+      "name": "Mavia Land",
+      "symbol": "LAND"
+    },
+    {
+      "chainId": 1,
+      "address": "0xabcdb5710b88f456fed1e99025379e2969f29610",
+      "nftType": "ERC721",
+      "name": "Radbro Webring V2",
+      "symbol": "RADBROS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x35471f47c3c0bc5fc75025b97a19ecdde00f78f8",
+      "nftType": "ERC721",
+      "name": "Party Bears",
+      "symbol": "PartyBears"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbdead093d03758772fc2f0dd6d836f0df6bdb6e7",
+      "nftType": "ERC721",
+      "name": "Garbage Bags",
+      "symbol": "GARBAGEB"
+    },
+    {
+      "chainId": 1,
+      "address": "0xDA60730E1feAa7D8321f62fFb069eDd869E57D02",
+      "nftType": "ERC721",
+      "name": "Quirklings",
+      "symbol": "QRKL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2cf6be9aac1c7630d5a23af88c28275c70eb8819",
+      "nftType": "ERC721",
+      "name": "Bulls and Apes Project - Genesis",
+      "symbol": "BAPBULL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8943c7bac1914c9a7aba750bf2b6b09fd21037e0",
+      "nftType": "ERC721",
+      "name": "Lazy Lions",
+      "symbol": "LION"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3110ef5f612208724ca51f5761a69081809f03b7",
+      "nftType": "ERC721",
+      "name": "Impostors Genesis Aliens",
+      "symbol": "IMPOSTORS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2acab3dea77832c09420663b0e1cb386031ba17b",
+      "nftType": "ERC721",
+      "name": "DeadFellaz",
+      "symbol": "DEADFELLAZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0xB852c6b5892256C264Cc2C888eA462189154D8d7",
+      "nftType": "ERC721",
+      "name": "rektguy",
+      "symbol": "Rektguy"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4be3ad153f4c6b10f098e4270e77a434234c5493",
+      "nftType": "ERC721",
+      "name": "Consortium Key",
+      "symbol": "CK"
+    },
+    {
+      "chainId": 137,
+      "address": "0x4d544035500d7ac1b42329c70eb58e77f8249f0f",
+      "nftType": "ERC721",
+      "name": "League of Kingdoms ITEM",
+      "symbol": "LOKI"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0b22fe0a2995c5389ac093400e52471dca8bb48a",
+      "nftType": "ERC721",
+      "name": "Little Lemon Friends",
+      "symbol": "LEMON"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6250b989ecf7cb82c7892E1CEA604eD813423635",
+      "nftType": "ERC721",
+      "name": "MetaFans Genesis Collection",
+      "symbol": "MFC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x749f5ddf5ab4c1f26f74560a78300563c34b417d",
+      "nftType": "ERC721",
+      "name": "ALTS by adidas",
+      "symbol": "ALT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9d6a7159e5accfc6520932f0f81a47e2ffd349a3",
+      "nftType": "ERC721",
+      "name": "Gents Croquet Club",
+      "symbol": "GCC"
+    },
+    {
+      "chainId": 1,
+      "address": "0xC178994cB9b66307Cd62dB8b411759Dd36D9C2EE",
+      "nftType": "ERC721",
+      "name": "The Legend of C\u00d8CKPUNCH\u2122",
+      "symbol": "COCKPUNCH"
+    },
+    {
+      "chainId": 1,
+      "address": "0x942bc2d3e7a589fe5bd4a5c6ef9727dfd82f5c8a",
+      "nftType": "ERC721",
+      "name": "Friendship Bracelets by Alexis Andr\u00e9",
+      "symbol": "EXPLORE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1792a96e5668ad7c167ab804a100ce42395ce54d",
+      "nftType": "ERC721",
+      "name": "Moonbirds Oddities",
+      "symbol": "ODDITIES"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0a36f2178c0db2c85471c45334a1dd17d130fd42",
+      "nftType": "ERC721",
+      "name": "The GODA Mint Pass",
+      "symbol": "GODA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8184a482a5038b124d933b779e0ea6e0fb72f54e",
+      "nftType": "ERC721",
+      "name": "The Wanderers",
+      "symbol": "WANDERER"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa63673fd80e67aaeab5489c61760a490476a748a",
+      "nftType": "ERC721",
+      "name": "Creepz Loomi Vault",
+      "symbol": "VAULT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0b0b186841c55d8a09d53db48dc8cab9dbf4dbd6",
+      "nftType": "ERC721",
+      "name": "Satoshibles",
+      "symbol": "sbls"
+    },
+    {
+      "chainId": 1,
+      "address": "0x203393330560cf43893ae7051d1b787844f13080",
+      "nftType": "ERC721",
+      "name": "Volted Dragons Sailors Club - VDSC",
+      "symbol": "VDSC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42",
+      "nftType": "ERC721",
+      "name": "Forgotten Runes Wizards Cult",
+      "symbol": "WIZARDS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x47f3a38990ca12e39255e959f7d97fbe5906afd4",
+      "nftType": "ERC721",
+      "name": "Ape Reunion",
+      "symbol": "APE_REUNION"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3bf99d504e67a977f88b417ab68d34915f3a1209",
+      "nftType": "ERC721",
+      "name": "HENI: Damien Hirst - The Empresses",
+      "symbol": "HEDE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0e8d5ad992b37f145ed1985d4bffcbc3d5bd6be3",
+      "nftType": "ERC721",
+      "name": "The Plooshies",
+      "symbol": "PLOOSHY"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8d04a8c79ceb0889bdd12acdf3fa9d207ed3ff63",
+      "nftType": "ERC721",
+      "name": "Blitmap",
+      "symbol": "BLIT"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x6325439389e0797ab35752b4f43a14c004f22a9c",
+      "nftType": "ERC721",
+      "name": "Smol Brain",
+      "symbol": "SmolBrain"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcaf94eb06d4de233c45b353723c387d3e440f3d6",
+      "nftType": "ERC721",
+      "name": "My Keyboard",
+      "symbol": "MKB"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbD275ce24f32d6cE4e9d9519C55ABe9Bc0ed7fCf",
+      "nftType": "ERC721",
+      "name": "BYOPills",
+      "symbol": "BYOPILL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9A06Ef3a841316a9e2c1C93B9c21a7342abE484F",
+      "nftType": "ERC721",
+      "name": "RTFKT SKIN VIAL: EVO X",
+      "symbol": "RTFKT-SKIN-VIAL-EVO-X"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc101916cd9ddeac5a6f915eed033b1b6e4a637cb",
+      "nftType": "ERC721",
+      "name": "Zinu's Zombie Mob Secret Society",
+      "symbol": "ZMSS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x696115768bbef67be8bd408d760332a7efbee92d",
+      "nftType": "ERC721",
+      "name": "LinksDAO",
+      "symbol": "LINKSDAO"
+    },
+    {
+      "chainId": 1,
+      "address": "0x82f5ef9ddc3d231962ba57a9c2ebb307dc8d26c2",
+      "nftType": "ERC721",
+      "name": "Dippies",
+      "symbol": "DIPPIES"
+    },
+    {
+      "chainId": 1,
+      "address": "0xef0182dc0574cd5874494a120750fd222fdb909a",
+      "nftType": "ERC721",
+      "name": "Rumble Kong League",
+      "symbol": "RKL"
+    },
+    {
+      "chainId": 56,
+      "address": "0xde8222fc998a835f1cdea7dc93bc1b51ecaef349",
+      "nftType": "ERC721",
+      "name": "Doge Friends",
+      "symbol": "DogeFriends"
+    },
+    {
+      "chainId": 1,
+      "address": "0xac5c7493036de60e63eb81c5e9a440b42f47ebf5",
+      "nftType": "ERC721",
+      "name": "Exosama",
+      "symbol": "EXO"
+    },
+    {
+      "chainId": 1,
+      "address": "0x123b30e25973fecd8354dd5f41cc45a3065ef88c",
+      "nftType": "ERC721",
+      "name": "alien frens",
+      "symbol": "ALIENFRENS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5bd815fd6c096bab38b4c6553cfce3585194dff9",
+      "nftType": "ERC721",
+      "name": "The Art of Seasons",
+      "symbol": "TAOS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7ea3cca10668b8346aec0bf1844a49e995527c8b",
+      "nftType": "ERC721",
+      "name": "CyberKongz VX",
+      "symbol": "KONGZ VX"
+    },
+    {
+      "chainId": 137,
+      "address": "0xdb46d1dc155634fbc732f92e853b10b288ad5a1d",
+      "nftType": "ERC721",
+      "name": "Lens Protocol Profiles",
+      "symbol": "LPP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x572e33ffa523865791ab1c26b42a86ac244df784",
+      "nftType": "ERC721",
+      "name": "10KTF Gucci Grail",
+      "symbol": "GUCCI"
+    },
+    {
+      "chainId": 1,
+      "address": "0x06911466341299d79e9e1368a016c73d009691cc",
+      "nftType": "ERC721",
+      "name": "FEWOCiOUS x FewoWorld: Paint",
+      "symbol": "Paint"
+    },
+    {
+      "chainId": 1,
+      "address": "0x30cdac3871c41a63767247c8d1a2de59f5714e78",
+      "nftType": "ERC721",
+      "name": "Obits Official",
+      "symbol": "0bits"
+    },
+    {
+      "chainId": 1,
+      "address": "0x691c77f69a6ae05f5c8cc9f46d7e46ce97fa2f3b",
+      "nftType": "ERC721",
+      "name": "Laelaps Master Key",
+      "symbol": "LMK"
+    },
+    {
+      "chainId": 1,
+      "address": "0x99a9b7c1116f9ceeb1652de04d5969cce509b069",
+      "nftType": "ERC721",
+      "name": "Spaghetti Bones by Joshua Bagley",
+      "symbol": "BLOCKS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x963590fabdc1333d03bc3af42a6b2ab33e21e2ee",
+      "nftType": "ERC721",
+      "name": "Skyborne - Genesis Immortals",
+      "symbol": "$SGI"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1485297e942ce64e0870ece60179dfda34b4c625",
+      "nftType": "ERC721",
+      "name": "Moonrunners Official",
+      "symbol": "MOONR"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa6cd272874ee7c872eb66801eff62784c0b13285",
+      "nftType": "ERC721",
+      "name": "Seizon",
+      "symbol": "Seizon"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb283dbacecd75594b66039a341a48db2d85fa37a",
+      "nftType": "ERC721",
+      "name": "Iron Paw Gang",
+      "symbol": "IPG"
+    },
+    {
+      "chainId": 1,
+      "address": "0xC9d198089D6c31d0Ca5Cc5B92C97a57A97BBfdE2",
+      "nftType": "ERC721",
+      "name": "Space Riders NFT",
+      "symbol": "SPR"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcd8e9fd321dec7460dfd8701711577ea83967a36",
+      "nftType": "ERC721",
+      "name": "The Magus Official",
+      "symbol": "MGS"
+    },
+    {
+      "chainId": 137,
+      "address": "0xd79cf5a41d8caec4688e01b4754ea2da6f51e856",
+      "nftType": "ERC721",
+      "name": "Decentral Games ICE Poker",
+      "symbol": "DCL-ICELNNS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x31fe9d95dde43cf9893b76160f63521a9e3d26b0",
+      "nftType": "ERC721",
+      "name": "Pirate",
+      "symbol": "PIRATE"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc2c747e0f7004f9e8817db2ca4997657a7746928",
+      "nftType": "ERC721",
+      "name": "Hashmasks",
+      "symbol": "hm"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6",
+      "nftType": "ERC721",
+      "name": "CrypToadz",
+      "symbol": "TOADZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9401518f4ebba857baa879d9f76e1cc8b31ed197",
+      "nftType": "ERC721",
+      "name": "The Weirdo Ghost Gang",
+      "symbol": "GHOST"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x17f4BAa9D35Ee54fFbCb2608e20786473c7aa49f",
+      "nftType": "ERC721",
+      "name": "GMX Blueberry Club",
+      "symbol": "GBC"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x17f4baa9d35ee54ffbcb2608e20786473c7aa49f",
+      "nftType": "ERC721",
+      "name": "GMX Blueberry Club",
+      "symbol": "GBC"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf61F24c2d93bF2dE187546B14425BF631F28d6dC",
+      "nftType": "ERC721",
+      "name": "World of Women Galaxy",
+      "symbol": "WOWG"
+    },
+    {
+      "chainId": 1,
+      "address": "0x36f4d96fe0d4eb33cdc2dc6c0bca15b9cdd0d648",
+      "nftType": "ERC721",
+      "name": "gmDAO token",
+      "symbol": "GMV2"
+    },
+    {
+      "chainId": 1,
+      "address": "0x33333333333371718a3c2bb63e5f3b94c9bc13be",
+      "nftType": "ERC721",
+      "name": "SAN Origin",
+      "symbol": "SAN"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb18380485f7ba9c23deb729bedd3a3499dbd4449",
+      "nftType": "ERC721",
+      "name": "SmallBrosNFT",
+      "symbol": "SBNFT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8a1658607793276301a2769bf49b16d98ac16fd8",
+      "nftType": "ERC721",
+      "name": "CryptoHippos Official",
+      "symbol": "HIPPO"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5c1a0cc6dadf4d0fb31425461df35ba80fcbc110",
+      "nftType": "ERC721",
+      "name": "Pixels - Farm Land",
+      "symbol": "FARM"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8c3c0274c33f263f0a55d129cfc8eaa3667a9e8b",
+      "nftType": "ERC721",
+      "name": "Emblem Vault V2",
+      "symbol": "Emblem.pro"
+    },
+    {
+      "chainId": 1,
+      "address": "0x57a204AA1042f6E66DD7730813f4024114d74f37",
+      "nftType": "ERC721",
+      "name": "CyberKongz (Babies)",
+      "symbol": "Babies"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd1169e5349d1cb9941f3dcba135c8a4b9eacfdde",
+      "nftType": "ERC721",
+      "name": "MAX PAIN AND FRENS BY XCOPY",
+      "symbol": "MAXPAINANDFRENSOPENEDITIONBYXCOPY"
+    },
+    {
+      "chainId": 1,
+      "address": "0x13303b4ee819fac204be5ef77523cfcd558c082f",
+      "nftType": "ERC721",
+      "name": "Mythics: Egg",
+      "symbol": "EGG"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcdb7c1a6fe7e112210ca548c214f656763e13533",
+      "nftType": "ERC721",
+      "name": "Ready Player Cat NFT",
+      "symbol": "MAODAO-RPC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x562fc2927c77cb975680088566ada1dc6cb8b5ea",
+      "nftType": "ERC721",
+      "name": "Haas x RENGA Racing",
+      "symbol": "HAAS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe785e82358879f061bc3dcac6f0444462d4b5330",
+      "nftType": "ERC721",
+      "name": "World of Women",
+      "symbol": "WOW"
+    },
+    {
+      "chainId": 1,
+      "address": "0x556697Ca91476B811f37A851dD2e53ae4c6024dB",
+      "nftType": "ERC721",
+      "name": "Brawler Bearz",
+      "symbol": "BB"
+    },
+    {
+      "chainId": 1,
+      "address": "0xA03e357A09E761E8d486A1419c74bf42e8D1B064",
+      "nftType": "ERC721",
+      "name": "Silks Genesis Avatars",
+      "symbol": "Silks"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa636d716024faf7db5876dd817859984f00e7aef",
+      "nftType": "ERC721",
+      "name": "Mint Pass Tokyo | Bright Moments | MPTK",
+      "symbol": "MPTK"
+    },
+    {
+      "chainId": 1,
+      "address": "0x16de9d750f4ac24226154c40980ef83d4d3fd4ad",
+      "nftType": "ERC721",
+      "name": "Ethlizards",
+      "symbol": "LIZARD"
+    },
+    {
+      "chainId": 43314,
+      "address": "0x92618c4c8ef2534242cabed0614ab8b89ef2dc52",
+      "nftType": "ERC721",
+      "name": " Beenz On Acid",
+      "symbol": "BENZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3ab3fdd225bb64268d39265c05550427257129b1",
+      "nftType": "ERC721",
+      "name": "Poorsche NFT",
+      "symbol": "PRS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x477F885f6333317f5B2810ECc8AfadC7d5b69dD2",
+      "nftType": "ERC721",
+      "name": "YuGiYn",
+      "symbol": "YGY"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4addca4c07a5e9a6b4973094d03ad5aae7735e5b",
+      "nftType": "ERC721",
+      "name": "(B)APETAVERSE",
+      "symbol": "BVS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51",
+      "nftType": "ERC721",
+      "name": "Worldwide Webb Land",
+      "symbol": "WEBBLAND"
+    },
+    {
+      "chainId": 1,
+      "address": "0x439cac149b935ae1d726569800972e1669d17094",
+      "nftType": "ERC721",
+      "name": "Idols NFT",
+      "symbol": "IDOL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x858df9f84c73e01c55a2dfb95825401242a65d64",
+      "nftType": "ERC721",
+      "name": "Shadow Wolves",
+      "symbol": "WOLF"
+    },
+    {
+      "chainId": 1,
+      "address": "0x884ba86faa29745b6c40b7098567a393e91335cf",
+      "nftType": "ERC721",
+      "name": "Saved Souls",
+      "symbol": "SS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb5c747561a185a146f83cfff25bdfd2455b31ff4",
+      "nftType": "ERC721",
+      "name": "Boss Beauties",
+      "symbol": "BOSSB"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0825f050e9b021a0e9de8cb1fb10b6c9f41e834c",
+      "nftType": "ERC721",
+      "name": "LetsWalk",
+      "symbol": "#LetsWalk"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc589770757cd0d372c54568bf7e5e1d56b958015",
+      "nftType": "ERC721",
+      "name": "Ordinal Kubz",
+      "symbol": "Ordinal Kubz"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9eeaecbe2884aa7e82f450e3fc174f30fc2a8de3",
+      "nftType": "ERC721",
+      "name": "Edenhorde",
+      "symbol": "EH"
+    },
+    {
+      "chainId": 1,
+      "address": "0x998715a4ed2c41bbf4c9181120bb5857627816aa",
+      "nftType": "ERC721",
+      "name": "NEOSTACKEY",
+      "symbol": "NSK"
+    },
+    {
+      "chainId": 137,
+      "address": "0x419e82d502f598ca63d821d3bbd8dfefaf9bbc8d",
+      "nftType": "ERC721",
+      "name": "Polygon Ape: The Evolution",
+      "symbol": "PAYC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9e8b85dbb082255bd81c5b25323b694bc799a616",
+      "nftType": "ERC721",
+      "name": "Cereal Club",
+      "symbol": "CEREAL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2d33bfe1c867346543ac245396dfc6c3ebc8534f",
+      "nftType": "ERC721",
+      "name": "KPR",
+      "symbol": "KPRV2"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf0d2d631a24db247f5eb0421fa3e6a169c72565f",
+      "nftType": "ERC721",
+      "name": "Hedgies",
+      "symbol": "HEDGIES"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a",
+      "nftType": "ERC721",
+      "name": "MutantCats",
+      "symbol": "MUTCATS"
+    },
+    {
+      "chainId": 43314,
+      "address": "0xacc0cf012b4c28e23e9450c9824a88a4e178a64a",
+      "nftType": "ERC721",
+      "name": "The Person",
+      "symbol": "PERSON"
+    },
+    {
+      "chainId": 1,
+      "address": "0x226bf5293692610692e2c996c9875c914d2a7f73",
+      "nftType": "ERC721",
+      "name": "oncyber labs",
+      "symbol": "ONCYBER-LABS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbd8451d2d5fb88469a764b05c1e0b623c5106145",
+      "nftType": "ERC721",
+      "name": "MERGE VV",
+      "symbol": "vvmrg"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8c186802b1992f7650ac865d4ca94d55ff3c0d17",
+      "nftType": "ERC721",
+      "name": "Ninja Squad Official",
+      "symbol": "NINJA"
+    },
+    {
+      "chainId": 137,
+      "address": "0x90262e888bbf1f5f375a9286da324f2aeeeebec2",
+      "nftType": "ERC721",
+      "name": "ZeptoLabsOmNom",
+      "symbol": "ZOM"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+      "nftType": "ERC721",
+      "name": "Regulars",
+      "symbol": "Regulars"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc0f799a176e10d45fa56c7298d54f813b51fd151",
+      "nftType": "ERC721",
+      "name": "Fun Apes",
+      "symbol": "FAPES"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6d8bfe6b39735f7b0c5232c3a743495ae7f4fa81",
+      "nftType": "ERC721",
+      "name": "BONSAI NFT FARM",
+      "symbol": "BNF"
+    },
+    {
+      "chainId": 1,
+      "address": "0x582048c4077a34e7c3799962f1f8c5342a3f4b12",
+      "nftType": "ERC721",
+      "name": "Shinsei Galverse Official",
+      "symbol": "GALS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfcb1315c4273954f74cb16d5b663dbf479eec62e",
+      "nftType": "ERC721",
+      "name": "Capsule House",
+      "symbol": "CAPSULE"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa23a9e6002cebb284e1797be6e0cad201d13c2f2",
+      "nftType": "ERC721",
+      "name": "INS1D3RS",
+      "symbol": "INS1D3RS"
+    },
+    {
+      "chainId": 137,
+      "address": "0x24a11e702cd90f034ea44faf1e180c0c654ac5d9",
+      "nftType": "ERC721",
+      "name": "Trump Digital Trading Cards",
+      "symbol": "TRUMP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x026224a2940bfe258d0dbe947919b62fe321f042",
+      "nftType": "ERC721",
+      "name": "lobsterdao",
+      "symbol": "lobs"
+    },
+    {
+      "chainId": 1,
+      "address": "0x07ce82f414a42d9a73b0bd9ec23c249d446a0109",
+      "nftType": "ERC721",
+      "name": "NonFungibleArcade Arcade Pass",
+      "symbol": "NFA-PASS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x518ba36f1ca6dfe3bb1b098b8dd0444030e79d9f",
+      "nftType": "ERC721",
+      "name": "Wonky Stonks",
+      "symbol": "WSTK"
+    },
+    {
+      "chainId": 1,
+      "address": "0x60bb1e2aa1c9acafb4d34f71585d7e959f387769",
+      "nftType": "ERC721",
+      "name": "Art Gobblers",
+      "symbol": "gobbler"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3acce66cd37518a6d77d9ea3039e00b3a2955460",
+      "nftType": "ERC721",
+      "name": "WonderPals",
+      "symbol": "WNDR"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8",
+      "nftType": "ERC721",
+      "name": "Lives of Asuna",
+      "symbol": "LIVES-OF-ASUNA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x128675d4fddbc4a0d3f8aa777d8ee0fb8b427c2f",
+      "nftType": "ERC721",
+      "name": "PUNKS Comic",
+      "symbol": "comic2"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd9c036e9eef725e5aca4a22239a23feb47c3f05d",
+      "nftType": "ERC721",
+      "name": "MidnightBreeze",
+      "symbol": "MNB"
+    },
+    {
+      "chainId": 56,
+      "address": "0x119aaf82f1f3784233dd3f8e914f8c16527c3a4b",
+      "nftType": "ERC721",
+      "name": "Pome Survival Companion Pet",
+      "symbol": "PMP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5f4a54e29ccb8a02cdf7d7bfa8a0999a8330cced",
+      "nftType": "ERC721",
+      "name": "Creepz Reptile Armoury",
+      "symbol": "ARMS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+      "nftType": "ERC721",
+      "name": "MekaVerse",
+      "symbol": "meka"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8de765d95c83a790714c53ed8a820168cab9123c",
+      "nftType": "ERC721",
+      "name": "CryptoDickbutts S4",
+      "symbol": "CDBS4"
+    },
+    {
+      "chainId": 56,
+      "address": "0xdba751ab5ca856713f5882490b2e8441b7e6cea1",
+      "nftType": "ERC721",
+      "name": "BotanNFT",
+      "symbol": "Botan"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2a549e83c2f58db1890553e58b4e95fd558b71e2",
+      "nftType": "ERC721",
+      "name": "Cornerstone Companions",
+      "symbol": "COMPANIONS"
+    },
+    {
+      "chainId": 137,
+      "address": "0xdc0479cc5bba033b3e7de9f178607150b3abce1f",
+      "nftType": "ERC721",
+      "name": "Crypto Unicorns",
+      "symbol": "UNICORNS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x092bbc993042a69811d23feb0e64e3bfa0920c6a",
+      "nftType": "ERC721",
+      "name": "Gutter Juice",
+      "symbol": "JUICE"
+    },
+    {
+      "chainId": 56,
+      "address": "0x4a8e348b29df68fa4d874b043f920150d750604e",
+      "nftType": "ERC721",
+      "name": "G3M NFT Series",
+      "symbol": "G3MS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x698fbaaca64944376e2cdc4cad86eaa91362cf54",
+      "nftType": "ERC721",
+      "name": "NeoTokyo Outer Identities",
+      "symbol": "NEOTOI"
+    },
+    {
+      "chainId": 1,
+      "address": "0x91680cf5f9071cafae21b90ebf2c9cc9e480fb93",
+      "nftType": "ERC721",
+      "name": "frankfrank",
+      "symbol": "FRANK"
+    },
+    {
+      "chainId": 1,
+      "address": "0x701a038af4bd0fc9b69a829ddcb2f61185a49568",
+      "nftType": "ERC721",
+      "name": "KIWAMI Genesis",
+      "symbol": "KIWAMI"
+    },
+    {
+      "chainId": 1,
+      "address": "0x716f29b8972d551294d9e02b3eb0fc1107fbf4aa",
+      "nftType": "ERC721",
+      "name": "IO: Imaginary Ones",
+      "symbol": "IO"
+    },
+    {
+      "chainId": 1,
+      "address": "0xFF72F37aA4EAe3B7e1752e25DB85b209f12c1A33",
+      "nftType": "ERC721",
+      "name": "TABZ NFT",
+      "symbol": "TABZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+      "nftType": "ERC721",
+      "name": "Hape Prime",
+      "symbol": "HAPE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0be4e2375eccb6df1c2f110fd9c3abd9a1b1b117",
+      "nftType": "ERC721",
+      "name": "Genesis Dimensional Stones",
+      "symbol": "DMG"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2efa07cac3395599db83035d196f2a0e7263f766",
+      "nftType": "ERC721",
+      "name": "The Flower Girls",
+      "symbol": "FLGS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x52d8a9825fb8b90ea45136eddb103b4ccc0c7940",
+      "nftType": "ERC721",
+      "name": "AIR SMOKE ZERO",
+      "symbol": "ASZ"
+    },
+    {
+      "chainId": 56,
+      "address": "0x0e858e742c369d98a848af6b973479f875468ad6",
+      "nftType": "ERC721",
+      "name": "PennyMoon NFTs",
+      "symbol": "PENNYNFT"
+    },
+    {
+      "chainId": 56,
+      "address": "0x817e746fdb3fb4fe64bd45f4270b9c8c57991b23",
+      "nftType": "ERC721",
+      "name": "Playbux Ultra",
+      "symbol": "PBU"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc631164b6cb1340b5123c9162f8558c866de1926",
+      "nftType": "ERC721",
+      "name": "Divine Anarchy",
+      "symbol": "DA"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa65ba71d653f62c64d97099b58d25a955eb374a0",
+      "nftType": "ERC721",
+      "name": "Neo Tokyo Punks NFT",
+      "symbol": "NTP"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe6d48bf4ee912235398b96e16db6f310c21e82cb",
+      "nftType": "ERC721",
+      "name": "God Hates NFTees",
+      "symbol": "GHN"
+    },
+    {
+      "chainId": 137,
+      "address": "0x907808732079863886443057c65827a0f1c64357",
+      "nftType": "ERC721",
+      "name": "Foustlings x Reddit Collectible Avatars",
+      "symbol": "FOUSTLINGS-X-REDDIT-COLLECTIBLE-AVATARS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8ce578bad214d59aefafb49bd20408e81271796f",
+      "nftType": "ERC721",
+      "name": "BoringPunks",
+      "symbol": "BPUNK"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf9a42c357709dbb27c77109823d7f1641d86aee9",
+      "nftType": "ERC721",
+      "name": "Binary",
+      "symbol": "DEX"
+    },
+    {
+      "chainId": 1,
+      "address": "0x986aea67c7d6a15036e18678065eb663fc5be883",
+      "nftType": "ERC721",
+      "name": "Nifty League DEGENs",
+      "symbol": "DEGEN"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdbcab7a768ea9a00b2ffa5a2eb387cad609e2114",
+      "nftType": "ERC721",
+      "name": "Alpha Kongs Club - AKC",
+      "symbol": "AKC"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaa462106da447c0440a4be29614c19387a59a331",
+      "nftType": "ERC721",
+      "name": "ENS Maxis",
+      "symbol": "ENSMAXIS"
+    },
+    {
+      "chainId": 137,
+      "address": "0x99a558bdbde247c2b2716f0d4cfb0e246dfb697d",
+      "nftType": "ERC721",
+      "name": "Crypto Unicorns: Items Marketplace",
+      "symbol": "unicorns"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0e043e39e1f9382e4b3cb9b859a1452a93993be7",
+      "nftType": "ERC721",
+      "name": "SHIBA ARMY by ShibaDoge",
+      "symbol": "SA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x704bf12276f5c4bc9349d0e119027ead839b081b",
+      "nftType": "ERC721",
+      "name": "Timeless",
+      "symbol": "TMLS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7ecb204fed7e386386cab46a1fcb823ec5067ad5",
+      "nftType": "ERC721",
+      "name": "FULL SEND METACARD NFT",
+      "symbol": "FSMC"
+    },
+    {
+      "chainId": 1,
+      "address": "0xC3cE480376A6340e0A4CDd3E4843BDC0bc765a45",
+      "nftType": "ERC721",
+      "name": "CW Females",
+      "symbol": "cwf"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd6f4a923e2ecd9ab7391840ac78d04bfe40bd5e1",
+      "nftType": "ERC721",
+      "name": "Budverse Cans - Heritage Edition",
+      "symbol": "BUDWEISER"
+    },
+    {
+      "chainId": 1,
+      "address": "0x448f3219CF2A23b0527A7a0158e7264B87f635Db",
+      "nftType": "ERC721",
+      "name": "The Blitnauts",
+      "symbol": "NAUT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x70000299Ee8910cCaCD97B1bB560E34F49c9e4f7",
+      "nftType": "ERC721",
+      "name": "X7 Pioneer",
+      "symbol": "x7pioneer"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5c83df384971ef5ba252336f78ad97d26a0ec7df",
+      "nftType": "ERC721",
+      "name": "Old Rock",
+      "symbol": "OR"
+    },
+    {
+      "chainId": 137,
+      "address": "0xe28d2d8746d855251ba677a91626009cb33aa4f9",
+      "nftType": "ERC721",
+      "name": "Trump Digital Trading Cards Series 2",
+      "symbol": "TRUMP2"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6E9DA81ce622fB65ABf6a8d8040e460fF2543Add",
+      "nftType": "ERC721",
+      "name": "Gutter Dogs",
+      "symbol": "GDOG"
+    },
+    {
+      "chainId": 1,
+      "address": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "nftType": "ERC721",
+      "name": "Dooplicator",
+      "symbol": "DOOPL"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd0FabBbA5FD95411A07bb2FdCF31295639376937",
+      "nftType": "ERC721",
+      "name": "Cel Mates Crime Reports",
+      "symbol": "crimes"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa1De9f93c56C290C48849B1393b09eB616D55dbb",
+      "nftType": "ERC721",
+      "name": "GNSS Art by MGXS",
+      "symbol": "GNSS"
+    },
+    {
+      "chainId": 137,
+      "address": "0x68df8633f15699f9d44048e97067aa37a71e245a",
+      "nftType": "ERC721",
+      "name": "Chumbi Valley Founders Collection",
+      "symbol": "CVFC"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc86664e7d2608f881f796ee8e24fa9d4d7598406",
+      "nftType": "ERC721",
+      "name": "OFFICIAL WAGMI ARMY",
+      "symbol": "WAGMI"
+    },
+    {
+      "chainId": 1,
+      "address": "0x614917f589593189ac27ac8b81064cbe450c35e3",
+      "nftType": "ERC721",
+      "name": "Letters by Vinnie Hager",
+      "symbol": "LETTERS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe6160325a53de4deca66e3d88d7e4f25040acce0",
+      "nftType": "ERC721",
+      "name": "NFT Sensei Lifetime Access",
+      "symbol": "SENSEI"
+    },
+    {
+      "chainId": 1,
+      "address": "0x86825dFCa7A6224cfBd2DA48e85DF2fc3Aa7C4B1",
+      "nftType": "ERC721",
+      "name": "RTFKT - MNLTH",
+      "symbol": "RTFKT-MNLTH"
+    },
+    {
+      "chainId": 1,
+      "address": "0x020cdc4775366ae436f13a7d333143432e884934",
+      "nftType": "ERC721",
+      "name": "ATEM Car Club Cards",
+      "symbol": "ATEMCCC"
+    },
+    {
+      "chainId": 137,
+      "address": "0x8D0501d85becDA92B89E56177dDfcEA5Fc1f0AF2",
+      "nftType": "ERC721",
+      "name": "The Senses x Reddit Collectible Avatars",
+      "symbol": "the-senses-x-reddit-collectible-avatars"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd0a07a76746707f6d6d36d9d5897b14a8e9ed493",
+      "nftType": "ERC721",
+      "name": "Pixel Vault Founder's DAO",
+      "symbol": "PVFD"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaE99a698156eE8F8d07Cbe7F271c31EeaaC07087",
+      "nftType": "ERC721",
+      "name": "Mutant Hound Collars",
+      "symbol": "mhc"
+    },
+    {
+      "chainId": 1,
+      "address": "0x286e531f363768fed5e18b468f5b76a9ffc33af5",
+      "nftType": "ERC721",
+      "name": "Nyan Balloon",
+      "symbol": "NyanBall"
+    },
+    {
+      "chainId": 137,
+      "address": "0x8d3a4b92cf54e8c2c41353aeb67aa7041f5df196",
+      "nftType": "ERC721",
+      "name": "Etihad Airways: EY-ZERO1",
+      "symbol": "EYZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaad35c2dadbe77f97301617d82e661776c891fa9",
+      "nftType": "ERC721",
+      "name": "Akutars",
+      "symbol": "AKU"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3c6fbc94288f5af5201085948ddb18aded2e6879",
+      "nftType": "ERC721",
+      "name": "DeFiApes",
+      "symbol": "DEFIAPES"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5",
+      "nftType": "ERC721",
+      "name": "Adam Bomb Squad",
+      "symbol": "ABS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x34b4Df75a17f8B3a6Eff6bBA477d39D701f5e92c",
+      "nftType": "ERC721",
+      "name": "GEVOLs",
+      "symbol": "GEVOLs"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc65ef668114a1d0446f960ac4caa8c080efab786",
+      "nftType": "ERC721",
+      "name": "HUXLEY Comics: ISSUE 4",
+      "symbol": "HUXLEY4"
+    },
+    {
+      "chainId": 56,
+      "address": "0x4162ae9cef06081f98cabff9d3737bfd95a3b487",
+      "nftType": "ERC721",
+      "name": "K - 3 Kingdoms",
+      "symbol": "K3K"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc1caf0c19a8ac28c41fe59ba6c754e4b9bd54de9",
+      "nftType": "ERC721",
+      "name": "CryptoSkulls",
+      "symbol": "CryptoSkulls"
+    },
+    {
+      "chainId": 1,
+      "address": "0x497a9a79e82e6fc0ff10a16f6f75e6fcd5ae65a8",
+      "nftType": "ERC721",
+      "name": "77-Bit",
+      "symbol": "RONIN"
+    },
+    {
+      "chainId": 1,
+      "address": "0x932261f9fc8da46c4a22e31b45c4de60623848bf",
+      "nftType": "ERC721",
+      "name": "Zerion DNA 1.0",
+      "symbol": "DNA"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd2f668a8461d6761115daf8aeb3cdf5f40c532c6",
+      "nftType": "ERC721",
+      "name": "Karafuru",
+      "symbol": "KARAFURU"
+    },
+    {
+      "chainId": 1,
+      "address": "0x20ed6cdf9344b3a187063a3ff4d883b6b1947b81",
+      "nftType": "ERC721",
+      "name": "The Carton",
+      "symbol": "LYRICAL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6fc3ad6177b07227647ad6b4ae03cc476541a2a0",
+      "nftType": "ERC721",
+      "name": "DarkEchelon",
+      "symbol": "DARK"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdC85866dDd95fA9b7C856944faB128902CA8C60F",
+      "nftType": "ERC721",
+      "name": "BMM x Neymar Jr. Episode 01- HUMAN",
+      "symbol": "NJR"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdfacd840f462c27b0127fc76b63e7925bed0f9d5",
+      "nftType": "ERC721",
+      "name": "Avid Lines",
+      "symbol": "ALIN"
+    },
+    {
+      "chainId": 1,
+      "address": "0x244fc4178fa685af909c88b4d4cd7eb9127edb0b",
+      "nftType": "ERC721",
+      "name": "Netvrk Land",
+      "symbol": "NVKLAND"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbace7e22f06554339911a03b8e0ae28203da9598",
+      "nftType": "ERC721",
+      "name": "CryptoArte",
+      "symbol": "CARTE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x28472a58A490c5e09A238847F66A68a47cC76f0f",
+      "nftType": "ERC721",
+      "name": "adidas Originals Into the Metaverse",
+      "symbol": "ADI"
+    },
+    {
+      "chainId": 1,
+      "address": "0xca7ca7bcc765f77339be2d648ba53ce9c8a262bd",
+      "nftType": "ERC721",
+      "name": "Tubby Cats",
+      "symbol": "tubby"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf30a9cd4cd1fd9ea3270afcecde5fece34bc4aca",
+      "nftType": "ERC721",
+      "name": "BoringNakas",
+      "symbol": "BNAKA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x345c2fa23160c63218dfaa25d37269f26c85ca47",
+      "nftType": "ERC721",
+      "name": "Samurai Saga",
+      "symbol": "SSAGA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0b4b2ba334f476c8f41bfe52a428d6891755554d",
+      "nftType": "ERC721",
+      "name": "JRNY NFT Club",
+      "symbol": "JNC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x26eeb71350d60466ab18c8cbac1ea2d58c39c140",
+      "nftType": "ERC721",
+      "name": "Alfa Card",
+      "symbol": "ALFA"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf4ee95274741437636e748ddac70818b4ed7d043",
+      "nftType": "ERC721",
+      "name": "The Doge Pound",
+      "symbol": "DOGGY"
+    },
+    {
+      "chainId": 1,
+      "address": "0x18487d2cac946c7fe800855c4039aac210f68baa",
+      "nftType": "ERC721",
+      "name": "Generative Dungeon",
+      "symbol": "GENDUN"
+    },
+    {
+      "chainId": 137,
+      "address": "0xba6666b118f8303f990f3519df07e160227cce87",
+      "nftType": "ERC721",
+      "name": "Planet IX - Assets",
+      "symbol": "PIX-A"
+    },
+    {
+      "chainId": 56,
+      "address": "0x176b537758c15b759699298c3e8fc3e9ece4ba77",
+      "nftType": "ERC721",
+      "name": "FGDNFT",
+      "symbol": "FGDNFT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x909899c5dBb5002610Dd8543b6F638Be56e3B17E",
+      "nftType": "ERC721",
+      "name": "Plasma Bears",
+      "symbol": "PLASMABEARS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb4cba31bdaf6ff6e34efc0cfc4906bd29b0146e9",
+      "nftType": "ERC721",
+      "name": "Doomsday: Settlers of the Wasteland",
+      "symbol": "SETTLEMENT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+      "nftType": "ERC721",
+      "name": "SupDucks",
+      "symbol": "SD"
+    },
+    {
+      "chainId": 1,
+      "address": "0x447E836E22275D1766f2003706c6D58C4d108a0d",
+      "nftType": "ERC721",
+      "name": "Scottie Pippen SP33",
+      "symbol": "SCOTTIE-PIPPEN-SP33"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbe82b9533ddf0acaddcaa6af38830ff4b919482c",
+      "nftType": "ERC721",
+      "name": "OnChainBirds",
+      "symbol": "OCBIRD"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe0176ba60efddb29cac5b15338c9962daee9de0c",
+      "nftType": "ERC721",
+      "name": "PREMINT Collector Pass - OFFICIAL",
+      "symbol": "PREMINTCOLL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x283c0bba69ebd4643cfce761b34b0206e75b2091",
+      "nftType": "ERC721",
+      "name": "Super Puma",
+      "symbol": "SPRPUMA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x205a10c241ca38918d3790c89f16675cc46d10a9",
+      "nftType": "ERC721",
+      "name": "Distortion",
+      "symbol": "DISTORTION"
+    },
+    {
+      "chainId": 1,
+      "address": "0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c",
+      "nftType": "ERC721",
+      "name": "VOX Collectibles",
+      "symbol": "VOX"
+    },
+    {
+      "chainId": 1,
+      "address": "0x79f1c4cf7266746698e91034d658e56913e6644f",
+      "nftType": "ERC721",
+      "name": "METASAMURAI",
+      "symbol": "MS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9370045ce37f381500ac7d6802513bb89871e076",
+      "nftType": "ERC721",
+      "name": "Ape Hater Club",
+      "symbol": "AHC"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd75994086BA3b7ca0BED5eb95C3F7a499AAC5B60",
+      "nftType": "ERC721",
+      "name": "9dcc ITERATION-02 Proof of Mint",
+      "symbol": "IT-02 POM"
+    },
+    {
+      "chainId": 1,
+      "address": "0x42dc0cecefbaf8e81d631a75fa212510c347f66b",
+      "nftType": "ERC721",
+      "name": "BasedHeads",
+      "symbol": "BASED"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc143bbfcdbdbed6d454803804752a064a622c1f3",
+      "nftType": "ERC721",
+      "name": "Async Blueprints",
+      "symbol": "ASYNC-BLUEPRINT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6199a4a9a290b0b77ff2e113abe9d1ad4ab5ac63",
+      "nftType": "ERC721",
+      "name": "Impostors Materials Box",
+      "symbol": "MATSBOX"
+    },
+    {
+      "chainId": 1,
+      "address": "0x575ec01a9e70bf3e192a774eb265c46ec993e4cc",
+      "nftType": "ERC721",
+      "name": "FLUF World: EGGs",
+      "symbol": "EGGs"
+    },
+    {
+      "chainId": 1,
+      "address": "0xeb3a9a839dfeeaf71db1b4ed6a8ae0ccb171b227",
+      "nftType": "ERC721",
+      "name": "\"MOAR\" by Joan Cornella",
+      "symbol": "MOAR"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9b7a60e76f59037d152adbbafa8c6db591b274ac",
+      "nftType": "ERC721",
+      "name": "Legendary Smurfs",
+      "symbol": "TSS: LGD"
+    },
+    {
+      "chainId": 56,
+      "address": "0x080c4ccb8b2c2c113eadd9df75f04112fe0b6701",
+      "nftType": "ERC721",
+      "name": "NinjaPets (NinjaFT)",
+      "symbol": "featured"
+    },
+    {
+      "chainId": 1,
+      "address": "0xedf6d3c3664606fe9ee3a9796d5cc75e3b16e682",
+      "nftType": "ERC721",
+      "name": "Fat Cats Genesis",
+      "symbol": "FCD"
+    },
+    {
+      "chainId": 56,
+      "address": "0x84135ef38e33f5cc9c61fcb5469f173bb1261c5f",
+      "nftType": "ERC721",
+      "name": "RatBoy NFTs",
+      "symbol": "RATS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc8adfb4d437357d0a656d4e62fd9a6d22e401aa0",
+      "nftType": "ERC721",
+      "name": "CryptoBatz by Ozzy Osbourne",
+      "symbol": "BATZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc9677cd8e9652f1b1aadd3429769b0ef8d7a0425",
+      "nftType": "ERC721",
+      "name": "Elemental",
+      "symbol": "EMT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x282a7d13152b3f51a3e31d46a2ca563f8554d85d",
+      "nftType": "ERC721",
+      "name": "Toxic Skulls Club",
+      "symbol": "TSC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x80dbbdcb4280030fb22e2a9d671a368211d49d6e",
+      "nftType": "ERC721",
+      "name": "Undead Blocks Genesis Weapons",
+      "symbol": "LOADOUT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x26badf693f2b103b021c670c852262b379bbbe8a",
+      "nftType": "ERC721",
+      "name": "IlluminatiNFT by Truth Labs",
+      "symbol": "Truth"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcb0477d1af5b8b05795d89d59f4667b59eae9244",
+      "nftType": "ERC721",
+      "name": "Honey Comb",
+      "symbol": "HONEYCOMB"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf7d134224a66c6a4ddeb7dee714a280b99044805",
+      "nftType": "ERC721",
+      "name": "end of sartoshi",
+      "symbol": "END"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8d609Bd201bEaea7DccbfbD9c22851e23Da68691",
+      "nftType": "ERC721",
+      "name": "DourDarcels",
+      "symbol": "darcel"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf4eac65bbc94e3be2e3674992c31781032a6d793",
+      "nftType": "ERC721",
+      "name": "The Uncanny Country Club",
+      "symbol": "RAMPP"
+    },
+    {
+      "chainId": 137,
+      "address": "0xc93c53de60d1a28df01e41f5bc04619039d2ef4f",
+      "nftType": "ERC721",
+      "name": "League of Kingdoms Skin",
+      "symbol": "LOKS"
+    },
+    {
+      "chainId": 43314,
+      "address": "0xc8ef279070aa1703a4bbe1feaefa0e81a6dbf4b4",
+      "nftType": "ERC721",
+      "name": "Potions",
+      "symbol": "Potions"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd6d80461b1875a8679fe789db689156f42b7f86b",
+      "nftType": "ERC721",
+      "name": "Creepz Mega Shapeshifterz",
+      "symbol": "MEGA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1981CC36b59cffdd24B01CC5d698daa75e367e04",
+      "nftType": "ERC721",
+      "name": "Crypto.Chicks",
+      "symbol": "cch"
+    },
+    {
+      "chainId": 8127,
+      "address": "0x46dbdc7965cf3cd2257c054feab941a05ff46488",
+      "nftType": "ERC721",
+      "name": "MTDZ",
+      "symbol": "MTDZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0xBDa2481db91fc0F942eD3F53De378Ba45ba9d17E",
+      "nftType": "ERC721",
+      "name": "Wolf Game - Farmer",
+      "symbol": "FARMER"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc3f8a0f5841abff777d3eefa5047e8d413a1c9ab",
+      "nftType": "ERC721",
+      "name": "merge",
+      "symbol": "m"
+    },
+    {
+      "chainId": 137,
+      "address": "0xef453154766505feb9dbf0a58e6990fd6eb66969",
+      "nftType": "ERC721",
+      "name": "Mr. Crypto by Racksmafia",
+      "symbol": "MRC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5079fc4e96338be1b5aff236ff4b00ec4452b2d3",
+      "nftType": "ERC721",
+      "name": "OCM Dessert",
+      "symbol": "OCM-DESSERT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3df5c619a4926156f966a64e08f863385c21da0e",
+      "nftType": "ERC721",
+      "name": "HELIX Founder Pass Official",
+      "symbol": "HELIX"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb99e4e9b8fd99c2c90ad5382dbc6adfdfe3a33f3",
+      "nftType": "ERC721",
+      "name": "Enter the Hashverse",
+      "symbol": "hashverse"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1554f51f18f8e3fbe83e4442420e40efc57ff446",
+      "nftType": "ERC721",
+      "name": "Pop Art Cats by Matt Chessco",
+      "symbol": "CATS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3cf69c6e77b1cf77f6bd41f4497ada96646f66a1",
+      "nftType": "ERC721",
+      "name": "Todd James Art Party Official",
+      "symbol": "ARTPARTY"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc9Cb0FEe73f060Db66D2693D92d75c825B1afdbF",
+      "nftType": "ERC721",
+      "name": "First First NFTs",
+      "symbol": "FIRST"
+    },
+    {
+      "chainId": 1,
+      "address": "0x313DFa45D14c8C765DB55DE38Ff9734b62bF90d9",
+      "nftType": "ERC721",
+      "name": "Big Bear Syndicate",
+      "symbol": "bbs"
+    },
+    {
+      "chainId": 137,
+      "address": "0x187778e70489bbd9c81de1f87fd6a9d2088cf1eb",
+      "nftType": "ERC721",
+      "name": "Donsy",
+      "symbol": "DONSY"
+    },
+    {
+      "chainId": 1,
+      "address": "0x338866f8ba75bb9d7a00502e11b099a2636c2c18",
+      "nftType": "ERC721",
+      "name": "Women and Weapons",
+      "symbol": "WAW"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4b10701bfd7bfedc47d50562b76b436fbb5bdb3b",
+      "nftType": "ERC721",
+      "name": "Lil Nouns",
+      "symbol": "LILNOUN"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd9f092bdf2b6eaf303fc09cc952e94253ae32fae",
+      "nftType": "ERC721",
+      "name": "BabyDoge",
+      "symbol": "BabyDoge"
+    },
+    {
+      "chainId": 1,
+      "address": "0x427cfa4947cccc6db3040ab32908a7ea6d31f370",
+      "nftType": "ERC721",
+      "name": "Oldeus",
+      "symbol": "OLDEUS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5b5cf41d9EC08D101ffEEeeBdA411677582c9448",
+      "nftType": "ERC721",
+      "name": "XANA: GENESIS",
+      "symbol": "XGS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7feb477600a03fd6ab1fe451cb3c7836a420f4ad",
+      "nftType": "ERC721",
+      "name": "White Sands Parcel Pass",
+      "symbol": "WSPP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x88f753c48008b938dd7f78751d3106d04ee432e3",
+      "nftType": "ERC721",
+      "name": "Alpha Gardeners Pass",
+      "symbol": "AGP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7bfd9a55f4c00783b5a8ea18f7735e1a405dd520",
+      "nftType": "ERC721",
+      "name": "Skyborne - NexianGems",
+      "symbol": "$SGNG"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfa969c60a78195c631787d4585ba15a07578c979",
+      "nftType": "ERC721",
+      "name": "Angry Apes Society",
+      "symbol": "AAS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7fda36c8daEDcc55B73E964c2831D6161eF60a75",
+      "nftType": "ERC721",
+      "name": "Yaypegs",
+      "symbol": "YAY"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8442dd3e5529063b43c69212d64d5ad67b726ea6",
+      "nftType": "ERC721",
+      "name": "Goons of Balatroon",
+      "symbol": "GOONS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x47a00fc8590c11be4c419d9ae50dec267b6e24ee",
+      "nftType": "ERC721",
+      "name": "Alien Frens Evolution",
+      "symbol": "AFE"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe77ad290adab2989a81ae62ab2467c01b45feeff",
+      "nftType": "ERC721",
+      "name": "Proceed w/ Caution",
+      "symbol": "PWC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3db5463a9e2d04334192c6f2dd4b72def4751a61",
+      "nftType": "ERC721",
+      "name": "ALPACADABRAZ",
+      "symbol": "PACA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4344cb95bcb0d9e7296d0de2ff329bfc8d0a84fe",
+      "nftType": "ERC721",
+      "name": "The Real Vision Collective",
+      "symbol": "RVC"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfd384bd3b79ed98f0f00ecba8a22230406a700d5",
+      "nftType": "ERC721",
+      "name": "SBS Genesis Card",
+      "symbol": "SBS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xecdd2f733bd20e56865750ebce33f17da0bee461",
+      "nftType": "ERC721",
+      "name": "The CryptoDads",
+      "symbol": "DAD"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb334A4eb0A2d6cc24fd451E779c002B9b33228C3",
+      "nftType": "ERC721",
+      "name": "Supercute World",
+      "symbol": "supercute"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9df8aa7c681f33e442a0d57b838555da863504f3",
+      "nftType": "ERC721",
+      "name": "Llamaverse Genesis",
+      "symbol": "PXLLMA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x09b0ef6e8ef63db4be5df9e20b5f4fd3e3b92dac",
+      "nftType": "ERC721",
+      "name": "PORSCHE PIONEERS CO-PILOT",
+      "symbol": "CO-PILOT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x91047abf3cab8da5a9515c8750ab33b4f1560a7a",
+      "nftType": "ERC721",
+      "name": "ChainFaces",
+      "symbol": "CHAINFACES"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbf662a0e4069b58dfb9bcebebae99a6f13e06f5a",
+      "nftType": "ERC721",
+      "name": "Toy Boogers",
+      "symbol": "TOY"
+    },
+    {
+      "chainId": 1,
+      "address": "0x79986af15539de2db9a5086382daeda917a9cf0c",
+      "nftType": "ERC721",
+      "name": "Voxels (formerly Cryptovoxels)",
+      "symbol": "CVPA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3bcAcB18f4d60C8CBa68cD95860daF3e32BEBCB6",
+      "nftType": "ERC721",
+      "name": "Lost Miners of the Ether",
+      "symbol": "MERGE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x59ad67e9c6a84e602bc73b3a606f731cc6df210d",
+      "nftType": "ERC721",
+      "name": "Holoself",
+      "symbol": "Holo"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdb55584e5104505a6b38776ee4dcba7dd6bb25fe",
+      "nftType": "ERC721",
+      "name": "VOID - Visitors of Imma Degen",
+      "symbol": "VOID"
+    },
+    {
+      "chainId": 1,
+      "address": "0x18df6c571f6fe9283b87f910e41dc5c8b77b7da5",
+      "nftType": "ERC721",
+      "name": "Animetas",
+      "symbol": "ANMT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3a8778a58993ba4b941f85684d74750043a4bb5f",
+      "nftType": "ERC721",
+      "name": "BullsOnTheBlock",
+      "symbol": "BOTB"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc7df86762ba83f2a6197e1ff9bb40ae0f696b9e6",
+      "nftType": "ERC721",
+      "name": "The Doggies (Snoop Dogg)",
+      "symbol": "TD"
+    },
+    {
+      "chainId": 1,
+      "address": "0x26727ed4f5ba61d3772d1575bca011ae3aef5d36",
+      "nftType": "ERC721",
+      "name": "Sapienz",
+      "symbol": "SAPIENZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0x920a8d9e9f0defd6f86e4388a5503b04cac83b57",
+      "nftType": "ERC721",
+      "name": "Deadfrenz Collection",
+      "symbol": "DEADFRENZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb1469271ff094d7fb2710b0a69a80a01ec5dbf24",
+      "nftType": "ERC721",
+      "name": "Deez Nuts (Official Nuts)",
+      "symbol": "NTS"
+    },
+    {
+      "chainId": 8127,
+      "address": "0x8f5aa6b6dcd2d952a22920e8fe3f798471d05901",
+      "nftType": "ERC721",
+      "name": "Sunmiya Club Official",
+      "symbol": "MIYA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1e988ba4692e52bc50b375bcc8585b95c48aad77",
+      "nftType": "ERC721",
+      "name": "Bufficorn Buidl Brigade",
+      "symbol": "BBB"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5f076e995290f3f9aea85fdd06d8fae118f2b75c",
+      "nftType": "ERC721",
+      "name": "Utopia",
+      "symbol": "UTOPIA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3a2096754df385553c4252e5a82dc862e64169bb",
+      "nftType": "ERC721",
+      "name": "The Possessed",
+      "symbol": "THE-POSSESSED"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb4d06d46a8285f4ec79fd294f78a881799d8ced9",
+      "nftType": "ERC721",
+      "name": "3Landers",
+      "symbol": "3L"
+    },
+    {
+      "chainId": 1,
+      "address": "0x475bfaa1848591ae0e6ab69600f48d828f61a80e",
+      "nftType": "ERC721",
+      "name": "Everdome Genesis Collection",
+      "symbol": "DOME_GENESIS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x11ca9693156929ee2e7e1470c5e1a55b413e9007",
+      "nftType": "ERC721",
+      "name": "Psychedelics Anonymous Psilocybin",
+      "symbol": "Psilocybin"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x4de95c1E202102E22E801590C51D7B979f167FBB",
+      "nftType": "ERC721",
+      "name": "Realm",
+      "symbol": "REALM"
+    },
+    {
+      "chainId": 1,
+      "address": "0xda9f43015749056182352e9dc6d3ee0b6293d80a",
+      "nftType": "ERC721",
+      "name": "EtherLambos",
+      "symbol": "EL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3113a3c04aebec2b77eb38eabf6a2257b580c54b",
+      "nftType": "ERC721",
+      "name": "Cheers UP Official",
+      "symbol": "CUP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1347a97789cd3aa0b11433e8117f55ab640a0451",
+      "nftType": "ERC721",
+      "name": "The Long Lost",
+      "symbol": "LOST"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xb5E89dc549B070CdD51fc18F1072aE9eC6e7A7C2",
+      "nftType": "ERC721",
+      "name": "6th Anniversary NFT",
+      "symbol": "imToken"
+    },
+    {
+      "chainId": 56,
+      "address": "0x66c36f3bbf68d9bd4da9ad116e56932552a70187",
+      "nftType": "ERC721",
+      "name": "CakeMonsterLottery",
+      "symbol": "CML"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0322f6f11a94cfb1b5b6e95e059d8deb2bf17d6a",
+      "nftType": "ERC721",
+      "name": "Cryptoon Goonz",
+      "symbol": "CG"
+    },
+    {
+      "chainId": 1,
+      "address": "0x75789db97d94749473cb57a0925b35ffc14437ff",
+      "nftType": "ERC721",
+      "name": "Outside Yacht Club",
+      "symbol": "OSYC"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe12edaab53023c75473a5a011bdb729ee73545e8",
+      "nftType": "ERC721",
+      "name": "CHIBI DINOS",
+      "symbol": "CHIBIDINOS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9f83b08d90eeda539f7e2797fed3f6996917bba8",
+      "nftType": "ERC721",
+      "name": "KINGSHIP",
+      "symbol": "KS"
+    },
+    {
+      "chainId": 56,
+      "address": "0xc2a19349d5f451071c3085b90f531d19f190ff21",
+      "nftType": "ERC721",
+      "name": "Playbux Early Bird Quest",
+      "symbol": "PBN"
+    },
+    {
+      "chainId": 8127,
+      "address": "0xef45d7272211f7d9c9b3b509d550e8856cd9e050",
+      "nftType": "ERC721",
+      "name": "Puuvillafriends",
+      "symbol": "Puuvillafriends"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1a2f71468f656e97c2f86541e57189f59951efe7",
+      "nftType": "ERC721",
+      "name": "CryptoMories",
+      "symbol": "CRYPTOMORIES"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7DEDa0aFE6DF3da6a85a87b371F8b464c30C6803",
+      "nftType": "ERC721",
+      "name": "Rebels",
+      "symbol": "RBL"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfa7e3f898c80e31a3aedeae8b0c713a3f9666264",
+      "nftType": "ERC721",
+      "name": "Akuma Origins",
+      "symbol": "Akuma"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc71a0306a0a628c616dac42097bdc21ecdbc5d9d",
+      "nftType": "ERC721",
+      "name": "Tennis Champs Genesis",
+      "symbol": "CHAMPS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x51f0c1938b0e67cafc7a6fc8eb6edd7fdbe002bc",
+      "nftType": "ERC721",
+      "name": "Fragments By James Jean",
+      "symbol": "FRGMT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+      "nftType": "ERC721",
+      "name": "Phanta Bear",
+      "symbol": "phb"
+    },
+    {
+      "chainId": 1,
+      "address": "0x850d754A640F640b8d9844518F584eE131a57C9D",
+      "nftType": "ERC721",
+      "name": "Landscape with Carbon Capture by zancan",
+      "symbol": "CARBON-CAPTURE-ZANCAN"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0f78c6eee3c89ff37fd9ef96bd685830993636f2",
+      "nftType": "ERC721",
+      "name": "Nuclear Nerds of the Accidental Apocalypse",
+      "symbol": "Nuclear Nerds"
+    },
+    {
+      "chainId": 1,
+      "address": "0x684E4ED51D350b4d76A3a07864dF572D24e6dC4c",
+      "nftType": "ERC721",
+      "name": "Isekai Meta",
+      "symbol": "ISEKAI"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9251dEC8DF720C2ADF3B6f46d968107cbBADf4d4",
+      "nftType": "ERC721",
+      "name": "1337 skulls",
+      "symbol": "1337skulls"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe17827609ac34443b3987661f4e037642f6bd9ba",
+      "nftType": "ERC721",
+      "name": "Shellz Orb",
+      "symbol": "SHELLZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfc8a98c22a9e32948ab028414d67c62c49b16864",
+      "nftType": "ERC721",
+      "name": "Shrapnel Operators Collection",
+      "symbol": "SOC"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbcbeae3620b3280df67143ad7ec45d67c5a4355e",
+      "nftType": "ERC721",
+      "name": "Netvrk Bonuses",
+      "symbol": "NVKBP"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf192502dc0a01728955a82a5b84631bf719c8ee2",
+      "nftType": "ERC721",
+      "name": "reepz",
+      "symbol": "reepz"
+    },
+    {
+      "chainId": 56,
+      "address": "0x1d4994885808e72d3dc83f5794eae1d9db34892e",
+      "nftType": "ERC721",
+      "name": "Proud Kitty Gang",
+      "symbol": "PKG"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0000000005756b5a03e751bd0280e3a55bc05b6e",
+      "nftType": "ERC721",
+      "name": "Villagers of XOLO",
+      "symbol": "XOLO"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8eaa9ae1ac89b1c8c8a8104d08c045f78aadb42d",
+      "nftType": "ERC721",
+      "name": "Tableland Rigs",
+      "symbol": "RIG"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6069a6c32cf691f5982febae4faf8a6f3ab2f0f6",
+      "nftType": "ERC721",
+      "name": "BullsOnTheBlock Evo",
+      "symbol": "EVOBOTB"
+    },
+    {
+      "chainId": 1,
+      "address": "0x78f190efe7b9198b76207f14d90ba96fb782680e",
+      "nftType": "ERC721",
+      "name": "Forever Fomo Duck Squad",
+      "symbol": "FFDS"
+    },
+    {
+      "chainId": 8127,
+      "address": "0xbaf8864ee1b5f2be3dcd637203aed524b86db4e4",
+      "nftType": "ERC721",
+      "name": "ArcheWorld_FandomCard",
+      "symbol": "ArcheWorld_FandomCard"
+    },
+    {
+      "chainId": 1,
+      "address": "0x29652c2e9d3656434bc8133c69258c8d05290f41",
+      "nftType": "ERC721",
+      "name": "Froggy Friends Official",
+      "symbol": "FROGGY"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc2ac394984f3850027dac95fe8a62e446c5fb786",
+      "nftType": "ERC721",
+      "name": "McLaren MSO LAB Genesis",
+      "symbol": "MCLG"
+    },
+    {
+      "chainId": 1,
+      "address": "0x06b3fcc9e79d724a08012f0b9f71bd03b415d334",
+      "nftType": "ERC721",
+      "name": "Never Fear Truth  by Johnny Depp",
+      "symbol": "JDNFT"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfbfea4a683d37bf68301f6a9acf7e647bfa8e1a7",
+      "nftType": "ERC721",
+      "name": "SUPERPLASTIC:  Headtripz",
+      "symbol": "SPTPZ"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf9c362cdd6eeba080dd87845e88512aa0a18c615",
+      "nftType": "ERC721",
+      "name": "Meta Legends",
+      "symbol": "ML"
+    },
+    {
+      "chainId": 1,
+      "address": "0x099689220846644f87d1137665cded7bf3422747",
+      "nftType": "ERC721",
+      "name": "Robotos",
+      "symbol": "ROBO"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9940bb667f64fca06fc4127861855696def7c69d",
+      "nftType": "ERC721",
+      "name": "Elysium Code",
+      "symbol": "ELYSIUM-CODE"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd79e4cc964e5a2c1e400fe5a8488c71d9fd9847e",
+      "nftType": "ERC721",
+      "name": "DenDekaDen Spirit Key Avatars",
+      "symbol": "$KEY"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0ffa87cd27ae121b10b3f044dda4d28f9fb8f079",
+      "nftType": "ERC721",
+      "name": "Sidus NFT Heroes",
+      "symbol": "Sidus"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5a57ed460bd0368bfcf48dd3dd246a56b4bbb891",
+      "nftType": "ERC721",
+      "name": "Krap Chickens",
+      "symbol": "KRAPCHICKENS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd0f0d5e036d1f4c6524e0b58cb52f85b03a76e09",
+      "nftType": "ERC721",
+      "name": "Moonie Moo Genesis",
+      "symbol": "MMGEN"
+    },
+    {
+      "chainId": 8127,
+      "address": "0xd643bb39f81ff9079436f726d2ed27abc547cb38",
+      "nftType": "ERC721",
+      "name": "Puuvilla Society",
+      "symbol": "Puuvilla"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4287bd7cc2b4aa8650e2887055a4674759c216e2",
+      "nftType": "ERC721",
+      "name": "Trait Sniper Lifetime Access",
+      "symbol": "TraitSniper"
+    },
+    {
+      "chainId": 1,
+      "address": "0x68930072647a0d79e601d5eE3914833aE9148247",
+      "nftType": "ERC721",
+      "name": "Wavelength by Kaleb Johnston",
+      "symbol": "WL"
+    },
+    {
+      "chainId": 8127,
+      "address": "0x56d23f924cd526e5590ed94193a892e913e38079",
+      "nftType": "ERC721",
+      "name": "ArcheWorld_Land",
+      "symbol": "ArcheWorld_Land"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe3f92992bb4f0f0d173623a52b2922d65172601d",
+      "nftType": "ERC721",
+      "name": "Knights of Degen",
+      "symbol": "KNIGHTS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x41f20599e9e049004c4d169046eb7023117a6244",
+      "nftType": "ERC721",
+      "name": "Gutter Clones",
+      "symbol": "CLONE"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd4307e0acd12cf46fd6cf93bc264f5d5d1598792",
+      "nftType": "ERC721",
+      "name": "Base, Introduced",
+      "symbol": "BASEINTRODUCED"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa406489360a47af2c74fc1004316a64e469646a5",
+      "nftType": "ERC721",
+      "name": "The Official Surreals",
+      "symbol": "SRLS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x78a5e2b8c280fa5580fbe1e1ed546183f959d305",
+      "nftType": "ERC721",
+      "name": "AlphaSharks NFT",
+      "symbol": "ALPHASHARKS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x83b070e842adba2397113c4bca70c00d7df00729",
+      "nftType": "ERC721",
+      "name": "Blvck Genesis",
+      "symbol": "Blvck"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8d4100897447d173289560bc85c5c432be4f44e4",
+      "nftType": "ERC721",
+      "name": "Gray Boys",
+      "symbol": "GRAY"
+    },
+    {
+      "chainId": 1,
+      "address": "0x31385d3520bced94f77aae104b406994d8f2168c",
+      "nftType": "ERC721",
+      "name": "BASTARD GAN PUNKS V2",
+      "symbol": "BGANPUNKV2"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+      "nftType": "ERC721",
+      "name": "Wolf Game - Wool Pouch",
+      "symbol": "WPOUCH"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7d2d93eed47e55c873b9580b4e6ebd5bc045d1b6",
+      "nftType": "ERC721",
+      "name": "Maschine",
+      "symbol": "\u2707"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc784e2d033b3cf2e5cb283f4aa4f9b903436b0af",
+      "nftType": "ERC721",
+      "name": "BLOCKS",
+      "symbol": "BB"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaabc3aef1ce0d23eeaabfc7c6cd9043fcebf7400",
+      "nftType": "ERC721",
+      "name": "DigiDaigaku Dragon Eggs",
+      "symbol": "DIDDE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8584e7a1817c795f74ce985a1d13b962758fe3ca",
+      "nftType": "ERC721",
+      "name": "Blazed Cats",
+      "symbol": "BLAZED"
+    },
+    {
+      "chainId": 1,
+      "address": "0x329fa32f6520fb67bb3c1fc3a6909beb8239544c",
+      "nftType": "ERC721",
+      "name": "Citizens of Bulliever Island",
+      "symbol": "COBI"
+    },
+    {
+      "chainId": 56,
+      "address": "0x8c6be54dcca5eed3390b37c9d8ef9eb0358ac3a8",
+      "nftType": "ERC721",
+      "name": "Zecrey Chameleon Avatar",
+      "symbol": "ZCA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3aaf2b2ce32ead828b18be1e5df0a3d903e6d2be",
+      "nftType": "ERC721",
+      "name": "fl00rs",
+      "symbol": "FL0"
+    },
+    {
+      "chainId": 1,
+      "address": "0x33c6Eec1723B12c46732f7AB41398DE45641Fa42",
+      "nftType": "ERC721",
+      "name": "[ Ledger ] Market Pass - Genesis Edition",
+      "symbol": "LMP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x65c234d041f9ef96e2f126263727dfa582206d82",
+      "nftType": "ERC721",
+      "name": "Playboy Rabbitars Official",
+      "symbol": "PLAY"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4bb08998a697d0db666783ba5b56e85b33ba262f",
+      "nftType": "ERC721",
+      "name": "Frenly Pandas",
+      "symbol": "FANDAS"
+    },
+    {
+      "chainId": 137,
+      "address": "0x24f9b0837424c62d2247d8a11a6d6139e4ab5ed2",
+      "nftType": "ERC721",
+      "name": "ApeironPlanet",
+      "symbol": "APEP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0c9663115b36fa95d18e71d59054117bcb0342ef",
+      "nftType": "ERC721",
+      "name": "XTREME PIXELS",
+      "symbol": "XPIX"
+    },
+    {
+      "chainId": 56,
+      "address": "0x3c9b1d34bb3a4bab857dd70867243cf74eae66c7",
+      "nftType": "ERC721",
+      "name": "Inception Game",
+      "symbol": "DS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc7d84b7d4a04abcb9ade97b8af212423f51d2aea",
+      "nftType": "ERC721",
+      "name": "GEMMA",
+      "symbol": "GEMMA"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbf476fad7e4ae2d679e9e739d3704a890f53c2a2",
+      "nftType": "ERC721",
+      "name": "NOWPASSV2",
+      "symbol": "NOW"
+    },
+    {
+      "chainId": 1,
+      "address": "0x925f7eb0fe634702049a1344119d4046965b5c8c",
+      "nftType": "ERC721",
+      "name": "notBanksyEchoes",
+      "symbol": "NB"
+    },
+    {
+      "chainId": 1,
+      "address": "0x130cfab3817467f532c179d4e6502f5a7e7d44c7",
+      "nftType": "ERC721",
+      "name": "Kith Friends",
+      "symbol": "KITHFRIENDS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcbc8a5472bba032125c1a7d11427aa3b5035207b",
+      "nftType": "ERC721",
+      "name": "Blocks",
+      "symbol": "BBH"
+    },
+    {
+      "chainId": 1,
+      "address": "0x49c36AFa15C7Fdbd57cE3D61D80F39b6615A76Ef",
+      "nftType": "ERC721",
+      "name": "3D Invisible Friends",
+      "symbol": "invsble3d"
+    },
+    {
+      "chainId": 56,
+      "address": "0xef61b8734fcda4dbedd25b76b0fe45eea2298de6",
+      "nftType": "ERC721",
+      "name": "UP NFT Collection",
+      "symbol": "UP NFT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a",
+      "nftType": "ERC721",
+      "name": "We Are All Going to Die",
+      "symbol": "WAGDIE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4f8730e0b32b04beaa5757e5aea3aef970e5b613",
+      "nftType": "ERC721",
+      "name": "Bloot",
+      "symbol": "BLOOT"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe70da20a2b10d60ca620a4e494fe2b37c9499e97",
+      "nftType": "ERC721",
+      "name": "GenesisApostle",
+      "symbol": "genesisapostle"
+    },
+    {
+      "chainId": 1,
+      "address": "0xF8C72628bd822E54e1fb2Bf0C3484C10d1963E28",
+      "nftType": "ERC721",
+      "name": "MNTGE Pass",
+      "symbol": "mntge"
+    },
+    {
+      "chainId": 1,
+      "address": "0x83f82414b5065bb9a85e330c67b4a10f798f4ed2",
+      "nftType": "ERC721",
+      "name": "Kaiju Mutants NFT",
+      "symbol": "MUTANT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x338be3d8d0209815601e72f7a04ac7f37d61564b",
+      "nftType": "ERC721",
+      "name": "VOX Collectibles: The Walking Dead",
+      "symbol": "VOX"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3e7FC44E25c07Be3d67C241E6E59cb838DF2F892",
+      "nftType": "ERC721",
+      "name": "Rags to  Richie by Alec Monopoly",
+      "symbol": "RR"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5180db8f5c931aae63c74266b211f580155ecac8",
+      "nftType": "ERC721",
+      "name": "Crypto Coven",
+      "symbol": "WITCH"
+    },
+    {
+      "chainId": 1,
+      "address": "0xfd1076d80fff9dc702ae9fdfea0073467b9b3fb7",
+      "nftType": "ERC721",
+      "name": "Spooky Boys Country Club | by HolyGhost",
+      "symbol": "sbcc"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2079812353e2c9409a788fbf5f383fa62ad85be8",
+      "nftType": "ERC721",
+      "name": "Bobu, the Bean Farmer",
+      "symbol": "bobu-the-bean-farmer"
+    },
+    {
+      "chainId": 56,
+      "address": "0xadc466855ebe8d1402c5f7e6706fccc3aedb44a0",
+      "nftType": "ERC721",
+      "name": "Galxe OAT (BNB)",
+      "symbol": "OAT"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc5b52253f5225835cc81c52cdb3d6a22bc3b0c93",
+      "nftType": "ERC721",
+      "name": "mcgoblin.wtf",
+      "symbol": "MCGOBLIN"
+    },
+    {
+      "chainId": 1,
+      "address": "0x950b9476a4de757BB134483029AC4Ec17E739e3A",
+      "nftType": "ERC721",
+      "name": "Gutter Pigeons",
+      "symbol": "GBIRD"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcd0c2a8801ebff4b9b62a19255523f256e70b88a",
+      "nftType": "ERC721",
+      "name": "DEGEN FOREST",
+      "symbol": "DEGENAPE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6d4bbC0387dD4759EEe30f6A482AC6dC2Df3Facf",
+      "nftType": "ERC721",
+      "name": "RTFKT X NIKE MONOLITH",
+      "symbol": "RTFKTMONOLITH"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9c57d0278199c931cf149cc769f37bb7847091e7",
+      "nftType": "ERC721",
+      "name": "Sipherian Inu",
+      "symbol": "INU"
+    },
+    {
+      "chainId": 1,
+      "address": "0x94638cbf3c54c1f956a5f05cbc0f9afb6822020d",
+      "nftType": "ERC721",
+      "name": "inbetweeners",
+      "symbol": "ibns"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa5c0bd78d1667c13bfb403e2a3336871396713c5",
+      "nftType": "ERC721",
+      "name": "Coolman's Universe",
+      "symbol": "COOLMAN"
+    },
+    {
+      "chainId": 56,
+      "address": "0x85f0e02cb992aa1f9f47112f815f519ef1a59e2d",
+      "nftType": "ERC721",
+      "name": "Polychain Monsters | BNB Chain",
+      "symbol": "PMONC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x543D43F390b7d681513045e8a85707438c463d80",
+      "nftType": "ERC721",
+      "name": "Webaverse Genesis Pass",
+      "symbol": "weba"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf54cc94f1f2f5de012b6aa51f1e7ebdc43ef5afc",
+      "nftType": "ERC721",
+      "name": "Project NANOPASS",
+      "symbol": "NP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9c80777cae192e5031c38a0d951c55730ecc3f5e",
+      "nftType": "ERC721",
+      "name": "ZombieClub Token",
+      "symbol": "ZCT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x219b8ab790decc32444a6600971c7c3718252539",
+      "nftType": "ERC721",
+      "name": "Sneaky Vampire Syndicate",
+      "symbol": "SVS"
+    },
+    {
+      "chainId": 137,
+      "address": "0x8634666ba15ada4bbc83b9dbf285f73d9e46e4c2",
+      "nftType": "ERC721",
+      "name": "Chicken Derby",
+      "symbol": "CHICKS"
+    },
+    {
+      "chainId": 137,
+      "address": "0xa2a13ce1824f3916fc84c65e559391fc6674e6e8",
+      "nftType": "ERC721",
+      "name": "Unicorn Farm",
+      "symbol": "UNIF"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
+      "nftType": "ERC721",
+      "name": "Prime Ape Planet PAP",
+      "symbol": "PAP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9eeeaf684e228c2d5c89435e010acc02c41dc86b",
+      "nftType": "ERC721",
+      "name": "Bricktopians by Law Degree",
+      "symbol": "BTP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8338d085aae3ac048b9e1de285fdef508ce73e45",
+      "nftType": "ERC721",
+      "name": "Loveless City Metropass",
+      "symbol": "$LOVE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x02beed1404c69e62b76af6dbdae41bd98bca2eab",
+      "nftType": "ERC721",
+      "name": "posers",
+      "symbol": "pos"
+    },
+    {
+      "chainId": 56,
+      "address": "0x50bd5cf91f81c54f24414b8d5f3f509d805613ca",
+      "nftType": "ERC721",
+      "name": "Ultiverse - Moonlight",
+      "symbol": "MNL"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa0e1b198bcc877a950a29512ab5c0ce1bb964c97",
+      "nftType": "ERC721",
+      "name": "Spottie WiFi",
+      "symbol": "SPOTTIE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4f5faf713f1a37d4d1fbb73206285d27eca55816",
+      "nftType": "ERC721",
+      "name": "BOOOST TZRKT",
+      "symbol": "TZRKT"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe574ddd69079a87222f282aa40f2d3b05303e93b",
+      "nftType": "ERC721",
+      "name": "Frogland Computational Toadex",
+      "symbol": "LSD-420"
+    },
+    {
+      "chainId": 1,
+      "address": "0x23051fe0eb93fabe7b314fd56a95f395058c83b9",
+      "nftType": "ERC721",
+      "name": "Flokitars",
+      "symbol": "FLOKITARS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x709d30f1f60f03d85a0ef33142ef3259392dc9e1",
+      "nftType": "ERC721",
+      "name": "Loser Club Official",
+      "symbol": "LOSERCLUB"
+    },
+    {
+      "chainId": 137,
+      "address": "0x5d666f215a85b87cb042d59662a7ecd2c8cc44e6",
+      "nftType": "ERC721",
+      "name": "Galaxy OAT",
+      "symbol": "OAT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7bc1e07cdfa283db7cf3c680d16ca7f161a64046",
+      "nftType": "ERC721",
+      "name": "TPL Revealed Mech Parts",
+      "symbol": "TPLRMP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x569f26145f0c2fcc3da68395be3639009c53b6d8",
+      "nftType": "ERC721",
+      "name": "A.N.I.M.O",
+      "symbol": "ANIMO"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0f77625B76e3831914d47a5034323290f9Ce8A9E",
+      "nftType": "ERC721",
+      "name": "[ Ledger ] Market \u2013 Black-on-Black Nano X",
+      "symbol": "LEDGER-MARKET-BLACK-ON-BLACK-NANO-X"
+    },
+    {
+      "chainId": 1,
+      "address": "0x85f740958906b317de6ed79663012859067E745B",
+      "nftType": "ERC721",
+      "name": "The Wicked Craniums",
+      "symbol": "TWC"
+    },
+    {
+      "chainId": 1,
+      "address": "0xABB3738f04Dc2Ec20f4AE4462c3d069d02AE045B",
+      "nftType": "ERC721",
+      "name": "KnownOrigin",
+      "symbol": "KODA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1e725bcc09ad221d35af5adeda404fb2147b43fa",
+      "nftType": "ERC721",
+      "name": "Koripo by Rich Poole",
+      "symbol": "KORIPO"
+    },
+    {
+      "chainId": 1,
+      "address": "0xFE290336a7FB1d5FDcCDe1C4FFeb714Ab6892Bc2",
+      "nftType": "ERC721",
+      "name": "Hello Kitty and Friends World (ETH)",
+      "symbol": "HK"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4e76c23fe2a4e37b5e07b5625e17098baab86c18",
+      "nftType": "ERC721",
+      "name": "Pixl Pets - Genesis Collection",
+      "symbol": "PIXLP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x25593a50255bfb30ea027f6966417b0bf780401d",
+      "nftType": "ERC721",
+      "name": "DI Animals",
+      "symbol": "DALS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x103ffe3aee66a048e22821145a00c4cabc0ff05b",
+      "nftType": "ERC721",
+      "name": "Bad Bunnies NFT",
+      "symbol": "BBCl"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6110d61DD1133b0f845f1025d6678Cd22A11a2fe",
+      "nftType": "ERC721",
+      "name": "Prologue by Spice",
+      "symbol": "PRLG"
+    },
+    {
+      "chainId": 137,
+      "address": "0x5e40037d3c0b2afa1495582431f27a83d199a6d8",
+      "nftType": "ERC721",
+      "name": "Infinite Moments",
+      "symbol": "MOMENTS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc8bcbe0e8ae36d8f9238cd320ef6de88784b1734",
+      "nftType": "ERC721",
+      "name": "Winter Bears",
+      "symbol": "WB"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf3e778f839934fc819cfa1040aabacecba01e049",
+      "nftType": "ERC721",
+      "name": "Avastars",
+      "symbol": "AVASTARS"
+    },
+    {
+      "chainId": 56,
+      "address": "0x09ffcbf50741c0184ee683ce4d9eabc37a4949a5",
+      "nftType": "ERC721",
+      "name": "Meta Merge Pet",
+      "symbol": "MPET"
+    },
+    {
+      "chainId": 56,
+      "address": "0xe33cc98d90975ad42e56251b0a1cd8bda9faf003",
+      "nftType": "ERC721",
+      "name": "Alien Horror Apes Official",
+      "symbol": "Alien Horror Apes"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9a38dec0590abc8c883d72e52391090e948ddf12",
+      "nftType": "ERC721",
+      "name": "Everai Heroes: Duo",
+      "symbol": "EveraiDuo"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4664d282072bff886fadcb2a7e20fe737c58fdca",
+      "nftType": "ERC721",
+      "name": "Earpitz",
+      "symbol": "EARPITZ"
+    },
+    {
+      "chainId": 137,
+      "address": "0x6c621364993e5cd4c6468930d287ba76ef64f366",
+      "nftType": "ERC721",
+      "name": "CryptoGoros",
+      "symbol": "CryptoGoros"
+    },
+    {
+      "chainId": 1,
+      "address": "0x253ef258563e146f685e60219da56a6b75178e19",
+      "nftType": "ERC721",
+      "name": "RTFKT x RIMOWA Meta-Artisan Collection \ud83c\udf0c",
+      "symbol": "RTFKT-X-RIMOWA-META-ARTISAN-COLLECTION"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc6ec80029cd2aa4b0021ceb11248c07b25d2de34",
+      "nftType": "ERC721",
+      "name": "the littles nft",
+      "symbol": "thelittlesnft"
+    },
+    {
+      "chainId": 137,
+      "address": "0x3e4627665Bf2E52c69bE03788e664Ab545F2be71",
+      "nftType": "ERC721",
+      "name": "Spooky Season: Rojom x Reddit Collectible Avatars",
+      "symbol": "spooky-season-rojom-x-reddit-collectible-avatars"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
+      "nftType": "ERC721",
+      "name": "Arcade Land",
+      "symbol": "ARCLAND"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2B0BFA93bEb22F44E7c1Be88eFd80396F8D9F1D4",
+      "nftType": "ERC721",
+      "name": "STATE OF THE ART by ThankYouX",
+      "symbol": "sotax"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc5e55e4bd5fef12831b5a666fc9e391538acdc45",
+      "nftType": "ERC721",
+      "name": "DentedFeelsNFT",
+      "symbol": "DEN"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1e52f7a450b08b1b249a4f4f54518fc5278c2285",
+      "nftType": "ERC721",
+      "name": "Twin Tigers Jacket",
+      "symbol": "TIGER"
+    },
+    {
+      "chainId": 1,
+      "address": "0x42f1654b8eeb80c96471451b1106b63d0b1a9fe1",
+      "nftType": "ERC721",
+      "name": "Chubbiverse Frens",
+      "symbol": "CHF"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5bdf397bb2912859dbd8011f320a222f79a28d2e",
+      "nftType": "ERC721",
+      "name": "Corruption(s*)",
+      "symbol": "CORRUPT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x809d8f2b12454fc07408d2479cf6dc701ecd5a9f",
+      "nftType": "ERC721",
+      "name": "BBRC - IVY BOYS",
+      "symbol": "IVYBOYS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x10cdcb5a80e888ec9e9154439e86b911f684da7b",
+      "nftType": "ERC721",
+      "name": "FVCK_AVATAR//",
+      "symbol": "FVCK_AVATAR//"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3f5fb35468e9834a43dca1c160c69eaae78b6360",
+      "nftType": "ERC721",
+      "name": "Koala Intelligence Agency",
+      "symbol": "KIA"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcbc67ea382f8a006d46eeeb7255876beb7d7f14d",
+      "nftType": "ERC721",
+      "name": "WVRPS by WarpSound (Official)",
+      "symbol": "WVRPS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe6ef513f7429d92cb54ebd4c14026aeb90849a78",
+      "nftType": "ERC721",
+      "name": "Impact Theory Founder's Key",
+      "symbol": "ITFK"
+    },
+    {
+      "chainId": 1,
+      "address": "0x598061a4ac7fa240acc3e7025b4b047ada178704",
+      "nftType": "ERC721",
+      "name": "Cloudmachine",
+      "symbol": "CLOUD"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2120d19431e0dd49411e5412629f8e41a72cfabd",
+      "nftType": "ERC721",
+      "name": "Japanese Born Ape Society",
+      "symbol": "JBAS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf75140376d246d8b1e5b8a48e3f00772468b3c0c",
+      "nftType": "ERC721",
+      "name": "uwucrew",
+      "symbol": "UWU"
+    },
+    {
+      "chainId": 1,
+      "address": "0x72a94e6c51cb06453b84c049ce1e1312f7c05e2c",
+      "nftType": "ERC721",
+      "name": "Wiiides",
+      "symbol": "Wiiides"
+    },
+    {
+      "chainId": 1,
+      "address": "0x19cb5b009bdad0dad0404dd860b0bea75465e678",
+      "nftType": "ERC721",
+      "name": "Trippy Toadz NFT",
+      "symbol": "TT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x905b180268f2773022e1a10e204b0858b2e60dcf",
+      "nftType": "ERC721",
+      "name": "Pulsquares by Arihz",
+      "symbol": "PULS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x74EE68a33f6c9f113e22B3B77418B75f85d07D22",
+      "nftType": "ERC721",
+      "name": "Zerion Genesis Collection",
+      "symbol": "ZGC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x249aeaa7fa06a63ea5389b72217476db881294df",
+      "nftType": "ERC721",
+      "name": "Theirsverse Official",
+      "symbol": "THEIRS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x19bb64b80cbf61e61965b0e5c2560cc7364c6546",
+      "nftType": "ERC721",
+      "name": "CREYZIES",
+      "symbol": "CREYZIES"
+    },
+    {
+      "chainId": 1,
+      "address": "0x10daa9f4c0f985430fde4959adb2c791ef2ccf83",
+      "nftType": "ERC721",
+      "name": "The Meta Key",
+      "symbol": "MetaKey"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb184b9414e7d7c436b7097ed2c774bb56fae392f",
+      "nftType": "ERC721",
+      "name": "Society of Degenerate Apes (SODA)",
+      "symbol": "SODA"
+    },
+    {
+      "chainId": 1,
+      "address": "0xca95777971c7c438eecbd8bfc23249fbee99e716",
+      "nftType": "ERC721",
+      "name": "Mutant Shiba Club | MSC",
+      "symbol": "MSC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2931b181ae9dc8f8109ec41c42480933f411ef94",
+      "nftType": "ERC721",
+      "name": "SlimHoods",
+      "symbol": "SLMHDS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7b692917124f64e1658d67c72ab5df5219078e37",
+      "nftType": "ERC721",
+      "name": "Tiny Astro Genesis",
+      "symbol": "TA"
+    },
+    {
+      "chainId": 1,
+      "address": "0x765da497beaf1c7d83476c0e77b6caba672defb9",
+      "nftType": "ERC721",
+      "name": "Darkflex",
+      "symbol": "DARKFLEX"
+    },
+    {
+      "chainId": 56,
+      "address": "0x95dd9252d67f57beb62d1c2becfa571513a3878d",
+      "nftType": "ERC721",
+      "name": "Puff Genesis Bsc",
+      "symbol": "PG"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf3ec2d6394fc899a5dc1823a205670ebb30939cc",
+      "nftType": "ERC721",
+      "name": "Creepz Invasion Pass",
+      "symbol": "IP"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe2e27b49e405f6c25796167b2500c195f972ebac",
+      "nftType": "ERC721",
+      "name": "Owls",
+      "symbol": "HOOT"
+    },
+    {
+      "chainId": 10,
+      "address": "0x51E5426eDE4e2d4c2586371372313B5782387222",
+      "nftType": "ERC721",
+      "name": "Apetimism",
+      "symbol": "APETIMISM"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1562e3428ed1d6cdbdb1695cc505aba33ab4ea5e",
+      "nftType": "ERC721",
+      "name": "TOSHIES",
+      "symbol": "TOSHIES"
+    },
+    {
+      "chainId": 1,
+      "address": "0xec9c519d49856fd2f8133a0741b4dbe002ce211b",
+      "nftType": "ERC721",
+      "name": "Bonsai by ZENFT",
+      "symbol": "BNSI"
+    },
+    {
+      "chainId": 137,
+      "address": "0xc0f8262d27509dbc9ea1645c7a5740b7312c0f85",
+      "nftType": "ERC721",
+      "name": "Unity Cards",
+      "symbol": "UNITY"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9231f13343f871b051fa5002e8c04beed91b4f62",
+      "nftType": "ERC721",
+      "name": "50 Years of Atari",
+      "symbol": "1972"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5c3cc8d8f5c2186d07d0bd9e5b463dca507b1708",
+      "nftType": "ERC721",
+      "name": "Clementines Nightmare",
+      "symbol": "CLEM"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4becbdf97747413a18c5a2a53321d09198d3a100",
+      "nftType": "ERC721",
+      "name": "Okay Bears Yacht Club",
+      "symbol": "OBYC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9d418C2Cae665D877F909a725402EbD3A0742844",
+      "nftType": "ERC721",
+      "name": "Fang Gang",
+      "symbol": "FNG"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4b3406a41399c7fd2ba65cbc93697ad9e7ea61e5",
+      "nftType": "ERC721",
+      "name": "Lost Poets",
+      "symbol": "POETS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xbaeec315f9d7f8db2645edfd5633360f152279bc",
+      "nftType": "ERC721",
+      "name": "Rengoku Legends [Samurai]",
+      "symbol": "REN"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaa7200ee500de2dcde75e996de83cbd73bca9705",
+      "nftType": "ERC721",
+      "name": "Crowd",
+      "symbol": "Crowd"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc1922a5abfa18110827c0666b7bbac0389ab7396",
+      "nftType": "ERC721",
+      "name": "Caked Apes Official",
+      "symbol": "CAKE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x86fc6f6c6702ceF7d3BaE87eF41256715416DB71",
+      "nftType": "ERC721",
+      "name": "Jadu AVA",
+      "symbol": "AVA"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdfb22066b609da04eddd6bda885b18d0b2153150",
+      "nftType": "ERC721",
+      "name": "Galaxy-Warriors",
+      "symbol": "GLXW"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8cd3cea52a45f30ed7c93a63fb2b5c13b453d5a1",
+      "nftType": "ERC721",
+      "name": "Rebel Society",
+      "symbol": "RBL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x18c7766A10df15Df8c971f6e8c1D2bbA7c7A410b",
+      "nftType": "ERC721",
+      "name": "The Vogu Collective",
+      "symbol": "VGT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x549d38f104ac46d856c1b2bf2a20d170efdb2a8d",
+      "nftType": "ERC721",
+      "name": "Lonely Frog Lambo Club",
+      "symbol": "LFLC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9c99d7f09d4a7e23ea4e36aec4cb590c5bbdb0e2",
+      "nftType": "ERC721",
+      "name": "Love Addicted Girls",
+      "symbol": "LAG"
+    },
+    {
+      "chainId": 10,
+      "address": "0x8E56343adAFA62DaC9C9A8ac8c742851B0fb8b03",
+      "nftType": "ERC721",
+      "name": "Bored Town",
+      "symbol": "BORED"
+    },
+    {
+      "chainId": 8127,
+      "address": "0x4007cb1fb9d1158add29cf5d88568dd44a1f516e",
+      "nftType": "ERC721",
+      "name": "Treasures Club",
+      "symbol": "TREASURES"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd9b78A2F1dAFc8Bb9c60961790d2beefEBEE56f4",
+      "nftType": "ERC721",
+      "name": "tiny dinos (eth)",
+      "symbol": "dino"
+    },
+    {
+      "chainId": 56,
+      "address": "0xebfbfd7c41b123500fb16b71c43b400c12b08be0",
+      "nftType": "ERC721",
+      "name": "Monsta Party NFTs - Gen 0",
+      "symbol": "MPNFT"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd73acd7f5099fdd910215dbff029185f21ffbcf0",
+      "nftType": "ERC721",
+      "name": "Acrocalypse",
+      "symbol": "ACROC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8b6d881cb985c2c49e893a522735852839c58737",
+      "nftType": "ERC721",
+      "name": "Murder Head Death Club",
+      "symbol": "MHDC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7b8b270a5A863EeFe9ec2848c160d2cAdE764E2d",
+      "nftType": "ERC721",
+      "name": "Superordinary Friends x TRNZ",
+      "symbol": "sf"
+    },
+    {
+      "chainId": 1,
+      "address": "0x28c6ea3f9cf9bc1a07a828fce1e7783261691b49",
+      "nftType": "ERC721",
+      "name": "Beyond Earth Land",
+      "symbol": "BEL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x818a19a6d3f0859b68e8490a6e945a51060caad1",
+      "nftType": "ERC721",
+      "name": "FOMO MOFOS",
+      "symbol": "FOMO"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe3589AE55BbD7697C76c510a5335eB31d972A17E",
+      "nftType": "ERC721",
+      "name": "Broadside",
+      "symbol": "bside"
+    },
+    {
+      "chainId": 1,
+      "address": "0x02AA731631c6D7F8241d74F906f5b51724Ab98F8",
+      "nftType": "ERC721",
+      "name": "BearsOnTheBlock",
+      "symbol": "BEAR"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4be3223f8708ca6b30d1e8b8926cf281ec83e770",
+      "nftType": "ERC721",
+      "name": "PartyDegenerates",
+      "symbol": "party"
+    },
+    {
+      "chainId": 1,
+      "address": "0x363c5dc3ff5a93c9ab1ec54337d211148e10f567",
+      "nftType": "ERC721",
+      "name": "Gitcoin Presents",
+      "symbol": "GTCP"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5078981549a1cc18673eb76fb47468f546aadc51",
+      "nftType": "ERC721",
+      "name": "feetpix",
+      "symbol": "FEET"
+    },
+    {
+      "chainId": 1,
+      "address": "0x79da5fa272e8fb280cee4d0649aa6a9e4e62ceb0",
+      "nftType": "ERC721",
+      "name": "Wall St Bulls",
+      "symbol": "WSB"
+    },
+    {
+      "chainId": 8127,
+      "address": "0xe47e90c58f8336a2f24bcd9bcb530e2e02e1e8ae",
+      "nftType": "ERC721",
+      "name": "DOGESOUNDCLUB MATES",
+      "symbol": "MATE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0bda9d7185a9885ecb1770d4793389be5da2e576",
+      "nftType": "ERC721",
+      "name": "IROIRO",
+      "symbol": "IROIRO"
+    },
+    {
+      "chainId": 1,
+      "address": "0x984f7b398d577c0adde08293a53ae9d3b6b7a5c5",
+      "nftType": "ERC721",
+      "name": "Stoner Ape Club | SAC",
+      "symbol": "SAC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab",
+      "nftType": "ERC721",
+      "name": "Emblem Vault [Ethereum]",
+      "symbol": "Emblem.pro"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0747118c9f44c7a23365b2476dcd05e03114c747",
+      "nftType": "ERC721",
+      "name": "Shields",
+      "symbol": "SHIELDS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x12d2d1bed91c24f878f37e66bd829ce7197e4d14",
+      "nftType": "ERC721",
+      "name": "GalacticApes",
+      "symbol": "GALAPE"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0aa7420c43b8c1a7b165d216948870c8ecfe1ee1",
+      "nftType": "ERC721",
+      "name": "Thingdoms",
+      "symbol": "THING"
+    },
+    {
+      "chainId": 1,
+      "address": "0x19592b48606a42565c8e9af5113d72d4ff557482",
+      "nftType": "ERC721",
+      "name": "LaLLamaPIC",
+      "symbol": "LLAMA"
+    },
+    {
+      "chainId": 137,
+      "address": "0x600522c42da61685e4dec6b999fced93d75d0184",
+      "nftType": "ERC721",
+      "name": "League of Kingdoms Package",
+      "symbol": "LOKP"
+    },
+    {
+      "chainId": 137,
+      "address": "0x4Fd249b274F012ccCcbae14eCEe180571f25284B",
+      "nftType": "ERC721",
+      "name": "MyCryptoHeroes:Hero",
+      "symbol": "mchh"
+    },
+    {
+      "chainId": 137,
+      "address": "0x77bd275ff2b3dc007475aac9ce7f408f5a800188",
+      "nftType": "ERC721",
+      "name": "MyCryptoHeroes:Extension",
+      "symbol": "mche"
+    },
+    {
+      "chainId": 1,
+      "address": "0x617913Dd43dbDf4236B85Ec7BdF9aDFD7E35b340",
+      "nftType": "ERC721",
+      "name": "MyCryptoHeroes:Land",
+      "symbol": "mchl"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdceaf1652a131F32a821468Dc03A92df0edd86Ea",
+      "nftType": "ERC721",
+      "name": "MyCryptoHeroes:Extension",
+      "symbol": "mche"
+    },
+    {
+      "chainId": 1,
+      "address": "0x273f7f8e6489682df756151f5525576e322d51a3",
+      "nftType": "ERC721",
+      "name": "MyCryptoHeroes:Hero",
+      "symbol": "mchh"
+    },
+    {
+      "chainId": 1,
+      "address": "0x09e0df4ae51111ca27d6b85708cfb3f1f7cae982",
+      "nftType": "ERC721",
+      "name": "Sipherian Flash",
+      "symbol": "NEKO"
+    },
+    {
+      "chainId": 1,
+      "address": "0x000e49c87d2874431567d38ff9548890ab39baac",
+      "nftType": "ERC721",
+      "name": "The Goobers",
+      "symbol": "GOOBERS"
+    },
+    {
+      "chainId": 137,
+      "address": "0xc82c481d47d446d21385d07a79d60619e7201b96",
+      "nftType": "ERC721",
+      "name": "Cool Cats x Reddit Collectible Avatars",
+      "symbol": "COOLCATSXREDDIT"
+    },
+    {
+      "chainId": 1,
+      "address": "0x3a5051566b2241285be871f650c445a88a970edd",
+      "nftType": "ERC721",
+      "name": "The Humanoids",
+      "symbol": "HMNDS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xF75FD01D2262b07D92dcA7f19bD6A3457060d7db",
+      "nftType": "ERC721",
+      "name": "Mimic Shhans - THE SHHAN",
+      "symbol": "ms"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6372e41cd6415261cf38daccefed2f0cc206c282",
+      "nftType": "ERC721",
+      "name": "Zenogakki: Birth Of Utopia",
+      "symbol": "ZENO"
+    },
+    {
+      "chainId": 137,
+      "address": "0xcf501EaD3EbfA60f40725fcA1D82Fc05bfF63Bf2",
+      "nftType": "ERC721",
+      "name": "TOWER Battle Cards",
+      "symbol": "towertbc"
+    },
+    {
+      "chainId": 137,
+      "address": "0x9d77cb4d8371736e2a2b2bfaa677b7841cdc8fc1",
+      "nftType": "ERC721",
+      "name": "DeRace Horses",
+      "symbol": "DRCHRS"
+    },
+    {
+      "chainId": 1,
+      "address": "0xce25e60a89f200b1fa40f6c313047ffe386992c3",
+      "nftType": "ERC721",
+      "name": "dotdotdots",
+      "symbol": "dotdotdots"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc878671ff88f1374d2186127573e4a63931370fc",
+      "nftType": "ERC721",
+      "name": "Los Muertos World",
+      "symbol": "LOSMUERTOS"
+    },
+    {
+      "chainId": 1,
+      "address": "0x80ab79e5c36351fb5dbe2b35e97f724eca47ae29",
+      "nftType": "ERC721",
+      "name": "Ballman",
+      "symbol": "BALL"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9048de699869385756939a7bb0a22b6d6cb63a83",
+      "nftType": "ERC721",
+      "name": "The Lizard Lab",
+      "symbol": "LIZRD"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8ed25b735a788f4f7129db736fc64f3a241137b8",
+      "nftType": "ERC721",
+      "name": "TwoBitBears",
+      "symbol": "TBB"
+    },
+    {
+      "chainId": 1,
+      "address": "0x05e7f2499ff153fea2f20bbde0b5584c911c0af1",
+      "nftType": "ERC721",
+      "name": "Something Token",
+      "symbol": "SOMETHING"
+    },
+    {
+      "chainId": 1,
+      "address": "0x47bd71b482b27ebdb57af6e372cab46c7280bf44",
+      "nftType": "ERC721",
+      "name": "Blockchain Miners Club Official",
+      "symbol": "BMC"
+    },
+    {
+      "chainId": 1,
+      "address": "0x728863d7e094ae5ffd91dcc365099666020d7a51",
+      "nftType": "ERC721",
+      "name": "The Nakamotos",
+      "symbol": "Naka"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd3605059c3ce9facf625fa72d727508b7b7f280f",
+      "nftType": "ERC721",
+      "name": "pablos.lol",
+      "symbol": "Pablos"
+    },
+    {
+      "chainId": 1,
+      "address": "0x25e5e2b4b8f11c32cdd48c2fb394fbda9a2861f7",
+      "nftType": "ERC721",
+      "name": "CATBOTICA",
+      "symbol": "CBOT"
+    },
+    {
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "AirSwap Token",
-      "symbol": "AST",
-      "decimals": 4
+      "address": "0xE90d8Fb7B79C8930B5C8891e61c298b412a6e81a",
+      "nftType": "ERC721",
+      "name": "Lasogette",
+      "symbol": "LASOG"
     },
     {
-      "address": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "BandToken",
-      "symbol": "BAND",
-      "decimals": 18
+      "address": "0x5911a6da952a9d1b67be13cecb389ad247420360",
+      "nftType": "ERC721",
+      "name": "Benji Bananas : Membership Pass",
+      "symbol": "BENJI-BANANAS-MEMBERSHIP-PASS"
     },
     {
-      "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Basic Attention Token",
-      "symbol": "BAT",
-      "decimals": 18
+      "address": "0x22d4c35a4f2b229a928b1b569b2f60225976426a",
+      "nftType": "ERC721",
+      "name": "froyo kittens",
+      "symbol": "FroyoKitten"
     },
     {
-      "address": "0x107c4504cd79C5d2696Ea0030a8dD4e92601B82e",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Bloom Token",
-      "symbol": "BLT",
-      "decimals": 18
+      "address": "0x95784F7b5c8849b0104EAf5D13d6341d8CC40750",
+      "nftType": "ERC721",
+      "name": "Swampverse",
+      "symbol": "SWAMPER"
     },
     {
-      "address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Bancor Network Token",
-      "symbol": "BNT",
-      "decimals": 18
+      "address": "0xA30CF1135BE5Af62E412f22BD01069e2CEbA8706",
+      "nftType": "ERC721",
+      "name": "Humankind Lunchboxes",
+      "symbol": "lnch"
+    },
+    {
+      "chainId": 137,
+      "address": "0x4bca2c2ece9402b5d4dd031b49d48166c40b7957",
+      "nftType": "ERC721",
+      "name": "BillionaireZombiesClub",
+      "symbol": "BZC"
+    },
+    {
+      "chainId": 10,
+      "address": "0x0deaac29d8a3d4ebbaaa3ecd3cc97c9def00f720",
+      "nftType": "ERC721",
+      "name": "Optimism Ape Yacht Club",
+      "symbol": "OAYC"
     },
     {
-      "address": "0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "PieDAO BTC++",
-      "symbol": "BTC++",
-      "decimals": 18
+      "address": "0x2d0ee46b804f415be4dc8aa1040834f5125ebd2e",
+      "nftType": "ERC721",
+      "name": "Dapper Dinos NFT",
+      "symbol": "DINO"
     },
     {
-      "address": "0x4F9254C83EB525f9FCf346490bbb3ed28a81C667",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "CelerToken",
-      "symbol": "CELR",
-      "decimals": 18
+      "address": "0x0f94778a99d649cdb0a21daff08dbd96f1d446ed",
+      "nftType": "ERC721",
+      "name": "Fluffytopia",
+      "symbol": "TOPIA"
     },
     {
-      "address": "0xF5DCe57282A584D2746FaF1593d3121Fcac444dC",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Compound Dai",
-      "symbol": "cSAI",
-      "decimals": 8
+      "address": "0x368AD4A7A7F49B8fA8f34476BE0Fc4d04cE622f5",
+      "nftType": "ERC721",
+      "name": "OG:Crystals",
+      "symbol": "OG Crystals"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x642FfAb2752Df3BCE97083709F36080fb1482c80",
+      "nftType": "ERC721",
+      "name": "Government Toucans",
+      "symbol": "TOUCAN"
     },
     {
-      "address": "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Compound Dai",
-      "symbol": "cDAI",
-      "decimals": 8
+      "address": "0xb16dfd9aaaf874fcb1db8a296375577c1baa6f21",
+      "nftType": "ERC721",
+      "name": "Nyolings",
+      "symbol": "NYOLINGS"
     },
     {
-      "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Compound USD Coin",
-      "symbol": "cUSDC",
-      "decimals": 8
+      "address": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "nftType": "ERC721",
+      "name": "Boki",
+      "symbol": "BOKI"
+    },
+    {
+      "chainId": 56,
+      "address": "0x735c4a681f1649f5eee8aac871aa1d89ff056217",
+      "nftType": "ERC721",
+      "name": "YuliOriginGenOne",
+      "symbol": "YOG1"
     },
     {
-      "address": "0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Celsius",
-      "symbol": "CEL",
-      "decimals": 4
+      "address": "0x8b4616926705fb61e9c4eeac07cd946a5d4b0760",
+      "nftType": "ERC721",
+      "name": "Luchadores.io",
+      "symbol": "LUCHADORES"
     },
     {
-      "address": "0x06AF07097C9Eeb7fD685c692751D5C66dB49c215",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Chai",
-      "symbol": "CHAI",
-      "decimals": 18
+      "address": "0xba627f3d081cc97ac0edc40591eda7053ac63532",
+      "nftType": "ERC721",
+      "name": "Bored & Dangerous",
+      "symbol": "BOOK"
     },
     {
-      "address": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Dai Stablecoin v1.0 aka SAI",
-      "symbol": "SAI",
-      "decimals": 18
+      "address": "0x8cd8155e1af6ad31dd9eec2ced37e04145acfcb3",
+      "nftType": "ERC721",
+      "name": "Cupcat NFT",
+      "symbol": "CUPCAT"
+    },
+    {
+      "chainId": 137,
+      "address": "0xcbc964dd716f07b4965b4526e30541a66f414ccf",
+      "nftType": "ERC721",
+      "name": "GFCGenesisWeapon",
+      "symbol": "GFCGW"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x0aF85A5624D24E2C6e7Af3c0a0b102a28E36CeA3",
+      "nftType": "ERC721",
+      "name": "Battlefly",
+      "symbol": "Battlefly"
     },
     {
-      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18
+      "address": "0x697c139e46779f1677efa6ee1a836f4448d905bb",
+      "nftType": "ERC721",
+      "name": "CRYPTONINJA WORLD",
+      "symbol": "CNW"
     },
     {
-      "address": "0x0Cf0Ee63788A0849fE5297F3407f701E122cC023",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Streamr DATAcoin",
-      "symbol": "DATA",
-      "decimals": 18
+      "address": "0xda64c62254e6ffe6783dd00472559a1744512846",
+      "nftType": "ERC721",
+      "name": "Good Minds NFT",
+      "symbol": "GM"
+    },
+    {
+      "chainId": 56,
+      "address": "0xe3b1d32e43ce8d658368e2cbff95d57ef39be8a6",
+      "nftType": "ERC721",
+      "name": "SPACE ID - .bnb",
+      "symbol": "SID"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x522810e92BFB808FEF392650fEEb2Cc33cE52815",
+      "nftType": "ERC721",
+      "name": "Volmex NFT",
+      "symbol": "Volmex"
     },
     {
-      "address": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "DigixDAO",
-      "symbol": "DGD",
-      "decimals": 9
+      "address": "0xDf3407636bBF3a015a8E48A079ef7bA49E687fD3",
+      "nftType": "ERC721",
+      "name": "GhostsProject",
+      "symbol": "GHOST"
     },
     {
-      "address": "0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Digix Gold Token",
-      "symbol": "DGX",
-      "decimals": 9
+      "address": "0x454cbc099079dc38b145e37e982e524af3279c44",
+      "nftType": "ERC721",
+      "name": "The Yakuza Cats Society",
+      "symbol": "YCS"
     },
     {
-      "address": "0xc719d010B63E5bbF2C0551872CD5316ED26AcD83",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Decentralized Insurance Protocol",
-      "symbol": "DIP",
-      "decimals": 18
+      "address": "0x4222b2a98daa443c6a0a761300d7d6bfd9161e52",
+      "nftType": "ERC721",
+      "name": "Illuvium",
+      "symbol": "ILV-NFT"
+    },
+    {
+      "chainId": 56,
+      "address": "0x9ddc83be1e5254669bdb366941c746a86194d61b",
+      "nftType": "ERC721",
+      "name": "Cross Bosses",
+      "symbol": "CB"
     },
     {
-      "address": "0xC0F9bD5Fa5698B6505F643900FFA515Ea5dF54A9",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Donut",
-      "symbol": "DONUT",
-      "decimals": 18
+      "address": "0xEF9c21e3Ba31a74910fc7e7cB3fc814AD842AD6e",
+      "nftType": "ERC721",
+      "name": "Warriors of Aradena",
+      "symbol": "woa"
     },
     {
-      "address": "0x86FADb80d8D2cff3C3680819E4da99C10232Ba0F",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "EURBASE Stablecoin",
-      "symbol": "EBASE",
-      "decimals": 18
+      "address": "0x335eeef8e93a7a757d9e7912044d9cd264e2b2d8",
+      "nftType": "ERC721",
+      "name": "Sad Girls Bar",
+      "symbol": "SadGirlsBar"
     },
     {
-      "address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Enjin Coin",
-      "symbol": "ENJ",
-      "decimals": 18
+      "address": "0x31d843b99c2c4088cd20d96ef2426673b958ff70",
+      "nftType": "ERC721",
+      "name": "MechMinds",
+      "symbol": "MM"
     },
     {
-      "address": "0x06f65b8CfCb13a9FE37d836fE9708dA38Ecb29B2",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "SAINT FAME Genesis Shirt",
-      "symbol": "FAME",
-      "decimals": 18
+      "address": "0x9ce07b945b4cb912e338d141cf95e9636bf2e836",
+      "nftType": "ERC721",
+      "name": "Hope",
+      "symbol": "Hope"
     },
     {
-      "address": "0x4946Fcea7C692606e8908002e55A582af44AC121",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "FOAM Token",
-      "symbol": "FOAM",
-      "decimals": 18
+      "address": "0x74ecb5f64363bd663abd3ef08df75dd22d853bfc",
+      "nftType": "ERC721",
+      "name": "Gauntlets",
+      "symbol": "GNT"
     },
     {
-      "address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "FunFair",
-      "symbol": "FUN",
-      "decimals": 8
+      "address": "0x56681458e00cafe1206313d2d033946f458fdefd",
+      "nftType": "ERC721",
+      "name": "Cool Dogs Official",
+      "symbol": "COOLDOGS"
+    },
+    {
+      "chainId": 137,
+      "address": "0xF493f46b2B5834FFF36dEA0D2DE1aa0cE0EB84E2",
+      "nftType": "ERC721",
+      "name": "VeggiesFarm",
+      "symbol": "vf"
     },
     {
-      "address": "0x4a57E687b9126435a9B19E4A802113e266AdeBde",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Flexacoin",
-      "symbol": "FXC",
-      "decimals": 18
+      "address": "0x448ed3ccf45d0bd5dcfddedd6f70bcef3d151adf",
+      "nftType": "ERC721",
+      "name": "1990 SUPERCOLOR",
+      "symbol": "SUPC"
     },
     {
-      "address": "0x543Ff227F64Aa17eA132Bf9886cAb5DB55DCAddf",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "DAOstack",
-      "symbol": "GEN",
-      "decimals": 18
+      "address": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+      "nftType": "ERC721",
+      "name": "C-01 Official Collection",
+      "symbol": "C-01"
     },
     {
-      "address": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Gnosis Token",
-      "symbol": "GNO",
-      "decimals": 18
+      "address": "0xf8b0a49da21e6381f1cd3cf43445800abe852179",
+      "nftType": "ERC721",
+      "name": "CryptoFlyz",
+      "symbol": "FLYZ"
     },
     {
-      "address": "0x12B19D3e2ccc14Da04FAe33e63652ce469b3F2FD",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "GRID Token",
-      "symbol": "GRID",
-      "decimals": 12
+      "address": "0xf4121a2880c225f90dc3b3466226908c9cb2b085",
+      "nftType": "ERC721",
+      "name": "Shonen Junk Official",
+      "symbol": "SJ"
     },
     {
-      "address": "0x0000000000b3F879cb30FE243b4Dfee438691c04",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Gastoken.io",
-      "symbol": "GST2",
-      "decimals": 2
+      "address": "0x3e6046b4d127179f0a421f3148b43cf52c08fc41",
+      "nftType": "ERC721",
+      "name": "You by BFF",
+      "symbol": "\u273aYou"
     },
     {
-      "address": "0xF1290473E210b2108A85237fbCd7b6eb42Cc654F",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "HedgeTrade",
-      "symbol": "HEDG",
-      "decimals": 18
+      "address": "0x2e541cec5cb41e7678ac3c8e91acb3fc1db0da07",
+      "nftType": "ERC721",
+      "name": "FTC Official",
+      "symbol": "FTC"
     },
     {
-      "address": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "HoloToken",
-      "symbol": "HOT",
-      "decimals": 18
+      "address": "0x93a796b1e846567fe3577af7b7bb89f71680173a",
+      "nftType": "ERC721",
+      "name": "ChainFaces Arena",
+      "symbol": "\u10da\u2688\u0df4\u2688\u10da"
     },
     {
-      "address": "0x493C57C4763932315A328269E1ADaD09653B9081",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Fulcrum DAI iToken",
-      "symbol": "iDAI",
-      "decimals": 18
+      "address": "0xce50f3ca1f1dbd6fa042666bc0e369565dda457d",
+      "nftType": "ERC721",
+      "name": "The Heart Project",
+      "symbol": "HEARTS"
+    },
+    {
+      "chainId": 56,
+      "address": "0xc33d69a337b796a9f0f7588169cd874c3987bde9",
+      "nftType": "ERC721",
+      "name": "Kryptomon - V1",
+      "symbol": "KMONFT"
     },
     {
-      "address": "0x14094949152EDDBFcd073717200DA82fEd8dC960",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Fulcrum SAI iToken ",
-      "symbol": "iSAI",
-      "decimals": 18
+      "address": "0xcb2411c2b914b000ad13c86027222a797983ef2d",
+      "nftType": "ERC721",
+      "name": "Mindblowon Universe",
+      "symbol": "MINDBLOWON"
     },
     {
-      "address": "0x6fB3e0A217407EFFf7Ca062D46c26E5d60a14d69",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "IoTeX Network",
-      "symbol": "IOTX",
-      "decimals": 18
+      "address": "0xc1ad47aeb274157e24a5f01b5857830aef962843",
+      "nftType": "ERC721",
+      "name": "Akumu Dragonz",
+      "symbol": "AKUMU"
     },
     {
-      "address": "0x4Cd988AfBad37289BAAf53C13e98E2BD46aAEa8c",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "KEY",
-      "symbol": "KEY",
-      "decimals": 18
+      "address": "0x27937b729C113C3461d6069b02b9BBd1f18ab0A9",
+      "nftType": "ERC721",
+      "name": "CNP Reborn -NFT for all generations to enjoy-",
+      "symbol": "cnpreborn"
     },
     {
-      "address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Kyber Network Crystal",
-      "symbol": "KNC",
-      "decimals": 18
+      "address": "0xe0be388ab81c47b0f098d2030a1c9ef190691a8a",
+      "nftType": "ERC721",
+      "name": "Unemployables",
+      "symbol": "UNE"
     },
     {
-      "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "ChainLink Token",
-      "symbol": "LINK",
-      "decimals": 18
+      "address": "0x198478f870d97d62d640368d111b979d7ca3c38f",
+      "nftType": "ERC721",
+      "name": "8SIAN",
+      "symbol": "8SIAN"
+    },
+    {
+      "chainId": 56,
+      "address": "0x3d8ce31601b8ed4db5eeb921fcf7f178babe7c2e",
+      "nftType": "ERC721",
+      "name": "Uniwhale Genesis Pass",
+      "symbol": "UGP"
     },
     {
-      "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "LoopringCoin V2",
-      "symbol": "LRC",
-      "decimals": 18
+      "address": "0x4ebb2384cc1e86f578e37f2057b336b9027cb95a",
+      "nftType": "ERC721",
+      "name": "Introducing World App",
+      "symbol": "WLDAPP"
     },
     {
-      "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "EthLend Token",
-      "symbol": "LEND",
-      "decimals": 18
+      "address": "0xbb3d13260b3f6893ace34a4284be70eccf4cc0f1",
+      "nftType": "ERC721",
+      "name": "Long Neckie Ladies",
+      "symbol": "LNL"
+    },
+    {
+      "chainId": 137,
+      "address": "0x91ac106090fe2b0fa7d01efdf4487a5bfafad7fa",
+      "nftType": "ERC721",
+      "name": "Spooky Season: poieeeyee x Reddit Collectible Avatars",
+      "symbol": "SPOOKY-SEASON-POIEEEYEE-X-REDDIT-COLLECTIBLE-AVATARS"
+    },
+    {
+      "chainId": 56,
+      "address": "0x9cee09946a8113a503c1264e328c0e3aee4c8bcf",
+      "nftType": "ERC721",
+      "name": "SPACE ID Badges",
+      "symbol": "SID"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x9FE6688e7d4BFbC69fE2727f578B1f1b8c75B930",
+      "nftType": "ERC721",
+      "name": "CastleDAOBallot",
+      "symbol": "CASTLEBALLOT"
     },
     {
-      "address": "0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "LoomToken",
-      "symbol": "LOOM",
-      "decimals": 18
+      "address": "0x8A5A0cfa9087fb8a3C0cE36Abb7C320Ce7821B94",
+      "nftType": "ERC721",
+      "name": "Ghost Buddy Official",
+      "symbol": "GBN"
     },
     {
-      "address": "0x58b6A8A3302369DAEc383334672404Ee733aB239",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Livepeer Token",
-      "symbol": "LPT",
-      "decimals": 18
+      "address": "0xA5F1Ea7DF861952863dF2e8d1312f7305dabf215",
+      "nftType": "ERC721",
+      "name": "ZED RUN Legacy",
+      "symbol": "zed"
     },
     {
-      "address": "0xD29F0b5b3F50b07Fe9a9511F7d86F4f4bAc3f8c4",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Liquidity.Network Token",
-      "symbol": "LQD",
-      "decimals": 18
+      "address": "0x69b9c98e8d715c25b330d0d4eb07e68cbb7f6cfc",
+      "nftType": "ERC721",
+      "name": "Starcatchers",
+      "symbol": "star"
     },
     {
-      "address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Decentraland MANA",
-      "symbol": "MANA",
-      "decimals": 18
+      "address": "0xa0c38108bbb0f5f2fb46a2019d7314cce38f3f22",
+      "nftType": "ERC721",
+      "name": "ArcadeNFT",
+      "symbol": "ANFT"
     },
     {
-      "address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Matic Token",
-      "symbol": "MATIC",
-      "decimals": 18
+      "address": "0x3b2f1189b9372c4b6c569a497ad241112d8824c1",
+      "nftType": "ERC721",
+      "name": "Dustland Goes Ape",
+      "symbol": "DUSTXAPE"
     },
     {
-      "address": "0x8888889213DD4dA823EbDD1e235b09590633C150",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Marblecoin",
-      "symbol": "MBC",
-      "decimals": 18
+      "address": "0x3e86e26915403ae0e1cff7e7b23377b3a30104a0",
+      "nftType": "ERC721",
+      "name": "HDPunks",
+      "symbol": "HDPUNKS"
     },
     {
-      "address": "0xd15eCDCF5Ea68e3995b2D0527A0aE0a3258302F8",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "MachiX Token",
-      "symbol": "MCX",
-      "decimals": 18
+      "address": "0x7a3b97a7400e44dadd929431a3640e4fc47daebd",
+      "nftType": "ERC721",
+      "name": "Apes In Space NFT",
+      "symbol": "AIS"
     },
     {
-      "address": "0xa3d58c4E56fedCae3a7c43A725aeE9A71F0ece4e",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Metronome",
-      "symbol": "MET",
-      "decimals": 18
+      "address": "0xc6735852e181a55f736e9db62831dc63ef8c449a",
+      "nftType": "ERC721",
+      "name": "Rogue Society Bots",
+      "symbol": "RSB"
     },
     {
-      "address": "0x80f222a749a2e18Eb7f676D371F19ad7EFEEe3b7",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Magnolia Token",
-      "symbol": "MGN",
-      "decimals": 18
+      "address": "0x32ddbb0fc65bb53e1f7d6dc1c2a713e9a695b75b",
+      "nftType": "ERC721",
+      "name": "Monster Ape Club | MAC",
+      "symbol": "MAC"
     },
     {
-      "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Maker",
-      "symbol": "MKR",
-      "decimals": 18
+      "address": "0x05072A7137d11E281CEF6F58e00DbA69d66616Da",
+      "nftType": "ERC721",
+      "name": "\"SHiELD:AGE\" by Cotoh Tsumi",
+      "symbol": "sa"
     },
     {
-      "address": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Melon Token",
-      "symbol": "MLN",
-      "decimals": 18
+      "address": "0x1dc5d3b2162f9500d7ddec14eb0ba9ccb43bc20c",
+      "nftType": "ERC721",
+      "name": "Skullx ",
+      "symbol": "SKULLX"
     },
     {
-      "address": "0x957c30aB0426e0C93CD8241E2c60392d08c6aC8e",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Modum Token",
-      "symbol": "MOD",
-      "decimals": 0
+      "address": "0x7887f40763ace5f0e8320181fd5b42776d35b1ff",
+      "nftType": "ERC721",
+      "name": "HAKI NFT",
+      "symbol": "HAKI"
     },
     {
-      "address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Nexo",
-      "symbol": "NEXO",
-      "decimals": 18
+      "address": "0x92ac03d1eb81bb8402fcdbe3ef43c6ca0cbba8f9",
+      "nftType": "ERC721",
+      "name": "Fear City by Stephen Bliss",
+      "symbol": "FEAR-CITY-BY-STEPHEN-BLISS"
     },
     {
-      "address": "0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Numeraire",
-      "symbol": "NMR",
-      "decimals": 18
+      "address": "0xe3234e57ac38890a9136247eadfe1860316ff6ab",
+      "nftType": "ERC721",
+      "name": "MoodRollers by Lucas Zanotto",
+      "symbol": "MOODRLS"
     },
     {
-      "address": "0x985dd3D42De1e256d09e1c10F112bCCB8015AD41",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "OceanToken",
-      "symbol": "OCEAN",
-      "decimals": 18
+      "address": "0xf4cd7e65348deb24e30dedee639c4936ae38b763",
+      "nftType": "ERC721",
+      "name": "Galaktic Gang",
+      "symbol": "GG"
     },
     {
-      "address": "0x4575f41308EC1483f3d399aa9a2826d74Da13Deb",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Orchid",
-      "symbol": "OXT",
-      "decimals": 18
+      "address": "0xee29700134aab4f45b113e43e29ff06ce10687b7",
+      "nftType": "ERC721",
+      "name": "CartoonsNFT",
+      "symbol": "TOON"
     },
     {
-      "address": "0xD56daC73A4d6766464b38ec6D91eB45Ce7457c44",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Panvala pan",
-      "symbol": "PAN",
-      "decimals": 18
+      "address": "0x8cae61967466ebbf15c12dc802b29594bc04efc6",
+      "nftType": "ERC721",
+      "name": "Chungos",
+      "symbol": "CHUNGO"
     },
     {
-      "address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "PAX",
-      "symbol": "PAX",
-      "decimals": 18
+      "address": "0xdf8bfb139ad21ec238b9e56bed6f0953202cf104",
+      "nftType": "ERC721",
+      "name": "StrangersHQ",
+      "symbol": "SHQ"
     },
     {
-      "address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Paxos Gold",
-      "symbol": "PAXG",
-      "decimals": 18
+      "address": "0x9f648eef45b73e1a32ce7b624a44266226a85d88",
+      "nftType": "ERC721",
+      "name": "Doge Club",
+      "symbol": "DOGC"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x4772fB92e6606c87f7cDDcCDB880f7677768815c",
+      "nftType": "ERC721",
+      "name": "ArbiPunks",
+      "symbol": "APUNKS"
     },
     {
-      "address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Pinakion",
-      "symbol": "PNK",
-      "decimals": 18
+      "address": "0x9bf252f97891b907f002f2887eff9246e3054080",
+      "nftType": "ERC721",
+      "name": "Ape Kids Club (AKC)",
+      "symbol": "AKC"
     },
     {
-      "address": "0x6758B7d441a9739b98552B373703d8d3d14f9e62",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "POA ERC20 on Foundation",
-      "symbol": "POA20",
-      "decimals": 18
+      "address": "0xd5f427e2947d1a8e5fff06e57e240cefd827d9dd",
+      "nftType": "ERC721",
+      "name": "Banksy is my Banner",
+      "symbol": "BIMB"
     },
     {
-      "address": "0x687BfC3E73f6af55F0CccA8450114D107E781a0e",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "QChi",
-      "symbol": "QCH",
-      "decimals": 18
+      "address": "0x98f35eec6055ed88200e30cb78b9b9427a55917b",
+      "nftType": "ERC721",
+      "name": "Kekverse",
+      "symbol": "KEK"
     },
     {
-      "address": "0x4a220E6096B25EADb88358cb44068A3248254675",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Quant",
-      "symbol": "QNT",
-      "decimals": 18
+      "address": "0x496299d8497a02b01f5bc355298b0a831f06c522",
+      "nftType": "ERC721",
+      "name": "Ascended NFT Official",
+      "symbol": "ASCENDED"
     },
     {
-      "address": "0x99ea4dB9EE77ACD40B119BD1dC4E33e1C070b80d",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Quantstamp Token",
-      "symbol": "QSP",
-      "decimals": 18
+      "address": "0x65cc7530e8c6f5a51257f7b7586361c4a22cec93",
+      "nftType": "ERC721",
+      "name": "Bad Face Bots",
+      "symbol": "BFBS"
+    },
+    {
+      "chainId": 137,
+      "address": "0xaa9e50fe4b559c15a2f9a832d4eba21b01b2a0ea",
+      "nftType": "ERC721",
+      "name": "Samsung MX1 GENESIS EDITION",
+      "symbol": "MX1GE"
+    },
+    {
+      "chainId": 56,
+      "address": "0x76681358854eb302e4f3cbdcaf6a7d4ecba65576",
+      "nftType": "ERC721",
+      "name": "MathVerse Land",
+      "symbol": "MVL"
+    },
+    {
+      "chainId": 8127,
+      "address": "0x632be5615b7c8c8b9f1aafeb7fc93a17d9a0d48e",
+      "nftType": "ERC721",
+      "name": "Waterbomb League",
+      "symbol": "WTBL"
     },
     {
-      "address": "0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Ripio Credit Network Token",
-      "symbol": "RCN",
-      "decimals": 18
+      "address": "0x74f1716a9f452dd36d945368d806cd491290b240",
+      "nftType": "ERC721",
+      "name": "Angry Ape Army Evolution Collection",
+      "symbol": "AAAEVO"
+    },
+    {
+      "chainId": 56,
+      "address": "0x891d36718bf26c7389487366beecca04bb42b680",
+      "nftType": "ERC721",
+      "name": "Blucamon",
+      "symbol": "BLUCAMON"
+    },
+    {
+      "chainId": 56,
+      "address": "0xff1ae60287ed0c8a32e6fc6f9afe35ea3a726efc",
+      "nftType": "ERC721",
+      "name": "JazDID BAB",
+      "symbol": "JBAB"
     },
     {
-      "address": "0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Raiden Token",
-      "symbol": "RDN",
-      "decimals": 18
+      "address": "0x94693c9e342F759272d6f7b481703DF8e83b1818",
+      "nftType": "ERC721",
+      "name": "Castaways - Treasure Chests",
+      "symbol": "tc"
     },
     {
-      "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Republic Token",
-      "symbol": "REN",
-      "decimals": 18
+      "address": "0xc657c2a3bd558716b3f6b843ef09c0fc628e4977",
+      "nftType": "ERC721",
+      "name": "Cosmic Cats Official",
+      "symbol": "COSMIC"
     },
     {
-      "address": "0x459086F2376525BdCebA5bDDA135e4E9d3FeF5bf",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "renBCH",
-      "symbol": "renBCH",
-      "decimals": 8
+      "address": "0x8bc9224253e37cd221c7f510acc42cb6e734db57",
+      "nftType": "ERC721",
+      "name": "Hasbulla NFT",
+      "symbol": "HASBI"
     },
     {
-      "address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "renBTC",
-      "symbol": "renBTC",
-      "decimals": 8
+      "address": "0xa7ee407497b2aeb43580cabe2b04026b5419d1dc",
+      "nftType": "ERC721",
+      "name": "The Superlative Secret Society",
+      "symbol": "SuperlativeSS"
+    },
+    {
+      "chainId": 10,
+      "address": "0xfA14e1157F35E1dAD95dC3F822A9d18c40e360E2",
+      "nftType": "ERC721",
+      "name": "Optimism Quests",
+      "symbol": "Optimism quest"
     },
     {
-      "address": "0x1C5db575E2Ff833E46a2E9864C22F4B22E0B37C2",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "renZEC",
-      "symbol": "renZEC",
-      "decimals": 8
+      "address": "0xdcb8d9a2a65a006fafeec5695e288b711762d3e4",
+      "nftType": "ERC721",
+      "name": "HEXGO NFT",
+      "symbol": "HEXGO NFT"
     },
     {
-      "address": "0x1985365e9f78359a9B6AD760e32412f4a445E862",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Reputation",
-      "symbol": "REP",
-      "decimals": 18
+      "address": "0xea25e2b3e35c67876957ee00a28cd912ff113f54",
+      "nftType": "ERC721",
+      "name": "TheLandSafe Official",
+      "symbol": "LAND"
     },
     {
-      "address": "0x9469D013805bFfB7D3DEBe5E7839237e535ec483",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Darwinia Network Native Token",
-      "symbol": "RING",
-      "decimals": 18
+      "address": "0x5802c586F657C787902280aC091d81832D7faF84",
+      "nftType": "ERC721",
+      "name": "Bored y00ts AC",
+      "symbol": "byac"
     },
     {
-      "address": "0x607F4C5BB672230e8672085532f7e901544a7375",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "iEx.ec Network Token",
-      "symbol": "RLC",
-      "decimals": 9
+      "address": "0xba60f470f16654ec79f0d1b2f1c0c12390107a56",
+      "nftType": "ERC721",
+      "name": "Fudders",
+      "symbol": "NGMI"
     },
     {
-      "address": "0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Rocket Pool",
-      "symbol": "RPL",
-      "decimals": 18
+      "address": "0x5bdf47c6691edf5d2e5f7a156324d88e1478fca6",
+      "nftType": "ERC721",
+      "name": "BagnerWTF",
+      "symbol": "BAG"
     },
     {
-      "address": "0x4156D3342D5c385a87D264F90653733592000581",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Salt",
-      "symbol": "SALT",
-      "decimals": 8
+      "address": "0x37f02e4fa5f28a25baf64566083c717c387761d0",
+      "nftType": "ERC721",
+      "name": "PUNKS 2: KIKI Collector's Edition",
+      "symbol": "COMIC2KIK"
+    },
+    {
+      "chainId": 137,
+      "address": "0x51ac4a13054d5d7e1fa795439821484177e7e828",
+      "nftType": "ERC721",
+      "name": "REVV Motorsport Inventory",
+      "symbol": "REVVM"
+    },
+    {
+      "chainId": 56,
+      "address": "0x2DFEb752222ccceCB9BC0a934b02C3A86f633900",
+      "nftType": "ERC721",
+      "name": "Lifeform Items",
+      "symbol": "lfi"
+    },
+    {
+      "chainId": 10,
+      "address": "0x9B9F542456ad12796cCB8EB6644f29E3314e68e1",
+      "nftType": "ERC721",
+      "name": "OptiChads \ud83d\udd34\u2728\ud83d\udcaa",
+      "symbol": "CHAD"
+    },
+    {
+      "chainId": 137,
+      "address": "0xd50d167dd35d256e19e2fb76d6b9bf9f4c571a3e",
+      "nftType": "ERC721",
+      "name": "Pegaxy|Pega",
+      "symbol": "PGX-Pega"
     },
     {
-      "address": "0x7C5A0CE9267ED19B22F8cae653F198e3E8daf098",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "SANtiment network token",
-      "symbol": "SAN",
-      "decimals": 18
+      "address": "0xce29001d6748c531b420163b88ff58ed326d7337",
+      "nftType": "ERC721",
+      "name": "PUNKS 2: GOLD-RILLA Collector's Edition",
+      "symbol": "COMIC2GOL"
+    },
+    {
+      "chainId": 137,
+      "address": "0x5B30cc4deF69AE2DfCddBC7eBAFEa82CEDaE0190",
+      "nftType": "ERC721",
+      "name": "G-Bots by GAMEE",
+      "symbol": "gbot"
     },
     {
-      "address": "0x5e74C9036fb86BD7eCdcb084a0673EFc32eA31cb",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Synth sETH",
-      "symbol": "sETH",
-      "decimals": 18
+      "address": "0x2c4929295042cb95ab1900d323d634ee8def3c7a",
+      "nftType": "ERC721",
+      "name": "Cosmodinos Omega",
+      "symbol": "CosmodinosOmega"
     },
     {
-      "address": "0x3A9FfF453d50D4Ac52A6890647b823379ba36B9E",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Shuffle.Monster V3",
-      "symbol": "SHUF",
-      "decimals": 18
+      "address": "0xf4bacb2375654ef2459f427c8c6cf34573f75154",
+      "nftType": "ERC721",
+      "name": "TPL Mecha Part",
+      "symbol": "TPLMECHAPART"
     },
     {
-      "address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Status Network Token",
-      "symbol": "SNT",
-      "decimals": 18
+      "address": "0x2a03469b993b07f044e2ce598bcfce537eb82722",
+      "nftType": "ERC721",
+      "name": "HumorBoredApe",
+      "symbol": "HumorBoredApe"
     },
     {
-      "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Synthetix Network Token",
-      "symbol": "SNX",
-      "decimals": 18
+      "address": "0xff1f1a1125184c5ad03a508ee210dc5ef3741b09",
+      "nftType": "ERC721",
+      "name": "UNSEEN UNIVERSE Official",
+      "symbol": "UNSEEN UNIVERSE"
     },
     {
-      "address": "0x23B608675a2B2fB1890d3ABBd85c5775c51691d5",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Unisocks Edition 0",
-      "symbol": "SOCKS",
-      "decimals": 18
+      "address": "0xe64a3314d1dc2fee6f446b70aae08cca1cb8e5e8",
+      "nftType": "ERC721",
+      "name": "Dippies Vans",
+      "symbol": "VANS"
     },
     {
-      "address": "0x42d6622deCe394b54999Fbd73D108123806f6a18",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "SPANK",
-      "symbol": "SPANK",
-      "decimals": 18
+      "address": "0x1fec856e25f757fed06eb90548b0224e91095738",
+      "nftType": "ERC721",
+      "name": "Dr. ETHvil's 3D FrankenPunks",
+      "symbol": "FP"
+    },
+    {
+      "chainId": 56,
+      "address": "0xbfe3578a8f7fa99a2386bf8af8f26956abc409f7",
+      "nftType": "ERC721",
+      "name": "Puma Labs NFT",
+      "symbol": "PNFT"
+    },
+    {
+      "chainId": 137,
+      "address": "0xfD12ec7ea4B381a79C78FE8b2248b4c559011ffb",
+      "nftType": "ERC721",
+      "name": "Crypto Raiders Characters",
+      "symbol": "raider"
     },
     {
-      "address": "0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "StorjToken",
-      "symbol": "STORJ",
-      "decimals": 8
+      "address": "0x1ca39c7f0f65b4da24b094a9afac7acf626b7f38",
+      "nftType": "ERC721",
+      "name": "GEN.ART Membership",
+      "symbol": "GA"
     },
     {
-      "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Synth sUSD",
-      "symbol": "sUSD",
-      "decimals": 18
+      "address": "0x5e99a1dfa36029ab13552662bbaccf472b3b5069",
+      "nftType": "ERC721",
+      "name": "Open Headition",
+      "symbol": "OPENHEAD"
     },
     {
-      "address": "0x261EfCdD24CeA98652B9700800a13DfBca4103fF",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Synth sXAU",
-      "symbol": "sXAU",
-      "decimals": 18
+      "address": "0xb7c51c7f4b4b8f0cf85d28d53c8e74fc9c6c03c0",
+      "nftType": "ERC721",
+      "name": "DracoPix",
+      "symbol": "DPX"
     },
     {
-      "address": "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Swipe",
-      "symbol": "SXP",
-      "decimals": 18
+      "address": "0x74cEDb4F333cB2e554349f498145e02952b920a9",
+      "nftType": "ERC721",
+      "name": "PECFriends",
+      "symbol": "pecfren"
+    },
+    {
+      "chainId": 137,
+      "address": "0x3376c61c450359d402f07909bda979a4c0e6c32f",
+      "nftType": "ERC721",
+      "name": "Planet IX - Gravity Grade",
+      "symbol": "PIX-GG"
     },
     {
-      "address": "0x00006100F7090010005F1bd7aE6122c3C2CF0090",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "TrueAUD",
-      "symbol": "TAUD",
-      "decimals": 18
+      "address": "0x5d95c4c73e152727750df27ff7da1c7169430dd6",
+      "nftType": "ERC721",
+      "name": "Bored Gorilla Yacht Club",
+      "symbol": "BGYC"
+    },
+    {
+      "chainId": 56,
+      "address": "0x07c87ae43494ce4e25f2d2ee91a280961d3ab99a",
+      "nftType": "ERC721",
+      "name": "Ultiverse - Moonlight Gift",
+      "symbol": "MNG"
+    },
+    {
+      "chainId": 8127,
+      "address": "0x7178ac10cfe168ff489eddffb89bf1c0e03a1064",
+      "nftType": "ERC721",
+      "name": "SMILE MIYA CLUB OFFICIAL",
+      "symbol": "SMILEMIYA"
+    },
+    {
+      "chainId": 56,
+      "address": "0xc0bfe67cedc9fe042f335258eb75b9e1baaf1a5d",
+      "nftType": "ERC721",
+      "name": "TTK Hero",
+      "symbol": "TTKHero"
+    },
+    {
+      "chainId": 137,
+      "address": "0x466a330887bDF62D53f968EA824793150f07762e",
+      "nftType": "ERC721",
+      "name": "The Singularity x Reddit Collectible Avatars",
+      "symbol": "THE-SINGULARITY-X-REDDIT-COLLECTIBLE-AVATARS"
     },
     {
-      "address": "0x00000100F2A2bd000715001920eB70D229700085",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "TrueCAD",
-      "symbol": "TCAD",
-      "decimals": 18
+      "address": "0xc9bee5e3eec9188c5e357e34531ca6912d8f2718",
+      "nftType": "ERC721",
+      "name": "The Repus",
+      "symbol": "REPUS"
     },
     {
-      "address": "0x00000000441378008EA67F4284A57932B1c000a5",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "TrueGBP",
-      "symbol": "TGBP",
-      "decimals": 18
+      "address": "0x8460bb8eb1251a923a31486af9567e500fc2f43f",
+      "nftType": "ERC721",
+      "name": "The Lost Glitches",
+      "symbol": "GLITCH"
     },
     {
-      "address": "0x0000852600CEB001E08e00bC008be620d60031F2",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "TrueHKD",
-      "symbol": "THKD",
-      "decimals": 18
+      "address": "0x656d34a8309363302e46de99853f4cef30b85a1d",
+      "nftType": "ERC721",
+      "name": "R Planet - Genesis Collection",
+      "symbol": "R-PLANET-GENESIS-COLLECTION"
     },
     {
-      "address": "0xaAAf91D9b90dF800Df4F55c205fd6989c977E73a",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Monolith TKN",
-      "symbol": "TKN",
-      "decimals": 8
+      "address": "0xe3bf8660426becbcbc66bf3b6d255aae6203d5be",
+      "nftType": "ERC721",
+      "name": "MutantBatz By Ozzy Osbourne",
+      "symbol": "MBATZ"
+    },
+    {
+      "chainId": 56,
+      "address": "0x8c27103eee75eed8801b808ff23eb02c9876fa7c",
+      "nftType": "ERC721",
+      "name": "Baby BAB Family",
+      "symbol": "BBF"
+    },
+    {
+      "chainId": 137,
+      "address": "0xbac7e3182bb6691f180ef91f7ae4530abb3dc08d",
+      "nftType": "ERC721",
+      "name": "SmurfTickets",
+      "symbol": "TSST"
+    },
+    {
+      "chainId": 8127,
+      "address": "0x3f635476023a6422478cf288ecaeb3fdcf025e9f",
+      "nftType": "ERC721",
+      "name": "G RILLA",
+      "symbol": "GRA"
+    },
+    {
+      "chainId": 56,
+      "address": "0xd3343dc21c3a7865726aae142722cf996790cdc0",
+      "nftType": "ERC721",
+      "name": "NinjaVerse",
+      "symbol": "NinjaFT"
+    },
+    {
+      "chainId": 10,
+      "address": "0x0110Bb5739a6F82eafc748418e572Fc67d854a0F",
+      "nftType": "ERC721",
+      "name": "Early Optimists",
+      "symbol": "OPTIMISTS"
     },
     {
-      "address": "0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Tellor Tributes",
-      "symbol": "TRB",
-      "decimals": 18
+      "address": "0xe42cad6fc883877a76a26a16ed92444ab177e306",
+      "nftType": "ERC721",
+      "name": "The Merge: Regenesis",
+      "symbol": "MERGE"
     },
     {
-      "address": "0xCb94be6f13A1182E4A4B6140cb7bf2025d28e41B",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Trustcoin",
-      "symbol": "TRST",
-      "decimals": 6
+      "address": "0x8d4e2435c262eb6df10e5e4672a8f07e42d8d67e",
+      "nftType": "ERC721",
+      "name": "CryptoRayRays",
+      "symbol": "rayrays"
     },
     {
-      "address": "0x2C537E5624e4af88A7ae4060C022609376C8D0EB",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "BiLira",
-      "symbol": "TRYB",
-      "decimals": 6
+      "address": "0xf48b45479ba7e121a3542626d5a5f3b07ec5b65d",
+      "nftType": "ERC721",
+      "name": "Outlaws",
+      "symbol": "OUT"
     },
     {
-      "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "TrueUSD",
-      "symbol": "TUSD",
-      "decimals": 18
+      "address": "0x86c35fa9665002c08801805280ff6a077b23c98a",
+      "nftType": "ERC721",
+      "name": "CatBlox Genesis",
+      "symbol": "catbloxgen"
     },
     {
-      "address": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "UniBright",
-      "symbol": "UBT",
-      "decimals": 8
+      "address": "0x8d64528676e437dc27a4ffe88a80141053c5e6f6",
+      "nftType": "ERC721",
+      "name": "the littles frens NFT",
+      "symbol": "LITTLEFRENS"
+    },
+    {
+      "chainId": 56,
+      "address": "0xc3c3b849ed5164fb626c4a4f78e0675907b2c94e",
+      "nftType": "ERC721",
+      "name": "SamuraiRising",
+      "symbol": "Samurai Rising"
+    },
+    {
+      "chainId": 8127,
+      "address": "0x0af3f3fe9e822b7a740ca45ce170340b2da6f4cc",
+      "nftType": "ERC721",
+      "name": "Cases by Kate",
+      "symbol": "CASES"
+    },
+    {
+      "chainId": 137,
+      "address": "0x5c76677fea2bf5dd37e4f1460968a23a537e3ee3",
+      "nftType": "ERC721",
+      "name": "Mocaverse Realm Ticket",
+      "symbol": "TICKET"
     },
     {
-      "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "UMA Voting Token v1",
-      "symbol": "UMA",
-      "decimals": 18
+      "address": "0xA0F38233688bB578c0a88102A95b846c18bc0bA7",
+      "nftType": "ERC721",
+      "name": "Great Ape Society",
+      "symbol": "GAS"
+    },
+    {
+      "chainId": 10,
+      "address": "0x81b30ff521D1fEB67EDE32db726D95714eb00637",
+      "nftType": "ERC721",
+      "name": "Optimistic Explorer",
+      "symbol": "SUPNERDS"
+    },
+    {
+      "chainId": 137,
+      "address": "0xc70c8440342ec506f61c3b0f56d3288a5b0d4bbb",
+      "nftType": "ERC721",
+      "name": "League of Kingdoms GOODS",
+      "symbol": "LOKG"
+    },
+    {
+      "chainId": 56,
+      "address": "0x27ab73633e0b2b9d0ce3c130b91c6046d08cbf9f",
+      "nftType": "ERC721",
+      "name": "BSC Jungle Club",
+      "symbol": "featured"
+    },
+    {
+      "chainId": 56,
+      "address": "0xe796f4b5253a4b3edb4bb3f054c03f147122bacd",
+      "nftType": "ERC721",
+      "name": "Catgirl NFT",
+      "symbol": "CATGIRLNFT"
     },
     {
-      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "decimals": 6
+      "address": "0x06b1b815138ff3188ec38a26a13676d5a1069952",
+      "nftType": "ERC721",
+      "name": "Evaverse Turtle Troop",
+      "symbol": "TRTL"
+    },
+    {
+      "chainId": 56,
+      "address": "0xa919cbbd647f0348c12ef409e7f6d4ab8436cf77",
+      "nftType": "ERC721",
+      "name": "SPACE ID Gift Card",
+      "symbol": "SIDGC"
     },
     {
-      "address": "0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "StableUSD",
-      "symbol": "USDS",
-      "decimals": 6
+      "address": "0xeba867502ef59adbd8bc73fbdb531ed9381b5f97",
+      "nftType": "ERC721",
+      "name": "Planetary Property Association: Shuttle Passes",
+      "symbol": "PPA"
+    },
+    {
+      "chainId": 56,
+      "address": "0xda38350faccc41141555c41fb923e8d41eadcb62",
+      "nftType": "ERC721",
+      "name": "Meta Pet",
+      "symbol": "MP"
+    },
+    {
+      "chainId": 10,
+      "address": "0x824BB1f0438A38Ea424e19171eF6665A4bCCe3A5",
+      "nftType": "ERC721",
+      "name": "NerdApeDAONFT",
+      "symbol": "NAD"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x5e0ba87362f239bDBF40E621Fa11DBD50d190389",
+      "nftType": "ERC721",
+      "name": "Toadtoolz Itemz",
+      "symbol": "toadstoolz-itemz"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x2c276b19CDb1909337e4a5F0369F5A66995C5C6C",
+      "nftType": "ERC721",
+      "name": "Ride the Wave",
+      "symbol": "WAVE"
     },
     {
-      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "decimals": 6
+      "address": "0xc7f8309622bf1167eb5430d131ba137770479556",
+      "nftType": "ERC721",
+      "name": "YootGods",
+      "symbol": "YG"
+    },
+    {
+      "chainId": 56,
+      "address": "0x98eb46cbf76b19824105dfbcfa80ea8ed020c6f4",
+      "nftType": "ERC721",
+      "name": "Thetan Hero",
+      "symbol": "THH"
+    },
+    {
+      "chainId": 56,
+      "address": "0x6f282fc910cd6ecdccc9e0f06e6ea3e5602a24d5",
+      "nftType": "ERC721",
+      "name": "Lifeform Cartoon AVATAR",
+      "symbol": "Lifeform Cartoon AVATAR"
+    },
+    {
+      "chainId": 56,
+      "address": "0xe5b184875dd4f09f687d497d76c22d20aec67788",
+      "nftType": "ERC721",
+      "name": "Refinable1155",
+      "symbol": "REFI1155"
+    },
+    {
+      "chainId": 10,
+      "address": "0x9c7305eb78a432ced5C4D14Cac27E8Ed569A2e26",
+      "nftType": "ERC721",
+      "name": "Velodrome",
+      "symbol": "veNFT"
     },
     {
-      "address": "0xeb269732ab75A6fD61Ea60b06fE994cD32a83549",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "dForce",
-      "symbol": "USDx",
-      "decimals": 18
+      "address": "0x65b28ed75c12d8ce29d892de9f8304a6d2e176a7",
+      "nftType": "ERC721",
+      "name": "ChubbyKaijuDAO",
+      "symbol": "CKAIJU"
+    },
+    {
+      "chainId": 137,
+      "address": "0x2b88ce7b01e6bdbb18f9703e01286608cf77e805",
+      "nftType": "ERC721",
+      "name": "TOWER Inventory",
+      "symbol": "TOWER-I"
+    },
+    {
+      "chainId": 137,
+      "address": "0x15de1beb13d7d38cbc493d3ecbc0c7650e715c22",
+      "nftType": "ERC721",
+      "name": "Galxe",
+      "symbol": "GALXE"
+    },
+    {
+      "chainId": 56,
+      "address": "0x07d971c03553011a48e951a53f48632d37652ba1",
+      "nftType": "ERC721",
+      "name": "Era7 NFT",
+      "symbol": "ERANFT"
+    },
+    {
+      "chainId": 137,
+      "address": "0x7227e371540cf7b8e512544ba6871472031f3335",
+      "nftType": "ERC721",
+      "name": "Neon District Season One Item",
+      "symbol": "NDITEM1"
     },
     {
-      "address": "0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Veritaseum",
-      "symbol": "VERI",
-      "decimals": 18
+      "address": "0xd07dc4262bcdbf85190c01c996b4c06a461d2430",
+      "nftType": "ERC721",
+      "name": "Rarible",
+      "symbol": "RARI"
     },
     {
-      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8
+      "address": "0xbbe23e96c48030dc5d4906e73c4876c254100d33",
+      "nftType": "ERC721",
+      "name": "RebelBots",
+      "symbol": "RB"
     },
     {
-      "address": "0x09fE5f0236F0Ea5D930197DCE254d77B04128075",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "Wrapped CryptoKitties",
-      "symbol": "WCK",
-      "decimals": 18
+      "address": "0x7aA42E615c0346A5f00C67438FE9bA84582A057d",
+      "nftType": "ERC721",
+      "name": "MAPC - Maniak Aliens Philanthropy Club",
+      "symbol": "MAPC"
     },
     {
-      "address": "0xB4272071eCAdd69d933AdcD19cA99fe80664fc08",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "CryptoFranc",
-      "symbol": "XCHF",
-      "decimals": 18
+      "address": "0xf6e2c197e96b63b982ca639262cdf0a5f296d528",
+      "nftType": "ERC721",
+      "name": "Apes of Space",
+      "symbol": "AOS"
     },
     {
-      "address": "0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "XIO Network",
-      "symbol": "XIO",
-      "decimals": 18
+      "address": "0x312d09d1160316a0946503391b3d1bcbc583181b",
+      "nftType": "ERC721",
+      "name": "Slumdoge Billionaires",
+      "symbol": "SDB"
     },
     {
-      "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
       "chainId": 1,
-      "nftType": "ERC1155",
-      "name": "0x Protocol Token",
-      "symbol": "ZRX",
-      "decimals": 18
+      "address": "0xbfdc2c14e39a9db8c15a1202a53c9401a5dad74b",
+      "nftType": "ERC721",
+      "name": "Bread Heads",
+      "symbol": "BHZ"
     },
     {
-      "address": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
-      "chainId": 3,
-      "nftType": "ERC1155",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18
+      "chainId": 1,
+      "address": "0xd227df494367a8b769b4bf2bbebd0388a8758741",
+      "nftType": "ERC721",
+      "name": "Degen'$ Farm",
+      "symbol": "CREAT"
     },
     {
-      "address": "0xaD6D458402F60fD3Bd25163575031ACDce07538D",
-      "chainId": 3,
-      "nftType": "ERC1155",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18
+      "chainId": 1,
+      "address": "0xeb7088423d7f8c1448ef074fc372bc67efa4de44",
+      "nftType": "ERC721",
+      "name": "Toys by 0xTechno",
+      "symbol": "TOY"
     },
     {
-      "address": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
-      "chainId": 4,
-      "nftType": "ERC1155",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18
+      "chainId": 43314,
+      "address": "0x3ccb6564056c098d99e836013fe2cfda1ab3bedd",
+      "nftType": "ERC721",
+      "name": "Moon Shadow",
+      "symbol": "MNSHDW"
     },
     {
-      "address": "0xc7AD46e0b8a400Bb3C915120d284AafbA8fc4735",
-      "chainId": 4,
-      "nftType": "ERC1155",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18
+      "chainId": 1,
+      "address": "0xcd1f6be81f1dc58558f44bbc5ca4cc43cbb1ec05",
+      "nftType": "ERC721",
+      "name": "PUMA Nitro Collection",
+      "symbol": "NITRO"
     },
     {
-      "address": "0xF9bA5210F91D0474bd1e1DcDAeC4C58E359AaD85",
-      "chainId": 4,
-      "nftType": "ERC1155",
-      "name": "Maker",
-      "symbol": "MKR",
-      "decimals": 18
+      "chainId": 1,
+      "address": "0x2b841d4b7ca08d45cc3de814de08850dc3008c43",
+      "nftType": "ERC721",
+      "name": "SKULLTOONS Gavroche by Theodoru",
+      "symbol": "SKULL"
     },
     {
-      "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
-      "chainId": 5,
-      "nftType": "ERC1155",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18
+      "chainId": 1,
+      "address": "0x68f4ba8018216542ac2ab8125166be66304dd71c",
+      "nftType": "ERC721",
+      "name": "Dolce&Gabbana: DGFamily Glass Box",
+      "symbol": "DGGLASS"
     },
     {
-      "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-      "chainId": 42,
-      "nftType": "ERC1155",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18
+      "chainId": 56,
+      "address": "0xd537c17a30b9f9c74f88f0f0a1d143f8b915ea02",
+      "nftType": "ERC721",
+      "name": "GreenPowerN-CES",
+      "symbol": "GPNC"
     },
     {
-      "address": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
-      "chainId": 42,
-      "nftType": "ERC1155",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18
+      "chainId": 1,
+      "address": "0x3cf314571da3e56eaee61af2b30af56f75d3a602",
+      "nftType": "ERC721",
+      "name": "ERC721Pepe",
+      "symbol": "MCPEPES"
     },
     {
-      "address": "0xAaF64BFCC32d0F15873a02163e7E500671a4ffcD",
-      "chainId": 42,
-      "nftType": "ERC1155",
-      "name": "Maker",
-      "symbol": "MKR",
-      "decimals": 18
+      "chainId": 43314,
+      "address": "0x4053450155ed95c385a5a7d261633d923355c7b9",
+      "nftType": "ERC721",
+      "name": "The Penguin Squad",
+      "symbol": "TPS"
     }
   ]
 }
