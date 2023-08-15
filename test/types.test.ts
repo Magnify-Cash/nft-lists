@@ -1,11 +1,11 @@
-import { TokenList } from '../src';
-import exampleList from './schema/example.tokenlist.json';
+import { NFTList } from '../src';
+import exampleList from './schema/example.nftlist.json';
 
 describe('types', () => {
   it('matches example schema', () => {
     // this is enough--typescript won't cast it unless it matches the interface
-    const list: TokenList = exampleList;
+    const list: NFTList = exampleList;
 
-    expect(list.name).toEqual('My Token List');
+    expect(list.name).toEqual('My NFT List');
   });
 });

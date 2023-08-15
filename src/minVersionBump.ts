@@ -1,6 +1,6 @@
 import { diffTokenLists } from './diffTokenLists';
 import { VersionUpgrade } from './getVersionUpgrade';
-import { TokenInfo } from './types';
+import { NFTInfo } from './types';
 
 /**
  * Returns the minimum version bump for the given list
@@ -8,8 +8,8 @@ import { TokenInfo } from './types';
  * @param updatedList the updated list of tokens
  */
 export function minVersionBump(
-  baseList: TokenInfo[],
-  updatedList: TokenInfo[]
+  baseList: NFTInfo[],
+  updatedList: NFTInfo[]
 ): VersionUpgrade {
   const diff = diffTokenLists(baseList, updatedList);
   if (diff.removed.length > 0) return VersionUpgrade.MAJOR;

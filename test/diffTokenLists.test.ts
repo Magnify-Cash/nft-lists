@@ -1,26 +1,28 @@
-import { diffTokenLists, TokenInfo } from '../src';
+import { diffTokenLists, NFTInfo } from '../src';
 
-const tokenA: TokenInfo = {
+const tokenA: NFTInfo = {
   chainId: 1,
   address: '0x0a',
+  nftType: 'ERC721',
   logoURI: 'ipfs://test',
   symbol: 'abcd',
   name: 'token a',
   decimals: 18,
   tags: ['hello', 'world'],
 };
-const tokenAChangedNameDecimals: TokenInfo = {
+const tokenAChangedNameDecimals: NFTInfo = {
   ...tokenA,
   name: 'blah',
   decimals: 12,
 };
-const tokenAChangedTags: TokenInfo = {
+const tokenAChangedTags: NFTInfo = {
   ...tokenA,
   tags: ['hello', 'worlds'],
 };
-const tokenB: TokenInfo = {
+const tokenB: NFTInfo = {
   chainId: 1,
   address: '0x0b',
+  nftType: 'ERC721',
   logoURI: 'ipfs://blah',
   symbol: 'defg',
   name: 'token b',

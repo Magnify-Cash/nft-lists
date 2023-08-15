@@ -1,8 +1,9 @@
 type ExtensionValue = string | number | boolean | null | undefined;
 
-export interface TokenInfo {
+export interface NFTInfo {
   readonly chainId: number;
   readonly address: string;
+  readonly nftType: string;
   readonly name: string;
   readonly decimals: number;
   readonly symbol: string;
@@ -34,13 +35,13 @@ export interface Tags {
   };
 }
 
-export interface TokenList {
+export interface NFTList {
   readonly name: string;
   readonly timestamp: string;
   readonly version: Version;
-  readonly tokens: TokenInfo[];
+  readonly nfts: NFTInfo[];
   readonly tokenMap?: {
-    readonly [key: string]: TokenInfo;
+    readonly [key: string]: NFTInfo;
   };
   readonly keywords?: string[];
   readonly tags?: Tags;

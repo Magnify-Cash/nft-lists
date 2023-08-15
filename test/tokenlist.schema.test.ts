@@ -1,28 +1,28 @@
 import Ajv from 'ajv';
 import { schema } from '../src';
-import exampleList from './schema/example.tokenlist.json';
-import exampleNameSymbolSpecialCharacters from './schema/example-name-symbol-special-characters.tokenlist.json';
-import bigExampleList from './schema/bigexample.tokenlist.json';
-import exampleListMinimum from './schema/exampleminimum.tokenlist.json';
-import emptyList from './schema/empty.tokenlist.json';
-import emptyNameSymbol from './schema/empty-name-symbol.tokenlist.json';
-import bigWords from './schema/bigwords.tokenlist.json';
-import invalidTokenAddress from './schema/invalidtokenaddress.tokenlist.json';
-import invalidTimestamp from './schema/invalidtimestamp.tokenlist.json';
-import invalidLogoURI1 from './schema/invalidlogouri.1.tokenlist.json';
-import invalidLogoURI2 from './schema/invalidlogouri.2.tokenlist.json';
-import invalidVersion1 from './schema/invalidversion.1.tokenlist.json';
-import invalidVersion2 from './schema/invalidversion.2.tokenlist.json';
-import invalidVersion3 from './schema/invalidversion.3.tokenlist.json';
-import invalidDecimals1 from './schema/invaliddecimals.1.tokenlist.json';
-import invalidNumTags from './schema/invalidNumTags.tokenlist.json';
-import invalidDecimals2 from './schema/invaliddecimals.2.tokenlist.json';
-import extensionsValid from './schema/extensions-valid.tokenlist.json';
-import extensionsInvalid from './schema/extensions-invalid.tokenlist.json';
-import extensionsValidObject from './schema/extensions-valid-object.tokenlist.json';
-import extensionsInvalidObjectTooDeep from './schema/extensions-invalid-object-too-deep.tokenlist.json';
-import tokenSymbolWithPeriod from './schema/tokenwithperiodsymbol.tokenlist.json';
-import crossChainExtensions from './schema/example-crosschain.tokenlist.json';
+import exampleList from './schema/example.nftlist.json';
+import exampleNameSymbolSpecialCharacters from './schema/example-name-symbol-special-characters.nftlist.json';
+import bigExampleList from './schema/bigexample.nftlist.json';
+import exampleListMinimum from './schema/exampleminimum.nftlist.json';
+import emptyList from './schema/empty.nftlist.json';
+import emptyNameSymbol from './schema/empty-name-symbol.nftlist.json';
+import bigWords from './schema/bigwords.nftlist.json';
+import invalidTokenAddress from './schema/invalidtokenaddress.nftlist.json';
+import invalidTimestamp from './schema/invalidtimestamp.nftlist.json';
+import invalidLogoURI1 from './schema/invalidlogouri.1.nftlist.json';
+import invalidLogoURI2 from './schema/invalidlogouri.2.nftlist.json';
+import invalidVersion1 from './schema/invalidversion.1.nftlist.json';
+import invalidVersion2 from './schema/invalidversion.2.nftlist.json';
+import invalidVersion3 from './schema/invalidversion.3.nftlist.json';
+import invalidDecimals1 from './schema/invaliddecimals.1.nftlist.json';
+import invalidNumTags from './schema/invalidNumTags.nftlist.json';
+import invalidDecimals2 from './schema/invaliddecimals.2.nftlist.json';
+import extensionsValid from './schema/extensions-valid.nftlist.json';
+import extensionsInvalid from './schema/extensions-invalid.nftlist.json';
+import extensionsValidObject from './schema/extensions-valid-object.nftlist.json';
+import extensionsInvalidObjectTooDeep from './schema/extensions-invalid-object-too-deep.nftlist.json';
+import tokenSymbolWithPeriod from './schema/tokenwithperiodsymbol.nftlist.json';
+import crossChainExtensions from './schema/example-crosschain.nftlist.json';
 import addFormats from 'ajv-formats';
 
 const ajv = new Ajv({ allErrors: true });
@@ -56,7 +56,7 @@ describe('schema', () => {
     checkSchema(exampleListMinimum, true);
   });
 
-  it('requires name, timestamp, version, tokens', () => {
+  it('requires name, timestamp, version, nfts', () => {
     checkSchema({}, false);
   });
 
@@ -121,18 +121,18 @@ describe('schema', () => {
     checkSchema(crossChainExtensions, true);
   });
 
-  it('allows up to 10k tokens', () => {
+  it('allows up to 10k nfts', () => {
     const exampleListWith10kTokens = {
       ...exampleList,
-      tokens: [...Array(10000)].map(() => exampleList.tokens[0]),
+      nfts: [...Array(10000)].map(() => exampleList.nfts[0]),
     };
     checkSchema(exampleListWith10kTokens, true);
   });
 
-  it('fails with 10001 tokens', () => {
+  it('fails with 10001 nfts', () => {
     const exampleListWith10kTokensPlusOne = {
       ...exampleList,
-      tokens: [...Array(10001)].map(() => exampleList.tokens[0]),
+      nfts: [...Array(10001)].map(() => exampleList.nfts[0]),
     };
     checkSchema(exampleListWith10kTokensPlusOne, false);
   });

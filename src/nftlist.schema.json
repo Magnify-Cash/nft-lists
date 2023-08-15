@@ -54,7 +54,7 @@
       "type": "string",
       "description": "The unique identifier of an NFT tag",
       "minLength": 1,
-      "maxLength": 10,
+      "maxLength": 12,
       "pattern": "^[\\w]+$",
       "examples": [
         "rare",
@@ -260,7 +260,16 @@
             "RC"
           ]
         },
-        "imageURI": {
+        "decimals": {
+          "type": "integer",
+          "description": "The number of decimals for the token balance",
+          "minimum": 0,
+          "maximum": 255,
+          "examples": [
+            18
+          ]
+        },
+        "logoURI": {
           "type": "string",
           "description": "A URI to the NFT image asset; if not set, interface will attempt to find an image based on the NFT address; suggest SVG or PNG of size 256x256",
           "format": "uri",
@@ -287,9 +296,7 @@
       "required": [
         "chainId",
         "address",
-        "nftType",
-        "name",
-        "symbol"
+        "nftType"
       ]
     }
   },
@@ -338,10 +345,10 @@
           "4_0x0e3a2a1f2146d86a604adc220b4967a898d7fe07": {
             "name": "Rare Collectible",
             "address": "0x0e3a2a1f2146d86a604adc220b4967a898d7fe07",
-            "symbol": "RC",
             "nftType": "ERC721",
+            "symbol": "RC",
             "chainId": 4,
-            "imageURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
+            "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
           }
         }
       ]

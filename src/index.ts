@@ -1,4 +1,4 @@
-import schema from './tokenlist.schema.json';
+import schema from './nftlist.schema.json';
 
 export * from './types';
 export * from './isVersionUpdate';

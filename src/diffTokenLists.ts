@@ -1,10 +1,7 @@
-import { TokenInfo } from './types';
+import { NFTInfo } from './types';
 
-export type TokenInfoChangeKey = Exclude<
-  keyof TokenInfo,
-  'address' | 'chainId'
->;
-export type TokenInfoChanges = Array<TokenInfoChangeKey>;
+export type NFTInfoChangeKey = Exclude<keyof NFTInfo,'address' | 'chainId'>;
+export type NFTInfoChanges = Array<NFTInfoChangeKey>;
 
 /**
  * compares two token info key values
@@ -12,7 +9,7 @@ export type TokenInfoChanges = Array<TokenInfoChangeKey>;
  * @param a comparison item a
  * @param b comparison item b
  */
-function compareTokenInfoProperty(a: unknown, b: unknown): boolean {
+function compareNFTInfoProperty(a: unknown, b: unknown): boolean {
   if (a === b) return true;
   if (typeof a !== typeof b) return false;
   if (Array.isArray(a) && Array.isArray(b)) {
@@ -28,17 +25,17 @@ export interface TokenListDiff {
   /**
    * Tokens from updated with chainId/address not present in base list
    */
-  readonly added: TokenInfo[];
+  readonly added: NFTInfo[];
   /**
    * Tokens from base with chainId/address not present in the updated list
    */
-  readonly removed: TokenInfo[];
+  readonly removed: NFTInfo[];
   /**
    * The token info that changed
    */
   readonly changed: {
     [chainId: number]: {
-      [address: string]: TokenInfoChanges;
+      [address: string]: NFTInfoChanges;
     };
   };
 }
@@ -49,22 +46,22 @@ export interface TokenListDiff {
  * @param update updated list
  */
 export function diffTokenLists(
-  base: TokenInfo[],
-  update: TokenInfo[]
+  base: NFTInfo[],
+  update: NFTInfo[]
 ): TokenListDiff {
   const indexedBase = base.reduce<{
-    [chainId: number]: { [address: string]: TokenInfo };
-  }>((memo, tokenInfo) => {
-    if (!memo[tokenInfo.chainId]) memo[tokenInfo.chainId] = {};
-    memo[tokenInfo.chainId][tokenInfo.address] = tokenInfo;
+    [chainId: number]: { [address: string]: NFTInfo };
+  }>((memo, NFTInfo) => {
+    if (!memo[NFTInfo.chainId]) memo[NFTInfo.chainId] = {};
+    memo[NFTInfo.chainId][NFTInfo.address] = NFTInfo;
     return memo;
   }, {});
 
   const newListUpdates = update.reduce<{
-    added: TokenInfo[];
+    added: NFTInfo[];
     changed: {
       [chainId: number]: {
-        [address: string]: TokenInfoChanges;
+        [address: string]: NFTInfoChanges;
       };
     };
     index: {
@@ -73,32 +70,32 @@ export function diffTokenLists(
       };
     };
   }>(
-    (memo, tokenInfo) => {
-      const baseToken = indexedBase[tokenInfo.chainId]?.[tokenInfo.address];
+    (memo, NFTInfo) => {
+      const baseToken = indexedBase[NFTInfo.chainId]?.[NFTInfo.address];
       if (!baseToken) {
-        memo.added.push(tokenInfo);
+        memo.added.push(NFTInfo);
       } else {
-        const changes: TokenInfoChanges = Object.keys(tokenInfo)
+        const changes: NFTInfoChanges = Object.keys(NFTInfo)
           .filter(
-            (s): s is TokenInfoChangeKey => s !== 'address' && s !== 'chainId'
+            (s): s is NFTInfoChangeKey => s !== 'address' && s !== 'chainId'
           )
           .filter(s => {
-            return !compareTokenInfoProperty(tokenInfo[s], baseToken[s]);
+            return !compareNFTInfoProperty(NFTInfo[s], baseToken[s]);
           });
         if (changes.length > 0) {
-          if (!memo.changed[tokenInfo.chainId]) {
-            memo.changed[tokenInfo.chainId] = {};
+          if (!memo.changed[NFTInfo.chainId]) {
+            memo.changed[NFTInfo.chainId] = {};
           }
-          memo.changed[tokenInfo.chainId][tokenInfo.address] = changes;
+          memo.changed[NFTInfo.chainId][NFTInfo.address] = changes;
         }
       }
 
-      if (!memo.index[tokenInfo.chainId]) {
-        memo.index[tokenInfo.chainId] = {
-          [tokenInfo.address]: true,
+      if (!memo.index[NFTInfo.chainId]) {
+        memo.index[NFTInfo.chainId] = {
+          [NFTInfo.address]: true,
         };
       } else {
-        memo.index[tokenInfo.chainId][tokenInfo.address] = true;
+        memo.index[NFTInfo.chainId][NFTInfo.address] = true;
       }
 
       return memo;
@@ -106,7 +103,7 @@ export function diffTokenLists(
     { added: [], changed: {}, index: {} }
   );
 
-  const removed = base.reduce<TokenInfo[]>((list, curr) => {
+  const removed = base.reduce<NFTInfo[]>((list, curr) => {
     if (
       !newListUpdates.index[curr.chainId] ||
       !newListUpdates.index[curr.chainId][curr.address]
