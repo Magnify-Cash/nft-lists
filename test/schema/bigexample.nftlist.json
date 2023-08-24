@@ -209,7 +209,7 @@
       "symbol": "NKMGS"
     },
     {
-      "chainId": 43314,
+      "chainId": 43114,
       "address": "0x4245a1bd84eb5f3ebc115c2edf57e50667f98b0b",
       "nftType": "ERC721",
       "name": "Hoppers Game",
@@ -279,7 +279,7 @@
       "symbol": "OTHR"
     },
     {
-      "chainId": 43314,
+      "chainId": 43114,
       "address": "0x3025c5c2aa6eb7364555aac0074292195701bbd6",
       "nftType": "ERC721",
       "name": "MadSkullz",
@@ -503,7 +503,7 @@
       "symbol": "MOONBIRD"
     },
     {
-      "chainId": 43314,
+      "chainId": 43114,
       "address": "0x00f5D01D86008D14d04E29EFe88DffC75a9cAc47",
       "nftType": "ERC721",
       "name": "Farmland",
@@ -538,7 +538,7 @@
       "symbol": "MH"
     },
     {
-      "chainId": 43314,
+      "chainId": 43114,
       "address": "0x3a5999d08682c2e18dcb63edcb3fcd7b749fd79f",
       "nftType": "ERC721",
       "name": "Thirst Trap Waifus",
@@ -734,7 +734,7 @@
       "symbol": "MPAI"
     },
     {
-      "chainId": 43314,
+      "chainId": 43114,
       "address": "0xa09477b44cff7b525436364a0da4e870bc9e052c",
       "nftType": "ERC721",
       "name": "Ripperz",
@@ -755,7 +755,7 @@
       "symbol": "gu"
     },
     {
-      "chainId": 43314,
+      "chainId": 43114,
       "address": "0xa7abc3736bc5a4d3d4730eac5a1e487e56c86789",
       "nftType": "ERC721",
       "name": "Firat",
@@ -1266,7 +1266,7 @@
       "symbol": "MYTHICS"
     },
     {
-      "chainId": 43314,
+      "chainId": 43114,
       "address": "0x2ee475a5cdc31c040ba1af3b0c4d66ca5c31c49a",
       "nftType": "ERC721",
       "name": "Mambonauts",
@@ -1917,7 +1917,7 @@
       "symbol": "LIZARD"
     },
     {
-      "chainId": 43314,
+      "chainId": 43114,
       "address": "0x92618c4c8ef2534242cabed0614ab8b89ef2dc52",
       "nftType": "ERC721",
       "name": " Beenz On Acid",
@@ -2043,7 +2043,7 @@
       "symbol": "MUTCATS"
     },
     {
-      "chainId": 43314,
+      "chainId": 43114,
       "address": "0xacc0cf012b4c28e23e9450c9824a88a4e178a64a",
       "nftType": "ERC721",
       "name": "The Person",
@@ -2960,7 +2960,7 @@
       "symbol": "LOKS"
     },
     {
-      "chainId": 43314,
+      "chainId": 43114,
       "address": "0xc8ef279070aa1703a4bbe1feaefa0e81a6dbf4b4",
       "nftType": "ERC721",
       "name": "Potions",
@@ -6103,7 +6103,7 @@
       "symbol": "TOY"
     },
     {
-      "chainId": 43314,
+      "chainId": 43114,
       "address": "0x3ccb6564056c098d99e836013fe2cfda1ab3bedd",
       "nftType": "ERC721",
       "name": "Moon Shadow",
@@ -6145,7 +6145,7 @@
       "symbol": "MCPEPES"
     },
     {
-      "chainId": 43314,
+      "chainId": 43114,
       "address": "0x4053450155ed95c385a5a7d261633d923355c7b9",
       "nftType": "ERC721",
       "name": "The Penguin Squad",
