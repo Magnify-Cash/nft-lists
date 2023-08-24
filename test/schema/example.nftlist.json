@@ -1,6 +1,6 @@
 {
   "name": "My NFT List",
-  "timestamp": "2020-06-12T00:00:00+00:00",
+  "timestamp": "2023-08-15T12:34:56Z",
   "version": {
     "major": 1,
     "minor": 0,
@@ -16,7 +16,7 @@
       "logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM",
       "tags": ["collectible"],
       "extensions": {}
-    },
+    }
   ],
   "nftMap": {
     "1_0xBd3531dA5CF5857e7CfAA92426877b022e612cf8": {
@@ -28,14 +28,14 @@
       "logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM",
       "tags": ["collectible"],
       "extensions": {}
-    },
+    }
   },
   "keywords": ["special NFTs"],
   "tags": {
     "collectible": {
       "name": "Collectible",
       "description": "NFTs that are collectible"
-    },
+    }
   },
   "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr"
 }

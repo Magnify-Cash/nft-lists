@@ -1,34 +1,13 @@
 {
-  "name": "My Token List",
-  "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
-  "keywords": [
-    "audited",
-    "verified",
-    "special tokens"
-  ],
-  "tags": {
-    "stablecoin": {
-      "name": "Stablecoin",
-      "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
-    },
-    "compound": {
-      "name": "Compound Finance",
-      "description": "Tokens that earn interest on compound.finance"
-    }
-  },
-  "timestamp": "2020-06-12T00:00:00+00:00",
+  "name": "My NFT List",
+  "timestamp": "2023-08-15T12:34:56Z",
   "nfts": [
     {
       "chainId": 1,
-      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "address": "0x7d8820fa92eb1584636f4f5b8515b5476b75171a",
       "nftType": "ERC721",
-      "symbol": "USDC.e",
-      "name": "USD Coin",
-      "decimals": 6,
-      "logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM",
-      "tags": [
-        "stablecoin"
-      ]
+      "symbol": "M.F",
+      "name": "Murakami.Flowers Official"
     }
   ],
   "version": {

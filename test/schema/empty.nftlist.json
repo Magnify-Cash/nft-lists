@@ -1,5 +1,5 @@
 {
-  "name": "My Example List",
+  "name": "My NFT List",
   "keywords": [
     "abc"
   ],
@@ -9,7 +9,7 @@
       "description": "blah blah"
     }
   },
-  "timestamp": "2018-11-13T20:20:39+00:00",
+  "timestamp": "2023-08-15T12:34:56Z",
   "nfts": [
   ],
   "version": {

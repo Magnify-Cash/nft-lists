@@ -1,18 +1,18 @@
 {
-  "name": "My Token List",
+  "name": "My NFT List",
   "keywords": [
   ],
-  "timestamp": "2020-06-12T00:00:00+00:00",
+  "timestamp": "2023-08-15T12:34:56Z",
   "nfts": [
     {
       "chainId": 1,
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-      "symbol": "USDC",
-      "name": "USD Coin",
+      "symbol": "MAYC",
+      "name": "Mutant Ape Yacht Club",
       "decimals": 6,
       "logoURI": "ipfs://hello-world",
       "tags": [
-        "stablecoin"
+        "pfp"
       ]
     }
   ],

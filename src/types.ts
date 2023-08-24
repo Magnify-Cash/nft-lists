@@ -5,7 +5,7 @@ export interface NFTInfo {
   readonly address: string;
   readonly nftType: string;
   readonly name: string;
-  readonly decimals: number;
+  readonly decimals?: number;
   readonly symbol: string;
   readonly logoURI?: string;
   readonly tags?: string[];

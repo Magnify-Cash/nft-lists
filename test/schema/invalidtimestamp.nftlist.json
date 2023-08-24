@@ -1,14 +1,8 @@
 {
-  "name": "My Example List",
+  "name": "My NFT List",
   "keywords": [
     "abc"
   ],
-  "tags": {
-    "coin": {
-      "name": "Stablecoin",
-      "description": "blah blah"
-    }
-  },
   "timestamp": "abc",
   "nfts": [
     {
@@ -17,10 +11,7 @@
       "chainId": 1,
       "decimals": 18,
       "logoURI": "https://test",
-      "symbol": "abc",
-      "tags": [
-        "coin"
-      ]
+      "symbol": "abc"
     }
   ],
   "version": {
