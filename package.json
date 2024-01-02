@@ -6,7 +6,7 @@
     "url": "https://nftylabs.org"
   },
   "description": "📫 The NFT Lists specification",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
