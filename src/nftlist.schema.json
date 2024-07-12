@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://nfty.finance/nftlist.schema.json",
-  "title": "NFTY Finance NFT List",
-  "description": "Schema for lists of NFTs compatible with the NFTY Finance Interface",
+  "$id": "https://magnify.cash/nftlist.schema.json",
+  "title": "Magnify Cash NFT List",
+  "description": "Schema for lists of NFTs compatible with the Magnify Cash Interface",
   "definitions": {
     "Version": {
       "type": "object",

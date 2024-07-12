@@ -1,23 +1,23 @@
-# @nftylabs/nft-lists
+# @magnify-cash/nft-lists
 
 This package includes a JSON schema for NFT lists, and TypeScript utilities for working with NFT lists.
 
-The JSON schema represents the technical specification for an NFT list which can be used in a dApp interface, such as the NFTY Finance Interface.
+The JSON schema represents the technical specification for an NFT list which can be used in a dApp interface, such as the Magnify Cash Interface.
 
 This work stands on the shoulders of Uniswap Labs and their work for an ERC20 token specification in  [Token Lists](https://github.com/Uniswap/token-lists/)
 
 
 ## What are nft lists?
-NFTY Finance NFT Lists is is a specification for lists of NFT metadata (e.g. address, decimals, ...) that can be used by any dApp interfaces that needs one or more lists of NFTs.
+Magnify Cash NFT Lists is is a specification for lists of NFT metadata (e.g. address, decimals, ...) that can be used by any dApp interfaces that needs one or more lists of NFTs.
 
 Specifically an instance of a NFT list is a [JSON](https://www.json.org/json-en.html) blob that contains a list of
 [ERC721](https://github.com/ethereum/eips/issues/721) or [ERC1155](https://github.com/ethereum/eips/issues/1155) NFT metadata for use in dApp user interfaces.
 
-NFT list JSON must validate against the [JSON schema](https://json-schema.org/) in order to be used in the NFTY Finance Interface. NFTs on NFT lists, and NFT lists themselves, are tagged so that users can easily find NFTs.
+NFT list JSON must validate against the [JSON schema](https://json-schema.org/) in order to be used in the Magnify Cash Interface. NFTs on NFT lists, and NFT lists themselves, are tagged so that users can easily find NFTs.
 
 ## JSON Schema $id
 
-The JSON schema ID is [http://nftylabs.io/tokenlist.schema.json](http://nftylabs.io/tokenlist.schema.json)
+The JSON schema ID is [http://magnify-cash.io/tokenlist.schema.json](http://magnify-cash.io/tokenlist.schema.json)
 
 ## Validating NFT lists
 
@@ -27,7 +27,7 @@ for ease of use.
 
 ```typescript
 
-import { schema } from '@nftylabs/nft-lists'
+import { schema } from '@magnify-cash/nft-lists'
 import Ajv from 'ajv'
 import addFormats from 'ajv-formats'
 import fetch from 'node-fetch'
@@ -81,7 +81,7 @@ npm package to take advantage of the JSON schema for validation and the TypeScri
 Otherwise, you are simply working with JSON. All the usual tools apply, e.g.:
 
 ```typescript
-import { NFTList, schema } from '@nftylabs/nft-lists'
+import { NFTList, schema } from '@magnify-cash/nft-lists'
 
 // generate your nft list however you like.
 const myList: NFTList = generateMyNFTList();
@@ -125,4 +125,4 @@ This is the preferred way of referencing your list.
 ## Examples
 You can find a simple example of a nft list in test/schema/example.nftlist.json.
 
-A snapshot of the NFTYLabs default list encoded as a nft list is found in test/schema/bigexample.nftlist.json.
+A snapshot of the Magnify Cash default list encoded as a nft list is found in test/schema/bigexample.nftlist.json.
